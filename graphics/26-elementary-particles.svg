@@ -1,0 +1,1644 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 2140 1330"
+   font-family="Arial, sans-serif"
+   id="svg735"
+   sodipodi:docname="26-elementary-particles.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview737"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0" />
+  <title
+     id="title2">Standard Model of Elementary Particles</title>
+  <desc
+     id="desc4">Basic tiles are 240x240px usually spaced 250px apart.</desc>
+  <metadata
+     id="metadata6">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator
+           rdf:resource="https://commons.wikimedia.org/wiki/User:MissMJ" />
+        <dc:publisher>Wikimedia Commons</dc:publisher>
+        <cc:license
+           rdf:resource="https://creativecommons.org/licenses/by/3.0/deed.en" />
+        <cc:attributionURL
+           rdf:resource="https://commons.wikimedia.org/w/index.php?title=File:Standard_Model_of_Elementary_Particles.svg" />
+        <cc:attributionName
+           rdf:resource="https://commons.wikimedia.org/wiki/User:MissMJ" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style
+     type="text/css"
+     id="style9578">    
+	.head1 {text-anchor: middle; font-size: 64px; font-weight: bold; }
+
+	.pmass {font-size:24px; fill:#1a1a1a; }
+	.pchar {font-size:24px; fill:#1a1a1a; }
+	.pspin {font-size:24px; fill:#1a1a1a; }
+
+	.psymr {font-size:64px; text-anchor:middle; }
+	.psymg {font-size:72px; text-anchor:middle; font-family:Times New Roman, serif;}
+	.sub {font-size:48px; baseline-shift:-8px;}
+
+	.pname {font-size:40px; font-weight:bold; text-anchor:middle; fill:#001122; }
+	.pnam2 {font-size:36px; font-weight:bold; text-anchor:middle; fill:#001122; }
+    
+	.st0 {opacity:0.08;fill:#E6CC01;stroke:#772222;stroke-miterlimit:10;stroke-opacity:0.15;}
+	.st1 {opacity:0.25;fill:#FFFFFF;} /* ball background fill */
+	.st2 {opacity:0.5;fill:#CCDDFF;} /* 3 generation box fill */
+
+	.st3 {fill:url(#lgb_quark);} /* quark box */
+	.st9 {fill:url(#lgb_lepton);} /* lepton box */
+	.st15 {fill:url(#lgb_gauge);} /* gauge boson box */
+	.st19 {fill:url(#lgb_scalar);} /* scalar boson box */
+	.st21 {fill:url(#lgb_tensor);} /* tensor boson box */
+
+	.st20 {fill:url(#lgp_quark);} /* quark ball */
+	.st26 {fill:url(#lgp_lepton);} /* lepton ball */
+	.st32 {fill:url(#lgp_gauge);} /* gauge boson ball */
+	.st36 {fill:url(#lgp_scalar);} /* scalar boson ball */
+	.st37 {fill:url(#lgp_tensor);} /* tensor boson ball */
+
+	.st39 {opacity:0.65;} /* density for mass, charge, and spin */
+	.st41 {fill:#112233; font-size:40px; text-anchor:middle;} /* color for generation I II III */
+
+	.st42 {fill:#55CC22; font-size:54px; font-weight:bold;} /* color for leptons */
+	.st43 {fill:#CC99FF; font-size:54px; font-weight:bold;} /* color for quarks */
+	.st44 {fill:#FF6C6C; font-size:54px; font-weight:bold;} /* color for gauge bosons */
+	.st44b{fill:#FF6C6C; font-size:36px; font-weight:bold;} /* color for vector bosons */
+	.st45 {fill:#EEBB33; font-size:54px; font-weight:bold;} /* color for scalar bosons */
+	.st46 {fill:#77AADD; font-size:54px; font-weight:bold;} /* color for tensor bosons */
+	.st46b{fill:#77AADD; font-size:36px; font-weight:bold;} /* color for hypothetical bosons */
+  </style>
+  <defs
+     id="defs94">
+    <linearGradient
+       id="lgb_quark"
+       gradientUnits="userSpaceOnUse"
+       x1="45"
+       y1="-15"
+       x2="200"
+       y2="250">
+      <stop
+         offset="0"
+         stop-color="#EEBBFF"
+         id="stop9" />
+      <stop
+         offset="1"
+         stop-color="#AA77DD"
+         id="stop11" />
+    </linearGradient>
+    <linearGradient
+       id="lgb_lepton"
+       gradientUnits="userSpaceOnUse"
+       x1="45"
+       y1="-15"
+       x2="200"
+       y2="250">
+      <stop
+         offset="0"
+         stop-color="#AAEE77"
+         id="stop14" />
+      <stop
+         offset="1"
+         stop-color="#66CC33"
+         id="stop16" />
+    </linearGradient>
+    <linearGradient
+       id="lgb_gauge"
+       gradientUnits="userSpaceOnUse"
+       x1="45"
+       y1="-15"
+       x2="200"
+       y2="250">
+      <stop
+         offset="0"
+         stop-color="#FF9977"
+         id="stop19" />
+      <stop
+         offset="1"
+         stop-color="#DD5544"
+         id="stop21" />
+    </linearGradient>
+    <linearGradient
+       id="lgb_scalar"
+       gradientUnits="userSpaceOnUse"
+       x1="45"
+       y1="-15"
+       x2="200"
+       y2="250">
+      <stop
+         offset="0"
+         stop-color="#EEE677"
+         id="stop24" />
+      <stop
+         offset="1"
+         stop-color="#EEBB33"
+         id="stop26" />
+    </linearGradient>
+    <linearGradient
+       id="lgb_tensor"
+       gradientUnits="userSpaceOnUse"
+       x1="45"
+       y1="-15"
+       x2="200"
+       y2="250">
+      <stop
+         offset="0"
+         stop-color="#99CCFF"
+         id="stop29" />
+      <stop
+         offset="1"
+         stop-color="#6699CC"
+         id="stop31" />
+    </linearGradient>
+    <linearGradient
+       id="lgp_quark"
+       gradientUnits="userSpaceOnUse"
+       x1="120"
+       y1="60"
+       x2="165"
+       y2="140">
+      <stop
+         offset="0"
+         stop-color="#EEBBFF"
+         id="stop34" />
+      <stop
+         offset="1"
+         stop-color="#AA77DD"
+         id="stop36" />
+    </linearGradient>
+    <linearGradient
+       id="lgp_lepton"
+       gradientUnits="userSpaceOnUse"
+       x1="120"
+       y1="60"
+       x2="165"
+       y2="140">
+      <stop
+         offset="0"
+         stop-color="#AAEE77"
+         id="stop39" />
+      <stop
+         offset="1"
+         stop-color="#66CC33"
+         id="stop41" />
+    </linearGradient>
+    <linearGradient
+       id="lgp_gauge"
+       gradientUnits="userSpaceOnUse"
+       x1="120"
+       y1="60"
+       x2="165"
+       y2="140">
+      <stop
+         offset="0"
+         stop-color="#FF9977"
+         id="stop44" />
+      <stop
+         offset="1"
+         stop-color="#DD5544"
+         id="stop46" />
+    </linearGradient>
+    <linearGradient
+       id="lgp_scalar"
+       gradientUnits="userSpaceOnUse"
+       x1="120"
+       y1="60"
+       x2="165"
+       y2="140">
+      <stop
+         offset="0"
+         stop-color="#EEE677"
+         id="stop49" />
+      <stop
+         offset="1"
+         stop-color="#EEBB33"
+         id="stop51" />
+    </linearGradient>
+    <linearGradient
+       id="lgp_tensor"
+       gradientUnits="userSpaceOnUse"
+       x1="120"
+       y1="60"
+       x2="165"
+       y2="140">
+      <stop
+         offset="0"
+         stop-color="#99CCFF"
+         id="stop54" />
+      <stop
+         offset="1"
+         stop-color="#6699CC"
+         id="stop56" />
+    </linearGradient>
+    <g
+       id="box">
+      <rect
+         x="6"
+         y="6"
+         width="230"
+         height="230"
+         fill="none"
+         stroke-width="10"
+         rx="25"
+         ry="25"
+         id="rect59" />
+    </g>
+    <g
+       id="ball">
+      <circle
+         cx="140"
+         cy="100"
+         r="50.4"
+         class="st1"
+         id="circle62" />
+      <circle
+         cx="140"
+         cy="100"
+         r="47.7"
+         class="st1"
+         id="circle64" />
+      <circle
+         cx="140"
+         cy="100"
+         r="45"
+         id="circle66" />
+    </g>
+    <g
+       id="tilequ">
+      <use
+         xlink:href="#box"
+         stroke="url(#lgb_quark)"
+         id="use69" />
+      <use
+         xlink:href="#ball"
+         class="st20"
+         id="use71" />
+    </g>
+    <g
+       id="tilele">
+      <use
+         xlink:href="#box"
+         stroke="url(#lgb_lepton)"
+         id="use74" />
+      <use
+         xlink:href="#ball"
+         class="st26"
+         id="use76" />
+    </g>
+    <g
+       id="tilegb">
+      <use
+         xlink:href="#box"
+         stroke="url(#lgb_gauge)"
+         id="use79" />
+      <use
+         xlink:href="#ball"
+         class="st32"
+         id="use81" />
+    </g>
+    <g
+       id="tilesb">
+      <use
+         xlink:href="#box"
+         stroke="url(#lgb_scalar)"
+         id="use84" />
+      <use
+         xlink:href="#ball"
+         class="st36"
+         id="use86" />
+    </g>
+    <g
+       id="tiletb">
+      <use
+         xlink:href="#box"
+         stroke="url(#lgb_tensor)"
+         id="use89" />
+      <use
+         xlink:href="#ball"
+         class="st37"
+         id="use91" />
+    </g>
+  </defs>
+  <text
+     class="head1"
+     x="50%"
+     y="95"
+     id="text96">Standard Model of Elementary Particles</text>
+  <g
+     style="display:none;"
+     id="g103">
+    <title
+       id="title98">Forces</title>
+    <path
+       id="fstrong"
+       class="st0"
+       d="M240.8,322.6c-30.4,0-55,24.6-55,55v250c0,30.4,24.6,55,55,55h500c30.4,0,55-24.6,55-55  c0-107.7,87.3-195,195-195h10c30.4,0,55-24.6,55-55c0-30.4-24.6-55-55-55H240.8" />
+    <path
+       class="st0"
+       d="M240.8,312.6c-35.9,0-65,29.1-65,65v510c0,35.9,29.1,65,65,65h500c35.9,0,65-29.1,65-65  c0-107.7,82.8-195,185-195h10c35.9,0,65-29.1,65-65c0-35.9-29.1-65-65-65h-10c-102.2,0-185-82.8-185-185c0-35.9-29.1-65-65-65H240.8  "
+       id="felecmag" />
+    <path
+       class="st0"
+       d="M240.8,302.6c-41.4,0-75,33.6-75,75v760c0,41.4,33.6,75,75,75h760c41.4,0,75-33.6,75-75v-250  c0-41.4-33.6-75-75-75h-10c-96.6,0-175-78.4-175-175v-260c0-41.4-33.6-75-75-75H240.8"
+       id="fweak" />
+  </g>
+  <g
+     id="g133">
+    <title
+       id="title105">Fermions</title>
+    <rect
+       class="st2"
+       x="100"
+       y="137.6"
+       width="1490"
+       height="80"
+       rx="30"
+       ry="30"
+       id="rect107" />
+    <text
+       x="470"
+       y="166"
+       font-size="30"
+       font-weight="bold"
+       text-anchor="middle"
+       id="text111">three generations of matter<tspan
+   x="470"
+   dy="36px"
+   id="tspan109">(elementary fermions)</tspan></text>
+    <text
+       x="1220"
+       y="166"
+       font-size="30"
+       font-weight="bold"
+       text-anchor="middle"
+       id="text115">three generations of antimatter<tspan
+   x="1220"
+   dy="36px"
+   id="tspan113">(elementary antifermions)</tspan></text>
+    <g
+       class="st41"
+       transform="translate(100 255)"
+       id="g123">
+      <text
+         x="120"
+         id="text117">I</text>
+      <text
+         x="370"
+         id="text119">II</text>
+      <text
+         x="620"
+         id="text121">III</text>
+    </g>
+    <g
+       class="st41"
+       transform="translate(850 255)"
+       id="g131">
+      <text
+         x="120"
+         id="text125">I</text>
+      <text
+         x="370"
+         id="text127">II</text>
+      <text
+         x="620"
+         id="text129">III</text>
+    </g>
+  </g>
+  <g
+     transform="translate(750 0)"
+     id="g143">
+    <title
+       id="title135">Bosons</title>
+    <rect
+       class="st2"
+       x="860"
+       y="137.6"
+       width="500"
+       height="80"
+       rx="30"
+       ry="30"
+       id="rect137" />
+    <text
+       x="1110"
+       y="166"
+       font-size="30"
+       font-weight="bold"
+       text-anchor="middle"
+       id="text141">interactions / force carriers<tspan
+   x="1110"
+   dy="36px"
+   id="tspan139">(elementary bosons)</tspan></text>
+  </g>
+  <g
+     transform="translate(85 20)"
+     class="st39"
+     font-size="24"
+     text-anchor="end"
+     id="g153">
+    <title
+       id="title145">mass, charge, spin</title>
+    <text
+       y="300"
+       id="text147">mass</text>
+    <text
+       y="340"
+       id="text149">charge</text>
+    <text
+       y="380"
+       id="text151">spin</text>
+  </g>
+  <g
+     id="g255">
+    <title
+       id="title155">Quarks</title>
+    <text
+       class="st43"
+       transform="translate(70 770) rotate(-90)"
+       id="text157">QUARKS</text>
+    <g
+       transform="translate(100 275)"
+       id="g173">
+      <title
+         id="title159">up</title>
+      <use
+         xlink:href="#tilequ"
+         id="use161" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text163">u</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text165">≃2.2 MeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text167">⅔</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text169">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text171">up</text>
+    </g>
+    <g
+       transform="translate(100 525)"
+       id="g189">
+      <title
+         id="title175">down</title>
+      <use
+         xlink:href="#tilequ"
+         id="use177" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text179">d</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text181">≃4.7 MeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text183">−⅓</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text185">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text187">down</text>
+    </g>
+    <g
+       transform="translate(350 275)"
+       id="g205">
+      <title
+         id="title191">charm</title>
+      <use
+         xlink:href="#tilequ"
+         id="use193" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text195">c</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text197">≃1.28 GeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text199">⅔</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text201">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text203">charm</text>
+    </g>
+    <g
+       transform="translate(350 525)"
+       id="g221">
+      <title
+         id="title207">strange</title>
+      <use
+         xlink:href="#tilequ"
+         id="use209" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text211">s</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text213">≃96 MeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text215">−⅓</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text217">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text219">strange</text>
+    </g>
+    <g
+       transform="translate(600 275)"
+       id="g237">
+      <title
+         id="title223">top</title>
+      <use
+         xlink:href="#tilequ"
+         id="use225" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text227">t</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text229">≃173.1 GeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text231">⅔</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text233">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text235">top</text>
+    </g>
+    <g
+       transform="translate(600 525)"
+       id="g253">
+      <title
+         id="title239">bottom</title>
+      <use
+         xlink:href="#tilequ"
+         id="use241" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text243">b</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text245">≃4.18 GeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text247">−⅓</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text249">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text251">bottom</text>
+    </g>
+  </g>
+  <g
+     id="g375">
+    <title
+       id="title257">Leptons</title>
+    <text
+       class="st42"
+       transform="translate(70 1270) rotate(-90)"
+       id="text259">LEPTONS</text>
+    <g
+       transform="translate(100 790)"
+       id="g275">
+      <title
+         id="title261">electron</title>
+      <use
+         xlink:href="#tilele"
+         id="use263" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text265">e</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text267">≃0.511 MeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text269">−1</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text271">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text273">electron</text>
+    </g>
+    <g
+       transform="translate(100 1040)"
+       id="g297">
+      <title
+         id="title277">electron neutrino</title>
+      <use
+         xlink:href="#tilele"
+         id="use279" />
+      <text
+         class="psymg"
+         x="140"
+         y="110"
+         id="text283">ν<tspan
+   class="sub"
+   id="tspan281">e</tspan></text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text285">&lt;2.2 eV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text287">0</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text289">½</text>
+      <text
+         class="pnam2"
+         x="120"
+         y="200"
+         id="text295"><tspan
+           dy="-20"
+           id="tspan291">electron</tspan><tspan
+           x="120"
+           dy="40"
+           id="tspan293">neutrino</tspan></text>
+    </g>
+    <g
+       transform="translate(350 790)"
+       id="g313">
+      <title
+         id="title299">muon</title>
+      <use
+         xlink:href="#tilele"
+         id="use301" />
+      <text
+         class="psymg"
+         x="140"
+         y="120"
+         id="text303">μ</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text305">≃105.66 MeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text307">−1</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text309">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text311">muon</text>
+    </g>
+    <g
+       transform="translate(350 1040)"
+       id="g335">
+      <title
+         id="title315">muon neutrino</title>
+      <use
+         xlink:href="#tilele"
+         id="use317" />
+      <text
+         class="psymg"
+         x="140"
+         y="110"
+         id="text321">ν<tspan
+   class="sub"
+   id="tspan319">μ</tspan></text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text323">&lt;0.17 MeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text325">0</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text327">½</text>
+      <text
+         class="pnam2"
+         x="120"
+         y="200"
+         id="text333"><tspan
+           dy="-20"
+           id="tspan329">muon</tspan><tspan
+           x="120"
+           dy="40"
+           id="tspan331">neutrino</tspan></text>
+    </g>
+    <g
+       transform="translate(600 790)"
+       id="g351">
+      <title
+         id="title337">tau</title>
+      <use
+         xlink:href="#tilele"
+         id="use339" />
+      <text
+         class="psymg"
+         x="140"
+         y="120"
+         id="text341">τ</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text343">≃1.7768 GeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text345">−1</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text347">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text349">tau</text>
+    </g>
+    <g
+       transform="translate(600 1040)"
+       id="g373">
+      <title
+         id="title353">tau neutrino</title>
+      <use
+         xlink:href="#tilele"
+         id="use355" />
+      <text
+         class="psymg"
+         x="140"
+         y="110"
+         id="text359">ν<tspan
+   class="sub"
+   id="tspan357">τ</tspan></text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text361">&lt;18.2 MeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text363">0</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text365">½</text>
+      <text
+         class="pnam2"
+         x="120"
+         y="200"
+         id="text371"><tspan
+           dy="-20"
+           id="tspan367">tau</tspan><tspan
+           x="120"
+           dy="40"
+           id="tspan369">neutrino</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(750 0)"
+     id="g475">
+    <title
+       id="title377">antiQuarks</title>
+    <g
+       transform="translate(100 275)"
+       id="g393">
+      <title
+         id="title379">antiup</title>
+      <use
+         xlink:href="#tilequ"
+         id="use381" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text383">ū</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text385">≃2.2 MeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text387">−⅔</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text389">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text391">antiup</text>
+    </g>
+    <g
+       transform="translate(100 525)"
+       id="g409">
+      <title
+         id="title395">down</title>
+      <use
+         xlink:href="#tilequ"
+         id="use397" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text399">d̄</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text401">≃4.7 MeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text403">⅓</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text405">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text407">antidown</text>
+    </g>
+    <g
+       transform="translate(350 275)"
+       id="g425">
+      <title
+         id="title411">charm</title>
+      <use
+         xlink:href="#tilequ"
+         id="use413" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text415">c̄</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text417">≃1.28 GeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text419">−⅔</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text421">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text423">anticharm</text>
+    </g>
+    <g
+       transform="translate(350 525)"
+       id="g441">
+      <title
+         id="title427">strange</title>
+      <use
+         xlink:href="#tilequ"
+         id="use429" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text431">s̄</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text433">≃96 MeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text435">⅓</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text437">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text439">antistrange</text>
+    </g>
+    <g
+       transform="translate(600 275)"
+       id="g457">
+      <title
+         id="title443">top</title>
+      <use
+         xlink:href="#tilequ"
+         id="use445" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text447">t̄</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text449">≃173.1 GeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text451">−⅔</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text453">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text455">antitop</text>
+    </g>
+    <g
+       transform="translate(600 525)"
+       id="g473">
+      <title
+         id="title459">bottom</title>
+      <use
+         xlink:href="#tilequ"
+         id="use461" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text463">b̄</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text465">≃4.18 GeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text467">⅓</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text469">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text471">antibottom</text>
+    </g>
+  </g>
+  <g
+     transform="translate(750 0)"
+     id="g595">
+    <title
+       id="title477">antiLeptons</title>
+    <g
+       transform="translate(100 790)"
+       id="g495">
+      <title
+         id="title479">positron</title>
+      <use
+         xlink:href="#tilele"
+         id="use481" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text485">e<tspan
+   style="font-weight:bold"
+   id="tspan483">⁺</tspan></text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text487">≃0.511 MeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text489">1</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text491">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text493">positron</text>
+    </g>
+    <g
+       transform="translate(100 1040)"
+       id="g517">
+      <title
+         id="title497">electron neutrino</title>
+      <use
+         xlink:href="#tilele"
+         id="use499" />
+      <text
+         class="psymg"
+         x="140"
+         y="110"
+         id="text503">ν̄<tspan
+   class="sub"
+   id="tspan501">e</tspan></text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text505">&lt;2.2 eV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text507">0</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text509">½</text>
+      <text
+         class="pnam2"
+         x="120"
+         y="200"
+         id="text515"><tspan
+           dy="-20"
+           id="tspan511">electron</tspan><tspan
+           x="120"
+           dy="40"
+           id="tspan513">antineutrino</tspan></text>
+    </g>
+    <g
+       transform="translate(350 790)"
+       id="g533">
+      <title
+         id="title519">muon</title>
+      <use
+         xlink:href="#tilele"
+         id="use521" />
+      <text
+         class="psymg"
+         x="140"
+         y="120"
+         id="text523">μ̄</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text525">≃105.66 MeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text527">1</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text529">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text531">antimuon</text>
+    </g>
+    <g
+       transform="translate(350 1040)"
+       id="g555">
+      <title
+         id="title535">muon neutrino</title>
+      <use
+         xlink:href="#tilele"
+         id="use537" />
+      <text
+         class="psymg"
+         x="140"
+         y="110"
+         id="text541">ν̄<tspan
+   class="sub"
+   id="tspan539">μ</tspan></text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text543">&lt;0.17 MeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text545">0</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text547">½</text>
+      <text
+         class="pnam2"
+         x="120"
+         y="200"
+         id="text553"><tspan
+           dy="-20"
+           id="tspan549">muon</tspan><tspan
+           x="120"
+           dy="40"
+           id="tspan551">antineutrino</tspan></text>
+    </g>
+    <g
+       transform="translate(600 790)"
+       id="g571">
+      <title
+         id="title557">tau</title>
+      <use
+         xlink:href="#tilele"
+         id="use559" />
+      <text
+         class="psymg"
+         x="140"
+         y="120"
+         id="text561">τ̄</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text563">≃1.7768 GeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text565">1</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text567">½</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text569">antitau</text>
+    </g>
+    <g
+       transform="translate(600 1040)"
+       id="g593">
+      <title
+         id="title573">tau neutrino</title>
+      <use
+         xlink:href="#tilele"
+         id="use575" />
+      <text
+         class="psymg"
+         x="140"
+         y="110"
+         id="text579">ν̄<tspan
+   class="sub"
+   id="tspan577">τ</tspan></text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text581">&lt;18.2 MeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text583">0</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text585">½</text>
+      <text
+         class="pnam2"
+         x="120"
+         y="200"
+         id="text591"><tspan
+           dy="-20"
+           id="tspan587">tau</tspan><tspan
+           x="120"
+           dy="40"
+           id="tspan589">antineutrino</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(750 0)"
+     id="g687">
+    <title
+       id="title597">Gauge Bosons</title>
+    <text
+       class="st44"
+       transform="translate(1170 1020) rotate(-90)"
+       id="text599">GAUGE BOSONS</text>
+    <text
+       class="st44b"
+       transform="translate(1210 1020) rotate(-90)"
+       id="text601">VECTOR BOSONS</text>
+    <g
+       transform="translate(860 275)"
+       id="g617">
+      <title
+         id="title603">gluon</title>
+      <use
+         xlink:href="#tilegb"
+         id="use605" />
+      <text
+         class="psymr"
+         x="140"
+         y="120"
+         id="text607">g</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text609">0</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text611">0</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text613">1</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text615">gluon</text>
+    </g>
+    <g
+       transform="translate(860 525)"
+       id="g633">
+      <title
+         id="title619">photon</title>
+      <use
+         xlink:href="#tilegb"
+         id="use621" />
+      <text
+         class="psymg"
+         x="140"
+         y="120"
+         id="text623">γ</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text625">0</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text627">0</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text629">1</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text631">photon</text>
+    </g>
+    <g
+       transform="translate(860 790)"
+       id="g649">
+      <title
+         id="title635">Z boson</title>
+      <use
+         xlink:href="#tilegb"
+         id="use637" />
+      <text
+         class="psymr"
+         x="140"
+         y="125"
+         id="text639">Z</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text641">≃91.19 GeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text643">0</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text645">1</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text647">Z⁰ boson</text>
+    </g>
+    <g
+       transform="translate(860 1040)"
+       id="g667">
+      <title
+         id="title651">W boson</title>
+      <use
+         xlink:href="#tilegb"
+         id="use653" />
+      <text
+         class="psymr"
+         x="140"
+         y="125"
+         id="text657">W<tspan
+   style="font-weight:bold"
+   id="tspan655">⁺</tspan></text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text659">≃80.39 GeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text661">1</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text663">1</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text665">W⁺ boson</text>
+    </g>
+    <g
+       transform="translate(1110 1040)"
+       id="g685">
+      <title
+         id="title669">W boson</title>
+      <use
+         xlink:href="#tilegb"
+         id="use671" />
+      <text
+         class="psymr"
+         x="140"
+         y="125"
+         id="text675">W<tspan
+   style="font-weight:bold"
+   id="tspan673">⁻</tspan></text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text677">≃80.39 GeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text679">−1</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text681">1</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text683">W⁻ boson</text>
+    </g>
+  </g>
+  <g
+     transform="translate(750 0)"
+     id="g709">
+    <title
+       id="title689">Scalar Bosons</title>
+    <text
+       class="st45"
+       transform="translate(1350 530) rotate(-90)"
+       text-anchor="end"
+       id="text691">SCALAR BOSONS</text>
+    <g
+       transform="translate(1120 275)"
+       id="g707">
+      <title
+         id="title693">Higgs</title>
+      <use
+         xlink:href="#tilesb"
+         id="use695" />
+      <text
+         class="psymr"
+         x="140"
+         y="125"
+         id="text697">H</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text699">≃124.97 GeV/c²</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text701">0</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text703">0</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text705">higgs</text>
+    </g>
+  </g>
+  <g
+     style="display:none;"
+     transform="translate(750 0)"
+     id="g733">
+    <title
+       id="title711">Tensor Bosons</title>
+    <text
+       class="st46"
+       transform="translate(1610 530) rotate(-90)"
+       text-anchor="end"
+       id="text713">TENSOR BOSONS</text>
+    <text
+       class="st46b"
+       transform="translate(1555 530) rotate(-90)"
+       text-anchor="end"
+       id="text715">HYPOTHETICAL</text>
+    <g
+       transform="translate(1380 275)"
+       id="g731">
+      <title
+         id="title717">Graviton</title>
+      <use
+         xlink:href="#tiletb"
+         id="use719" />
+      <text
+         class="psymr"
+         x="140"
+         y="125"
+         id="text721">G</text>
+      <text
+         class="pmass"
+         x="15"
+         y="45"
+         id="text723">0</text>
+      <text
+         class="pchar"
+         x="15"
+         y="85"
+         id="text725">0</text>
+      <text
+         class="pspin"
+         x="15"
+         y="125"
+         id="text727">2</text>
+      <text
+         class="pname"
+         x="120"
+         y="200"
+         id="text729">graviton</text>
+    </g>
+  </g>
+</svg>
