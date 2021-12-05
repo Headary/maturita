@@ -24,8 +24,8 @@ z~jednotlivých bodů zobrazovaného předmětu
 	- přímý ($Z>0$) / převrácený ($Z<0$) obraz %>
 	- relativně k původní orientaci předmětu
 - skutečný / zdánlivý obraz
-	- skutečný -- paprsky se sbíhají, lze zachytit na stínítku ($a'<0$)%>
-	- zdánlivý -- paprsky se rozbíhají, nelze zachytit na stínítku ($a'>0$)
+	- skutečný -- paprsky se sbíhají, lze zachytit na stínítku ($a'>0$)
+	- zdánlivý -- paprsky se rozbíhají, nelze zachytit na stínítku ($a'<0$)%>
 
 #### Ohnisko
 - místo, kde se skutečně (spojka, duté zrcadlo) nebo zdánlivě^[za pomoci
@@ -62,7 +62,7 @@ původně rovnoběžné s optickou osou
 	- $a>0$ před čočkou, $a<0$ za čočkou %>
 	- $a'<0$ před čočkou, $a'>0$ za čočkou
 - zrcadla
-	- $a,a'>0$ před čočkou, $a,a'<0$ za čočkou %>
+	- $a,a'>0$ před zrcadlem, $a,a'<0$ za zrcadlem %>
 
 #### Významné paprsky
 - světelné paprsky používány k dedukci obrazu objektu
