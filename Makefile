@@ -7,7 +7,10 @@ GRAPH_DEPS=$(wildcard $(addprefix $(GRAPHICS)/,*.jpg *.png)) \
 	$(patsubst $(GRAPHICS)/%.plt,$(GRAPHICS)/%.tex,$(wildcard $(GRAPHICS)/*.plt))
 
 .PHONY: all
-all: $(GRAPH_DEPS) $(PDF)
+all: graphics pdf complete
+graphics: $(GRAPH_DEPS)
+pdf: $(PDF)
+complete: $(OUT)/complete.pdf
 
 define XELATEX
 	xelatex -shell-escape -jobname '$(basename $(@F))' -no-pdf $(1)\
@@ -30,3 +33,8 @@ $(GRAPHICS)/%.tex: $(GRAPHICS)/%.plt
 
 $(OUT)/%.pdf: %.md
 	cd $(@D); $(call XELATEX,'\documentclass{../template}\begin{document}\tableofcontents\markdownInput{../$<}\end{document}')
+
+allMarkdownInputs=$(addsuffix }, $(addprefix \markdownInput{../,$(wildcard *.md)))
+
+$(OUT)/complete.pdf: $(wildcard *.md)
+	cd $(@D); $(call XELATEX,'\documentclass{../template}\begin{document}\tableofcontents$(allMarkdownInputs)\end{document}')
