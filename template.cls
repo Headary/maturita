@@ -15,6 +15,7 @@
 \RequirePackage{booktabs}
 \RequirePackage{hyperref}
 \RequirePackage{mhchem}
+\RequirePackage{color}
 
 \RequirePackage[
   hashEnumerators,
@@ -33,3 +34,7 @@
 
 \author{Adam Krška}
 \title{Maturitní otázky z fyziky}
+
+\makeatletter
+\renewcommand*{\fps@table}{htbp}
+\makeatother
