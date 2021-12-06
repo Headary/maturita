@@ -16,6 +16,9 @@
 \RequirePackage{mhchem}
 \RequirePackage{color}
 \RequirePackage{subfig}
+\RequirePackage{titlesec}
+
+\renewcommand{\bottomtitlespace}{0.05\textheight}
 
 \RequirePackage[
   hashEnumerators,

@@ -65,8 +65,91 @@
 
 ### Elektrický potenciál
 - potenciální energie jednotkového náboje v el.~poli
+	\eq{
+		\phi = \frac{E\\\_p}{Q} = \frac{W}{Q}
+	}
 - značka~$\phi$, $[\phi]=V$ (volt)
+- zvětšování~$E\\\_p$ v protisměru~$F\\\_{el}$
 - možno přirovnat ke gravitačnímu potenciálu
+- místa vodivě spojitá mají stejný potenciál
+
+#### Elektrické napětí
+- značka~$U$, $[U]=V$
+- rozdíl potenciálů mezi dvěma body
+- $U=\Delta\phi$
+
 ### Práce v el.~poli
-### Kapacita vodiče, kondenzátor, zapojení, využití
-### Chování vodiče a izolantu v el.~poli
+- pole působí sílou na náboj -> náboj se pohybuje -> pole koná práci
+- výpočet
+	\eq{
+		\\d W = \vect F * \\d \vect s \rightarrow W=\vect F \vect s
+	}
+- změna potenciální energie = práce
+	\eq{
+		W = \Delta E = \Delta\phi Q = UQ
+	}
+
+### Elektrická kapacita
+- schopnost vodiče uložit elektrický náboj
+- značka~$C$, $[C]=F$ (farad)
+	\eq{
+		C = \frac{Q}{\phi} = \frac{Q}{U}
+	}
+- množství náboje na jednotku elektrické potenciálu
+
+#### Kondenzátor
+- elektrická součástka uchovávající náboj
+- tvořen dvěma vodivými nabitými deskami
+	- 1.~deska -- $\phi\_1$, 2.~deska -- $\phi\_2$
+	- napětí -- $\phi\_2-\phi\_1=U$
+	- průměrný potenciál v poli -- $\phi=\frac{U}{2}$
+- desky odděleny dielektrikem (izolantem)
+- energie kondenzátoru
+	\eq{
+		W = \phi Q, \phi=\frac{U}{2}, Q=CU \ztoho W = \frac{2}QU = \frac{2}CU^2
+	}
+
+##### Zapojení
+###### Sériové
+- různá napětí na kondenzátorech, sčítají se
+- nabíjení a vybíjení stejným proudem
+- celková kapacity
+	\eq{
+		\frac{C} = \frac{C\_1} + \frac{C\_2} + \dots + \frac{C\_n}
+	}
+
+###### Paralelní
+- zvětšení plochy desek
+- sčítání kapacit
+	\eq{
+		C = C\_1 + C\_2 + ... + C\_n
+	}
+- potenciály na obou stranách stejné $\rightarrow U=\const$ 
+- na kondenzátorech dílčí proudy
+- dílčí proudy se sčítají -- $I = I\_1 + I\_2 + ... + I\_n$
+
+\fullfig{16-capacitors}
+
+##### Využití
+- uložení energie na rychlé využití -- blesk fotoaparátu, defibrilátor
+- stabilizace napětí, vyhlazení napěťových špiček
+- odstranění stejnosměrné složky elektrického proudu
+- počítačová paměť, časovače
+
+### Látky v elektrickém poli
+#### Vodiče
+- elektrické pole~$E$ přesouvá elektrony ve vodiči
+- na koncích se akumulují elektrony $\rightarrow$ **indukuje** se náboj $\rightarrow$ **elektromagnetická indukce**
+- vodič součástí uzavřeného obvodu $\rightarrow$ indukuje se elektrický proud
+
+#### Izolanty
+- nemají volné částice s nábojem, nevedou proud
+
+##### Polarizace dielektrika
+- dielektrikum -- izolant se schopností polarizace
+- vložení dielektrika do elektrického pole
+- polarita opačná polaritě vnějšího el.~pole
+- působením el.~sil se náboj atomu/molekuly přesune na jednu stranu (jádra na jednu stranu, elektrony na druhou) -- atomová polarizace
+\fullfig{16-atomova-polarizace}[Atomová polarizace dielektrika]
+- atomy/molekuly s elektrickými dipóly se natočí ve směru~$E$ -- orientační polarizace
+\fullfig{16-polarizace}[Orientační polarizace]
