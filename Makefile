@@ -9,8 +9,8 @@ GRAPH_DEPS=$(wildcard $(addprefix $(GRAPHICS)/,*.jpg *.png)) \
 .PHONY: all
 all: graphics pdf complete
 graphics: $(GRAPH_DEPS)
-pdf: $(PDF)
-complete: $(OUT)/complete.pdf
+pdf: graphics $(PDF)
+complete: graphics $(OUT)/complete.pdf
 
 define XELATEX
 	xelatex -shell-escape -jobname '$(basename $(@F))' -no-pdf $(1)\
@@ -31,7 +31,7 @@ GNUPLOT = gnuplot -e "set format '$$\"%g\"$$'; set terminal epslatex color\
 $(GRAPHICS)/%.tex: $(GRAPHICS)/%.plt
 	cd $(<D); $(GNUPLOT)
 
-$(OUT)/%.pdf: %.md
+$(OUT)/%.pdf: %.md graphics
 	cd $(@D); $(call XELATEX,'\documentclass{../template}\begin{document}\tableofcontents\markdownInput{../$<}\end{document}')
 
 allMarkdownInputs=$(addsuffix }, $(addprefix \markdownInput{../,$(wildcard *.md)))

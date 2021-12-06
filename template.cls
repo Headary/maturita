@@ -15,6 +15,7 @@
 \RequirePackage{hyperref}
 \RequirePackage{mhchem}
 \RequirePackage{color}
+\RequirePackage{subfig}
 
 \RequirePackage[
   hashEnumerators,
