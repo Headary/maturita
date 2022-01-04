@@ -31,10 +31,10 @@ GNUPLOT = gnuplot -e "set format '$$\"%g\"$$'; set terminal epslatex color\
 $(GRAPHICS)/%.tex: $(GRAPHICS)/%.plt
 	cd $(<D); $(GNUPLOT)
 
-$(OUT)/%.pdf: %.md graphics
+$(OUT)/%.pdf: %.md graphics template.cls
 	cd $(@D); $(call XELATEX,'\documentclass{../template}\begin{document}\tableofcontents\markdownInput{../$<}\end{document}')
 
 allMarkdownInputs=$(addsuffix }, $(addprefix \markdownInput{../,$(wildcard *.md)))
 
-$(OUT)/complete.pdf: $(wildcard *.md)
+$(OUT)/complete.pdf: $(wildcard *.md) template.cls
 	cd $(@D); $(call XELATEX,'\documentclass{../template}\begin{document}\tableofcontents$(allMarkdownInputs)\end{document}')

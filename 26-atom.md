@@ -1,19 +1,19 @@
 \setcounter{section}{25}
-## Elektronový obal atomu, atomové jádro, elementární částice
+# Elektronový obal atomu, atomové jádro, elementární částice
 
-### Atomová vs Jaderná fyzika
-##### Atomová fyzika
+## Atomová vs Jaderná fyzika
+#### Atomová fyzika
 - fyzika elektronového obalu
 - zkoumá vlastnosti a pohyb elektronů v elektronovém obalu
 - atomové jádro zůstává neměnné
 - chemická energie v řádech jednotek elektronvoltů
 
-##### Jaderná fyzika
+#### Jaderná fyzika
 - fyzika atomového jádra
 - zkoumá pohyb částic uvnitř atomových jader a jejich přeměny
 - energie v řádech megaelektronvoltů
 
-### Vlastnosti atomu
+## Vlastnosti atomu
 - jádro (většina hmotnosti) + elektronový obal
 - elektricky neutrální
 - částice
@@ -25,21 +25,21 @@
 - protonové číslo $Z$~-- počet protonů v jádře; nukleonové číslo~$A$~-- počet
 	nukleonů v jádře
 
-### Modely atomu
-#### Thomsonův (pudinkový) model
+## Modely atomu
+### Thomsonův (pudinkový) model
 - elektrony (záporné) poletují v "polívce" kladného náboje
 
-#### Ruthefordův model
+### Ruthefordův model
 - "planetární model atomu", 1911
 - velmi malé, hmotné jádro okolo kterého obíhají elektrony ($\approx "10~000"r$
 	jádra)
 
-#### Bohrův model
+### Bohrův model
 - 1913
 - následník Ruthefordova modelu a předchůdce kvantově mechanického modelu
 - elektrony se nachází v jednotlivých hladinách okolo jádra
 
-#### Kvantově mechanický model
+### Kvantově mechanický model
 - zatím nejrealističtější popis atomu
 - založen na kombinaci řady předpokladů
 	- každá částice má vlnovou funkci (viz Korpuskulárně vlnový dualismus) ->
@@ -48,50 +48,50 @@
 	- v atomu existuje více než jedna energetická hladina -> elektrony mají orbitaly
 	- elektrony mají spin; elektrony ve stejném orbitalu mají odlišný spin
 
-### Kvantová čísla
+## Kvantová čísla
 - elektrony se pohybují v trojrozměrném prostoru po orbitalech
 - nacházejí se zde s určitou pravděpodobností, jejich polohu a hybnost nelze s
 	určitostí říct
 - elektrony popsány pomocí 4 kvantových čísel
 
-#### Hlavní kvantové číslo -- $n$
+### Hlavní kvantové číslo -- $n$
 - hlavní energie elektronu, popisuje velikost orbitalu
 - $n\in\mathbb{N}$ -- $1,2,3,\dots$ (praktické maximum 7 hladin)
 
-#### Vedlejší kvantové číslo -- $l$
+### Vedlejší kvantové číslo -- $l$
 - tvar orbitalu
 - $l\in\\\{0,1,2,...,n-1\\\}$
 - popisováno písmeny $(s, p, d, f, g, ...)$
 
-#### Magnetické číslo -- $m$
+### Magnetické číslo -- $m$
 - orientace orbitalu v prostoru
 - $m\in\\\{-l,-l+1,\dots,-1,0,1,\dots,l-1,l\\\}$
 
-#### Spinové číslo -- $s$
+### Spinové číslo -- $s$
 - vyjadřuje vnitřní moment hybnosti
 - hodnota pevně daná, u elektronů $s=\pm\frac{2}$
 
 \fullfig[width=0.9\textwidth]{26-orbitals}[Vyobrazení jednotlivých orbitalů elektronů]
 
-### Pauliho vylučovací princip
+## Pauliho vylučovací princip
 - \uv{*Žádné dva nerozlišitelné fermiony nemohou být ve stejném kvantovém stavu*}
 - elektrony jsou fermiony $\Rightarrow$ žádné dva elektrony v elektronovém
 	obalu nemohou být ve stejném kvantovém stavu / alespoň jedno kvantové číslo
 	se musí lišit
 
-### Elementární částice
+## Elementární částice
 - částice, která již není složená z jiných částic
 - dělení
 	- fermiony
 	- bosony
 
-#### Fermiony
+### Fermiony
 - kvarty, antikvarky, leptony, antileptony
 - částice \uv{hmoty}
 - poločíselný spin ($\pm\frac{1}{2}, \pm\frac{3}{2}, ...$)
 - splňují Pauliho vylučovací princip
 
-#### Bosony
+### Bosony
 - výměnné bosony a Higgsův boson
 - částice \uv{sil}, zajišťují interakce mezi fermiony
 - celočíselný spin ($\pm 1, \pm 2, ...$)
@@ -99,11 +99,11 @@
 
 \fullfig[width=0.95\textwidth]{26-elementary-particles}[Tabulka elementárních částic a jejich zařazení]
 
-### Jaderná fyzika
+## Jaderná fyzika
 - velikost atomu $"10^{-15} m"$
 - stabilita jádra udržována silnou jadernou silou
 
-#### Radioaktivita
+### Radioaktivita
 - přirozená a umělá
 - schopnost některých jader vysílat záření, při kterém se jádro mění v jiné
 	(nebo ztratí část své energie)
@@ -115,30 +115,30 @@
 	- defektometrie
 	- zemědělství
 
-##### Alpha záření
+#### Alpha záření
 - jádra \ce{^4_2He}
 - ionizační účinky
 - malá pronikavost -- zastaveno papírem
 - velká hmotnost, rychlost~$"10^7 m.s^{-1}"$
 
-##### Beta záření
+#### Beta záření
 - proud elektronů a pozitronů
 - střední pronikavost -- třeba alobal
 - rychlost téměř~$c$, menší hmotnost než~$\alpha$
 
-##### Gamma záření
+#### Gamma záření
 - proud fotonů / elektromagnetické záření
 - nemá el.~náboj, nereaguje na elmag.~pole
 - vysoká pronikavost -- olovo, $"1 m"$~betonu, voda
 - nebezpečné -- doprovázeno dalšími zářeními
 
-##### Neutronové záření
+#### Neutronové záření
 - proud neutronů
 - těžké, pomalé
 - bez náboje
 - nelze odstínit, ochranou je vzdálenost
 
-#### Poločas rozpadu
+### Poločas rozpadu
 - funkce zhruba popisující zbývající počet částic z původního počtu v čase
 	- radioaktivita je náhodný děj $\Rightarrow$ nelze určit přesný počet
 - \eq{N=N_0\left(\frac{2}\right)^{\dfrac{t}{T}}}
@@ -150,7 +150,7 @@
 - popis pomocí rychlosti rozpadu~$\lambda$
 	\eq{\lambda = \frac{\ln 2}{T}\ztoho N=N_0 e^{-\lambda t}}
 
-#### Jaderné reakce
+### Jaderné reakce
 - reakce, při kterých dochází ke změně jádra
 - typy podle energie
 	- endoenergetické reakce -- přijímání energie

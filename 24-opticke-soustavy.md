@@ -1,17 +1,17 @@
 \setcounter{section}{23}
-## Optické soustavy a optická zobrazení
+# Optické soustavy a optická zobrazení
 - souhrn věcí ovlivňující přechod paprsku a vytvářející obraz pozorovaného předmětu
 	- lámavé/odrazové plochy
 	- rozhraní prostředí
 	- clony
 - centrovaná optická soustava -- středy křivosti leží na jedné přímce
 
-### Základní pojmy
-#### Obraz
+## Základní pojmy
+### Obraz
 - místo, kde se skutečně nebo zdánlivě protínají paprsky vycházející
 z~jednotlivých bodů zobrazovaného předmětu
 
-##### Vlastnosti
+#### Vlastnosti
 - zvětšení~$Z$
 	- velikost obrazu relativně k zobrazovanému předmětu
 	- zmenšený / stejně velký / zvětšený ($\abs{Z}<1,\abs{Z}=1,\abs{Z}>1$)
@@ -27,33 +27,33 @@ z~jednotlivých bodů zobrazovaného předmětu
 	- skutečný -- paprsky se sbíhají, lze zachytit na stínítku ($a'>0$)
 	- zdánlivý -- paprsky se rozbíhají, nelze zachytit na stínítku ($a'<0$)%>
 
-#### Ohnisko
+### Ohnisko
 - místo, kde se skutečně (spojka, duté zrcadlo) nebo zdánlivě^[za pomoci
 geometrického prodloužení paprsků] (rozptylka, vypuklé zrcadlo) sbíhají paprsky
 původně rovnoběžné s optickou osou
 
-##### Ohnisková vzdálenost
+#### Ohnisková vzdálenost
 - vzdálenost ohniska od čočky
 - polovina poloměru křivosti
 - značení: $f, [f]=\jd{m}$
 
-##### Optická mohutnost
+#### Optická mohutnost
 - schopnost čočky koncentrovat světlo
 - převrácená hodnota~$f$
 - značení: $\phi, [\phi]=\jd{m^{-1}}$
 
-#### Střed křivosti
+### Střed křivosti
 - střed zakřivení čočky nebo zrcadla
 - čočky a zrcadla tvořeny z části kulové plochy
 - poloměr kulové plochy~$r$ = **poloměr křivosti**
 
-#### Zobrazovací rovnice
+### Zobrazovací rovnice
 - rovnice udávající vztah vzdáleností při zobrazení
 - \eq{
 		\frac{a}+\frac{a'}=\frac{f}
 	}
 
-#### Konvence znamének a značení
+### Konvence znamének a značení
 - optická soustava kreslena zleva doprava
 	- $\Rightarrow$ doleva kladný směr, doprava záporný směr
 - $f$ před čočkou -- kladné, $f$ za čočkou -- záporné
@@ -64,30 +64,30 @@ původně rovnoběžné s optickou osou
 - zrcadla
 	- $a,a'>0$ před zrcadlem, $a,a'<0$ za zrcadlem %>
 
-#### Významné paprsky
+### Významné paprsky
 - světelné paprsky používány k dedukci obrazu objektu
 - 3 paprsky
 	- rovnoběžný s optickou osou -- po ohybu/odrazu míří od ohniska
 	- mířící do optického středu čočky/zrcadla -- jeho trasa se nemění / odráží se dle zákona odrazu
 	- mířící do ohniska před čočkou/zrcadlem -- po ohybu/odrazu rovnoběžný s optickou osou
 
-### Zobrazení zrcadlem
+## Zobrazení zrcadlem
 - zrcadlo -- předmět odrážející světlo
 - u kulových zrcadel -- obraz nikdy není dokonalý, pouze u parabolických
 
-#### Rovinné zrcadlo
+### Rovinné zrcadlo
 - využití zákonu odrazu
 - $f\rightarrow\infty$
 - stejně velký, přímý, zdánlivý obraz
 
-#### Vypuklé zrcadlo
+### Vypuklé zrcadlo
 - odraz z vnějšku kulové plochy
 - ohnisko za zrcadlem -- záporná ohnisková vzdálenost 
 - obraz zmenšený, přímý, skutečný
 
 \fullfig[width=0.6\textwidth]{24-vypukle}[Vypuklé zrcadlo]
 
-#### Duté zrcadlo \label{sec:dute}
+### Duté zrcadlo \label{sec:dute}
 - odraz ze vnitřku kulové plochy
 - kladná ohnisková vzdálenost
 - obraz závislý na poloze objektu
@@ -101,107 +101,107 @@ původně rovnoběžné s optickou osou
 v~závislosti na násobku~$f_0=1$][graph:dute]
 \fullfig[width=0.6\textwidth]{24-dute}[Nákres dutého zrcadla]
 
-### Zobrazení čočkou
-#### Spojka
+## Zobrazení čočkou
+### Spojka
 - zakřivuje světlo do ohniska
 - kladná ohnisková vzdálenost -- platí stejné pravidla jako u dutého zrcadla (sekce~\ref{sec:dute}, graf~\ref{graph:dute})
 
 \fullfig{24-spojka}[Spojná čočka]
 
-#### Rozptylka
+### Rozptylka
 - rozptyluje paprsky směrem od ohniska
 - záporná hodnota ohniskové vzdálenosti~$f$
 	- obraz vždy zmenšený, přímý, skutečný
 
 \fullfig{24-rozptylka}[Spojná čočka]
 
-### Oko jako optická soustava
+## Oko jako optická soustava
 - oko -- lidský orgán
 - umí zaostřovat -- měnit mohutnost
 
-#### Rohovka
+### Rohovka
 - umožňuje světlu dosáhnout sítnice
 - práce na základě lomu světla
 
-#### Čočka
+### Čočka
 - proměnlivá mohutnost -- schopnost akomodace
 - různé materiály -- nemá jednotný index lomu 
 - ohyb světla do ohniska
 
-##### Akomodace
+#### Akomodace
 - schopnost měnit optickou mohutnost
 - čočka mění svojí šířku pomocí svalů
 - čočka se přizpůsobuje, aby zaostřila -- změnila ohnisko
 - změna s věkem -- ochabování svalů
 
-##### Blízký a vzdálený bod
+#### Blízký a vzdálený bod
 - nejbližší a nejvzdálenější bod, na který je možné zaostřit
 - nejméně +- 1 cm; nejvzdálenější nekonečnost (pro zdravé oko)
 
-##### Konvenční zraková vzdálenost
+#### Konvenční zraková vzdálenost
 - vzdálenost, při které se oko nejméně namáhá
 - $\pm "30 cm"$
 
-#### Sklivec
+### Sklivec
 - výplň oka
 - rosolovitá hmota, připomínaje vodu
 - průhledná, světlo jí prochází
 
-#### Sítnice
+### Sítnice
 - světločivné buňky -- tyčinky (černobílé) a čípky (barvy)
 - zrakový nerv -- slepá skvrna -- místo bez buněk
 - žlutá skvrna -- místo s nejvyšší koncentrací buněk
 - zmenšený, převrácený, skutečný obraz
 
-#### Vady oka
-##### Krátkozrakost
+### Vady oka
+#### Krátkozrakost
 - obraz před sítnicí
 - korekce pomocí rozptylky
 
-##### Dalekozrakost
+#### Dalekozrakost
 - daleký bod v nekonečnu
 - obraz za sítnicí
 - korekce spojkou
 
-##### Astigmatizmus
+#### Astigmatizmus
 - nerovnoměrné zakřivení oka
 - různé optické zaostřování
 - zaměňování znaků
 - hlavně u dětí
 
-##### Šilhavost
+#### Šilhavost
 - špatná koordinace svalů
 
-##### Šedý zákal
+#### Šedý zákal
 - člověk vidí "mlhu", lze vyléčit
 
-##### Zelený zákal
+#### Zelený zákal
 - zvětšený oční tlak, neléčitelný
 
-##### Barevné vady / barvoslepost
+#### Barevné vady / barvoslepost
 - čípky nevnímají dostatečně, špatně vidíme barvy
 
-#### Zorný úhel
+### Zorný úhel
 - úhel, který může lidské oko rozeznat
 - 1 minuta
 
-### Paraxiální prostor
+## Paraxiální prostor
 - prostor blízko optické osy
 - nedochází zde k ovlivnění paprsků
 - prochází přímočaře, bez dalších vlivů
 - vyznačuji 3 význačné paprsky
 
-### Optické přístroje
+## Optické přístroje
 - přístroje, které využívají optickou soustavu pro své fungování
 
-#### Lupa
+### Lupa
 - zvětšování malých předmětů (malý text, detaily, \dots)
 - pro~$a'$ typicky použita konvenční zraková vzdálenost~$d$ ($\pm"25 cm"$)
 - pro zvětšený a přímý obraz nutno~$a<f$ %>
 - zvětšení~$Z=-a'/a=d/f$
 	- při správném značení je~$d$ záporné, tedy~$Z>0$
 - maximální reálné zvětšení asi~$1~500$krát
-#### Mikroskop
+### Mikroskop
 - zvětšování velice malých předmětů (buňky, malé organismy, \dots)
 - soustava více čoček
 - obraz zvětšený, převrácený, skutečný
@@ -209,13 +209,14 @@ v~závislosti na násobku~$f_0=1$][graph:dute]
 	- optický interval mikroskopu~$\Delta = \abs{\bod{F'}\bod{F_0}}$ -- vzdálenost mezi ohnisky objektivu a okuláru
 - úhlové zvětšení~$\gamma\_2=d/f\_0$
 - celkové zvětšení~$\gamma=Z\gamma_2=\Delta d/(ff\_0)$ 
+
 \fullfig[width=0.6\textwidth]{24-mikroskop-soustava}[Zobrazení předmětu
 mikroskopem, kde $f$ a $f\\_0$ jsou ohniskové vzdálenosti, delta je optický
 interval mikroskopu; $F$, $F'$, $F\\_0$, $F'\\_0$ značí ohniska, $y$ je objekt
 a~$y'$ je skutečný obraz. Optická soustava mikroskopu se skládá ze dvou čoček.
 Objektiv funguje jako běžná spojná čočka, okulár jako lupa.]
 
-#### Dalekohled
+### Dalekohled
 - zvětšování velice vzdálených předmětů
 - soustava čoček a v mnohdy i zrcadel
 - mnoho různých typů

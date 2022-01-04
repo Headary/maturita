@@ -1,6 +1,6 @@
 \setcounter{section}{15}
-## Elektrické pole
-### Elektrický náboj
+# Elektrické pole
+## Elektrický náboj
 - schopnost hmoty působit elektrickou sílou a vytvářet elektromagnetické pole
 - skalární veličina
 - značka~$Q$, $[Q]=\jd{C}$ (Coulomb), $C=As$ (Ampérsekunda)
@@ -17,7 +17,7 @@
 - možnost používat analogii s hmotností v klasické mechanice
 - přitahování těles s různým nábojem, odpuzování těles se stejným nábojem
 
-### Coulombův zákon
+## Coulombův zákon
 - zákon kvantitativně určující elektrickou sílu~$F\_{el}$ mezi elektricky nabitými tělesy
 - elektrická síla je přímo závislá na nábojích obou těles a nepřímo úměrná kvadrátu jejich vzdálenosti
 	\eq{
@@ -36,7 +36,7 @@
 
 \fullfig[width=0.4\textwidth]{16-coulombs-law}[Coulombův zákon u nábojů]
 
-### Intenzita el.~pole
+## Intenzita el.~pole
 - značka~$E$, $[E]=N.C^{-1}=V.m^{-1}$
 - vektorová veličina popisující elektrické pole
 - síla vztažena na jednotku náboje
@@ -48,7 +48,7 @@
 	- $U$ -- napětí zdroje
 	- $l$ -- délka vodiče
 
-#### Tvar elektrické pole
+### Tvar elektrické pole
 - znázorněn pomocí siločar -- spojují stejné $\vect E$
 	- směr z kladného do záporného náboje
 - speciální případy
@@ -63,7 +63,7 @@
 \caption{Různé příklady siločar elektrického pole}
 \end{figure}
 
-### Elektrický potenciál
+## Elektrický potenciál
 - potenciální energie jednotkového náboje v el.~poli
 	\eq{
 		\phi = \frac{E\\\_p}{Q} = \frac{W}{Q}
@@ -73,12 +73,12 @@
 - možno přirovnat ke gravitačnímu potenciálu
 - místa vodivě spojitá mají stejný potenciál
 
-#### Elektrické napětí
+### Elektrické napětí
 - značka~$U$, $[U]=V$
 - rozdíl potenciálů mezi dvěma body
 - $U=\Delta\phi$
 
-### Práce v el.~poli
+## Práce v el.~poli
 - pole působí sílou na náboj -> náboj se pohybuje -> pole koná práci
 - výpočet
 	\eq{
@@ -89,7 +89,7 @@
 		W = \Delta E = \Delta\phi Q = UQ
 	}
 
-### Elektrická kapacita
+## Elektrická kapacita
 - schopnost vodiče uložit elektrický náboj
 - značka~$C$, $[C]=F$ (farad)
 	\eq{
@@ -97,7 +97,7 @@
 	}
 - množství náboje na jednotku elektrické potenciálu
 
-#### Kondenzátor
+### Kondenzátor
 - elektrická součástka uchovávající náboj
 - tvořen dvěma vodivými nabitými deskami
 	- 1.~deska -- $\phi\_1$, 2.~deska -- $\phi\_2$
@@ -109,8 +109,8 @@
 		W = \phi Q, \phi=\frac{U}{2}, Q=CU \ztoho W = \frac{2}QU = \frac{2}CU^2
 	}
 
-##### Zapojení
-###### Sériové
+#### Zapojení
+##### Sériové
 - různá napětí na kondenzátorech, sčítají se
 - nabíjení a vybíjení stejným proudem
 - celková kapacity
@@ -118,7 +118,7 @@
 		\frac{C} = \frac{C\_1} + \frac{C\_2} + \dots + \frac{C\_n}
 	}
 
-###### Paralelní
+##### Paralelní
 - zvětšení plochy desek
 - sčítání kapacit
 	\eq{
@@ -130,22 +130,22 @@
 
 \fullfig{16-capacitors}
 
-##### Využití
+#### Využití
 - uložení energie na rychlé využití -- blesk fotoaparátu, defibrilátor
 - stabilizace napětí, vyhlazení napěťových špiček
 - odstranění stejnosměrné složky elektrického proudu
 - počítačová paměť, časovače
 
-### Látky v elektrickém poli
-#### Vodiče
+## Látky v elektrickém poli
+### Vodiče
 - elektrické pole~$E$ přesouvá elektrony ve vodiči
 - na koncích se akumulují elektrony $\rightarrow$ **indukuje** se náboj $\rightarrow$ **elektromagnetická indukce**
 - vodič součástí uzavřeného obvodu $\rightarrow$ indukuje se elektrický proud
 
-#### Izolanty
+### Izolanty
 - nemají volné částice s nábojem, nevedou proud
 
-##### Polarizace dielektrika
+#### Polarizace dielektrika
 - dielektrikum -- izolant se schopností polarizace
 - vložení dielektrika do elektrického pole
 - polarita opačná polaritě vnějšího el.~pole
