@@ -32,4 +32,87 @@
 - související veličina -- el.~vodivost
 	- značka~$G$, $[R]=\jd{\ohm^{-1}}$
 	- $G = 1/R \ztoho I = GU$
-- impedance -- el. odpor v případě střídavého proudu
+- impedance -- el.~odpor v případě střídavého proudu
+- výpočet
+	- z proudu a napětí
+		\eq{
+			R = \frac{U}{I}
+		}
+	- z fyzikálních vlastností vodiče
+		\eq{
+			R = \rho\frac{l}{S}
+		}
+		- $\rho$ -- měrný elektrický odpor
+		- $l$ -- délka vodiče
+		- $S$ -- průřez vodiče
+- rezistor -- el.~součástka pro vytvoření el.~odporu
+- rezistor s proměnnou hodnotou odporu -- potenciometr nebo reostat
+	- reostat -- měnitelný odpor, má 2 vývody -- jeden konec a jezdec
+	- potenciometr -- dělič napětí, 3 vývody -- 2 konce a jezdec
+
+### Zapojení rezistorů
+- sériově
+	- odpor je součet parciálních odporů
+	- \eq{
+			R = R\_1 + R\_2
+		}
+- paralelně
+	- převrácená hodnota odporu je součet převrácených hodnot parciálních odporů
+	- \eq{
+			\frac{R} = \frac{R\_1} + \frac{R\_2}
+		}
+	
+## Kirchhoffovy zákony
+- zákony popisující elektrický obvod
+- na principu zachování náboje a energie
+
+### První Kirchhoffův zákon
+- \uv{Algebraický součet proudů v uzlu je roven nule.}
+	\eq{
+		\sum\_{k=1}^n I\_k = 0
+	}
+- dohodnutý směr proudu
+	- proud proudí do uzlu -- kladný směr
+	- proud proudí z uzlu -- záporný směr
+
+\fullfig[width=0.2\textwidth]{17-kirchhoff-1}[Nákres proudů na uzlu]
+
+### Druhý Kirchhoffův zákon
+- \uv{Algebraický součet napětí ve smyčce je roven nule.} / \uv{Součet elektromotorických napětí zdrojů ve smyčce je roven součtu úbytků napětí na spotřebičích}
+	\eq[m]{
+		\sum\_{k=1}^n U\_k &= 0\\\\
+		\sum\_{k=1}^n U\_{\text{e}\_n} &= \sum\_{k=1}^m \\Delta U\_k
+	}
+- běžný případ -- obvod se zdroji a rezistory
+	\eq{
+		\sum\_{k=1}^n U\_{\text{e}\_n} = \sum\_{k=1}^m R\_kI\_k
+	}
+
+\fullfig[width=0.35\textwidth]{17-kirchhoff-2}[Aplikace 2. KZ na část obvodu (na smyčku)]
+
+\fullfig[width=0.35\textwidth]{17-kirchhoff-3}[Nákres KZ při řešení el.~obvodů]
+
+## Práce a výkon el.~proudu
+### Elektrická práce
+- značka $W$, $[W]=J$ (joule)
+- práce vykonána elektrickým proudem
+- náboj v čase
+- \eq{W = Qt = UIt = Pt}
+
+### Elektrický výkon
+- značka $P$, $[P]=W$ (watt)
+- práce v čase
+- okamžitá práce
+- \eq{
+		P = \der{W}{t} = \der{UIt}{t} = UI
+	}
+
+### Účinnost
+- značka~$\eta$, $[\eta]=\%$
+- podíl skutečně využité energie z dodané energie
+- zbytek ztráty -- teplo, zvuk, světlo\dots
+- \eq{
+		\eta = \frac{P}{P\_0} = \frac{W}{W\_0}
+	}
+	- $P, W$ -- vykonaná práce, výkon
+	- $P\_0, W\_0$ -- dodána práce, příkon

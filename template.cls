@@ -16,11 +16,11 @@
 \RequirePackage{mhchem}
 \RequirePackage{color}
 \RequirePackage{subfig}
-\RequirePackage{titlesec}
 
 \renewcommand{\bottomtitlespace}{0.05\textheight}
 
 \RequirePackage[
+  cacheDir=/tmp/latexmarkdown,
   hashEnumerators,
   definitionLists,
   footnotes,
@@ -30,7 +30,8 @@
   contentBlocks,
   pipeTables,
   tableCaptions,
-  hybrid
+  hybrid,
+  underscores=false
 ]{markdown}
 
 \graphicspath{{../graphics}}
@@ -38,6 +39,4 @@
 \author{Adam Krška}
 \title{Maturitní otázky z fyziky}
 
-\makeatletter
 \renewcommand*{\fps@table}{htbp}
-\makeatother
