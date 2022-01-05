@@ -97,8 +97,8 @@ původně rovnoběžné s optickou osou
 	- $a=2f$ -- stejně velký, převrácený, skutečný
 	- $a>2f$ -- zmenšený, převrácený, skutečný
 
-\plotfig{../graphics/24-zobrazeni-dute.tex}[Hodnoty $Z$ a $a'$
-v~závislosti na násobku~$f_0=1$][graph:dute]
+%\plotfig{../graphics/24-zobrazeni-dute.tex}[Hodnoty $Z$ a $a'$
+%v~závislosti na násobku~$f_0=1$][graph:dute]
 
 \fullfig[width=0.6\textwidth]{24-dute}[Nákres dutého zrcadla]
 

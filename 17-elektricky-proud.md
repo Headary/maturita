@@ -51,16 +51,25 @@
 	- potenciometr -- dělič napětí, 3 vývody -- 2 konce a jezdec
 
 ### Zapojení rezistorů
-- sériově
-	- odpor je součet parciálních odporů
-	- \eq{
-			R = R\_1 + R\_2
-		}
-- paralelně
-	- převrácená hodnota odporu je součet převrácených hodnot parciálních odporů
-	- \eq{
-			\frac{R} = \frac{R\_1} + \frac{R\_2}
-		}
+#### Sériově
+- proud na všech rezistorech stejný
+- celkové napětí rovno součtu parciálních napětí
+- celkový odpor je součet parciálních odporů
+- \eq[m]{
+		U = U_1 + U_2 + \dots &= IR_1 + IR_2 + \dots\\\\
+		\frac{U}{I} &= R_1 + R_2 + \dots\\\\
+		R &= R_1 + R_2 + \dots
+	}
+
+#### Paralelně
+- napětí na všech rezistorech stejné
+- celkový proud roven součtu parciálních proudů
+- převrácená hodnota odporu je součet převrácených hodnot parciálních odporů
+- \eq[m]{
+		I = I_1 + I_2 + \dots &= \frac{U}{R_1} + \frac{U}{R_2} + \dots\\\\
+		\frac{I}{U} &= \frac{R_1} + \frac{R_2} + \dots\\\\
+		\frac{R} &= \frac{R_1} + \frac{R_2} + \dots\\\\
+	}
 	
 ## Kirchhoffovy zákony
 - zákony popisující elektrický obvod
