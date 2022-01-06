@@ -15,7 +15,7 @@ complete: graphics $(OUT)/complete.pdf
 define XELATEX
 	xelatex -shell-escape -jobname '$(basename $(@F))' -no-pdf $(1)\
 	&& (\
-		grep -i "Package rerunfilecheck Warning: File .* has changed.\|There were undefined references.\|Rerun to get cross-references right." $(notdir $(basename $@)).log && (\
+		grep -i "Package rerunfilecheck Warning: File .* has changed.\|There were undefined references\.\|Rerun to get .* right" $(notdir $(basename $@)).log && (\
 			xelatex -shell-escape -jobname '$(basename $(@F))' $(1)\
 		) || (\
 			xdvipdfmx -E $(basename $(@F)).xdv -o $(basename $(@F)).pdf\

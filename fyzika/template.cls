@@ -12,12 +12,16 @@
 \newcommand\uv[1]{„#1“}
 \RequirePackage{fkssugar}
 \RequirePackage{booktabs}
-\RequirePackage{hyperref}
 \RequirePackage{mhchem}
 \RequirePackage{color}
 \RequirePackage{subfig}
+\RequirePackage{tabularx}
+\RequirePackage{hyperref}
 
 \renewcommand{\bottomtitlespace}{0.05\textheight}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\renewcommand\tabularxcolumn[1]{m{#1}}% for vertical centering text in X column
 
 \RequirePackage[
   cacheDir=/tmp/latexmarkdown,
