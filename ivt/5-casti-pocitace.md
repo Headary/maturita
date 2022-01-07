@@ -46,7 +46,6 @@
 		- spojení s LAN, případně WAN
 
 
-
 ## Záznamová média
 - viz otázka 2
 

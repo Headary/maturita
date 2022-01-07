@@ -1,4 +1,3 @@
-
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{template}
 
@@ -9,15 +8,25 @@
 \RequirePackage{fontspec}
 \RequirePackage{polyglossia}
 \setmainlanguage{czech}
+
 \RequirePackage{krskasugar}
 \newcommand\uv[1]{„#1“}
 \RequirePackage{fkssugar}
+
 \RequirePackage{booktabs}
-\RequirePackage{hyperref}
 \RequirePackage{mhchem}
 \RequirePackage{color}
+\RequirePackage{subfig}
+\RequirePackage{tabularx}
+\RequirePackage{hyperref}
+
+\renewcommand{\bottomtitlespace}{0.05\textheight}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\renewcommand\tabularxcolumn[1]{m{#1}}% for vertical centering text in X column
 
 \RequirePackage[
+  cacheDir=/tmp/latexmarkdown,
   hashEnumerators,
   definitionLists,
   footnotes,
@@ -27,14 +36,13 @@
   contentBlocks,
   pipeTables,
   tableCaptions,
-  hybrid
+  hybrid,
+  underscores=false
 ]{markdown}
 
-\graphicspath{{../graphics}}
+\graphicspath{{../graphics/out/}}
 
 \author{Adam Krška}
-\title{Maturitní otázky z fyziky}
+\title{Maturitní otázky z informatiky}
 
-\makeatletter
 \renewcommand*{\fps@table}{htbp}
-\makeatother
