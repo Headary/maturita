@@ -70,7 +70,7 @@ CONVERT = convert -density 1200 -geometry 1024 $< $@
 	$(CONVERT)
 
 # -- direct output --
-COPY = ln -s $< $@
+COPY = ln $< $@
 
 %.eps: %.src.eps
 	$(COPY)
@@ -121,12 +121,12 @@ graphics-deps = \
 
 # == TEX to PDF compiler ==
 define XELATEX
-	xelatex -output-directory $(@D) -jobname '$(basename $(@F))' -no-pdf $(1)\
+	xelatex -shell-escape -jobname '$(basename $(@F))' -no-pdf $(1)\
 	&& (\
 		grep -i "Package rerunfilecheck Warning: File .* has changed.\|There were undefined references.\|Rerun to get .* right" $(basename $@).log && (\
-			xelatex -output-directory $(@D) -jobname '$(basename $(@F))' $(1)\
+			xelatex -shell-escape -jobname '$(basename $(@F))' $(1)\
 		) || (\
-			xdvipdfmx -E $(basename $@).xdv -o $(basename $@).pdf\
+			xdvipdfmx -E $(basename $(@F)).xdv -o $(basename $(@F)).pdf\
 		)\
 	) || false
 endef

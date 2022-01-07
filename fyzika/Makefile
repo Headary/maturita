@@ -13,9 +13,6 @@ graphics: $(GRAPH_DEPS)
 pdf: $(PDF)
 complete: $(OUT)/complete.pdf
 
-test:
-	@echo $(GRAPH_DEPS)
-
 $(OUT)/%.pdf: %.md graphics template.cls
 	cd $(@D); $(call XELATEX,'\documentclass{../template}\begin{document}\tableofcontents\markdownInput{../$<}\end{document}')
 
