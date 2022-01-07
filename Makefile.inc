@@ -4,7 +4,8 @@
 # == Graphics part ==
 
 # -- Folders --
-DEPS_FOLDERS = $(OUT)
+GRAPHICS_OUT = $(GRAPHICS)/$(OUT)
+DEPS_FOLDERS = $(OUT) $(GRAPHICS_OUT)
 
 $(DEPS_FOLDERS):
 	mkdir -p $@
@@ -13,78 +14,88 @@ $(DEPS_FOLDERS):
 METAPOST_EPS = mpost -jobname=$(subst .src.mp,,$(<F)) -s 'outputtemplate="%j.%o"' $(<F)
 METAPOST_SVG = mpost -jobname=$(subst .src.mp,,$(<F)) -s 'outputtemplate="%j.%o"' -s 'outputformat="svg"' $(<F)
 
-%.eps: %.src.mp
+$(GRAPHICS_OUT)/%.eps: $(GRAPHICS)/%.src.mp
 	cd $(@D); $(METAPOST_EPS)
-%.svg: %.src.mp
+$(GRAPHICS_OUT)/%.svg: $(GRAPHICS)/%.src.mp
 	cd $(@D); $(METAPOST_SVG)
 
 # -- Gnuplot figures --
 GNUPLOT = gnuplot -e "set format '$$\"%g\"$$'; set terminal epslatex color\
-	size 16cm,9cm; set output '$(patsubst %.eps,%.tex,$(@F))'" $(<F)
+	size 16cm,9cm; set output '$(@F)'" ../$(<F)
+
+GNUPLOT = gnuplot -e \
+"set format '$$\"%g\"$$'; \
+set terminal epslatex standalone color size 16cm,9cm header\
+\"\\\\usepackage[utf8]{inputenc}\n\\\\usepackage[T1]{fontenc}\n\\\\usepackage[czech]{babel}\n\\\\usepackage{fkssugar}\"; \
+set output '$(@F)'" ../$(<F)
 
 # gnuplot with datafiles
-%.eps %.tex: %.src.plt %.src.dat
-	cd $(<D); $(GNUPLOT)
+$(GRAPHICS_OUT)/%.tex: $(GRAPHICS)/%.src.plt $(GRAPHICS)/%.src.dat
+	cd $(@D); $(GNUPLOT)
 
 # gnuplot without datafiles or with differently named datafiles
-%.eps %.tex: %.src.plt
-	cd $(<D); $(GNUPLOT)
+$(GRAPHICS_OUT)/%.tex: $(GRAPHICS)/%.src.plt
+	cd $(@D); $(GNUPLOT)
+
+# final compilation
+$(GRAPHICS_OUT)/%.pdf: $(GRAPHICS_OUT)/%.tex
+	cd $(GRAPHICS_OUT); pdflatex $(<F)
 
 # -- IPE figures --
-%.eps: %.src.ipe
+$(GRAPHICS_OUT)/%.eps: $(GRAPHICS)/%.src.ipe
 	iperender -eps $< $@
-%.svg: %.src.ipe
+$(GRAPHICS_OUT)/%.svg: $(GRAPHICS)/%.src.ipe
 	iperender -svg $< $@
-%.pdf: %.src.ipe
+$(GRAPHICS_OUT)/%.pdf: $(GRAPHICS)/%.src.ipe
 	iperender -pdf $< $@
 
 # -- SVG figures --
 INKSCAPE_PNG=inkscape -w 1024 $< -o $@ # Inkscape 1.0 version
 
-%.eps: %.src.svg
+$(GRAPHICS_OUT)/%.eps: $(GRAPHICS)/%.src.svg
 	inkscape $< -o $@ # Inkscape 1.0 version
-%.pdf: %.src.svg
+$(GRAPHICS_OUT)/%.pdf: $(GRAPHICS)/%.src.svg
 	inkscape $< -o $@ # Inkscape 1.0 version
-%.png: %.src.svg
+$(GRAPHICS_OUT)/%.png: $(GRAPHICS)/%.src.svg
 	$(INKSCAPE_PNG)
-%.png: %.svg # generic rule to export png from exported svg, for metapost and ipe
+$(GRAPHICS_OUT)/%.png: $(GRAPHICS_OUT)/%.svg # generic rule to export png from exported svg, for metapost and ipe
 	$(INKSCAPE_PNG)
 
 # -- EPS figures --
 INKSCAPE_SVG = inkscape --export-plain-svg=$@ $<
 CONVERT = convert -density 1200 -geometry 1024 $< $@
 
-%.pdf: %.src.eps
+$(GRAPHICS_OUT)/%.pdf: $(GRAPHICS)/%.src.eps
 	epstopdf $< --outfile=$@
-%.pdf: %.eps
+$(GRAPHICS_OUT)/%.pdf: $(GRAPHICS_OUT)/%.eps
 	epstopdf $< --outfile=$@
-%.svg: %.src.eps
+$(GRAPHICS_OUT)/%.svg: $(GRAPHICS)/%.src.eps
 	$(INKSCAPE_SVG)
-%.png: %.src.eps
+$(GRAPHICS_OUT)/%.png: $(GRAPHICS)/%.src.eps
 	$(CONVERT)
 
 # -- PDF figures --
-%.svg: %.src.pdf
+$(GRAPHICS_OUT)/%.svg: $(GRAPHICS)/%.src.pdf
 	$(INKSCAPE_SVG)
-%.png: %.src.pdf
+$(GRAPHICS_OUT)/%.png: $(GRAPHICS)/%.src.pdf
 	$(CONVERT)
 
 # -- direct output --
 COPY = ln $< $@
 
-%.eps: %.src.eps
+$(GRAPHICS_OUT)/%.eps: $(GRAPHICS)/%.src.eps
 	$(COPY)
-%.svg: %.src.svg
+$(GRAPHICS_OUT)/%.svg: $(GRAPHICS)/%.src.svg
 	$(COPY)
-%.pdf: %.src.pdf
+$(GRAPHICS_OUT)/%.pdf: $(GRAPHICS)/%.src.pdf
 	$(COPY)
-%.png: %.src.png
+$(GRAPHICS_OUT)/%.png: $(GRAPHICS)/%.src.png
 	$(COPY)
-%.jpg: %.src.jpg
+$(GRAPHICS_OUT)/%.jpg: $(GRAPHICS)/%.src.jpg
 	$(COPY)
-%.JPG: %.src.JPG
+$(GRAPHICS_OUT)/%.JPG: $(GRAPHICS)/%.src.JPG
 	$(COPY)
-%.jpeg: %.src.jpeg
+$(GRAPHICS_OUT)/%.jpeg: $(GRAPHICS)/%.src.jpeg
 	$(COPY)
 
 
@@ -108,16 +119,16 @@ endef
 # - rules: preferably export everything to pdf (for tex), svg and png (both for web)
 # 		exceptions: export gnuplot to tex+eps; keep raster img format
 graphics-deps = \
-	$(call find-graphics-deps,$(1),$(2),mp, pdf)\
-	$(call find-graphics-deps,$(1),$(2),plt,tex eps)\
-	$(call find-graphics-deps,$(1),$(2),ipe,pdf)\
-	$(call find-graphics-deps,$(1),$(2),svg,pdf)\
-	$(call find-graphics-deps,$(1),$(2),eps,pdf)\
-	$(call find-graphics-deps,$(1),$(2),pdf,pdf)\
-	$(call find-graphics-deps,$(1),$(2),png,png)\
-	$(call find-graphics-deps,$(1),$(2),jpg,jpg)\
-	$(call find-graphics-deps,$(1),$(2),JPG,JPG)\
-	$(call find-graphics-deps,$(1),$(2),jpeg,jpeg)
+	$(call find-graphics-deps,$(1),$(2),mp, pdf,$(OUT)/)\
+	$(call find-graphics-deps,$(1),$(2),plt,pdf,$(OUT)/)\
+	$(call find-graphics-deps,$(1),$(2),ipe,pdf,$(OUT)/)\
+	$(call find-graphics-deps,$(1),$(2),svg,pdf,$(OUT)/)\
+	$(call find-graphics-deps,$(1),$(2),eps,pdf,$(OUT)/)\
+	$(call find-graphics-deps,$(1),$(2),pdf,pdf,$(OUT)/)\
+	$(call find-graphics-deps,$(1),$(2),png,png,$(OUT)/)\
+	$(call find-graphics-deps,$(1),$(2),jpg,jpg,$(OUT)/)\
+	$(call find-graphics-deps,$(1),$(2),JPG,JPG,$(OUT)/)\
+	$(call find-graphics-deps,$(1),$(2),jpeg,jpeg,$(OUT)/)
 
 # == TEX to PDF compiler ==
 define XELATEX

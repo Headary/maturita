@@ -1,5 +1,4 @@
 
-include ../Makefile.inc
 
 OUT=out
 GRAPHICS=graphics
@@ -8,10 +7,16 @@ PDF=$(patsubst %.md,$(OUT)/%.pdf,$(wildcard *.md))
 GRAPH_DEPS=$(call graphics-deps,$(GRAPHICS))
 
 .PHONY: all graphics pdf complete test
+.SECONDARY: $(GRAPH_DEPS)
+
 all: graphics pdf complete
-graphics: $(GRAPH_DEPS)
+
+include ../Makefile.inc
+
+graphics: $(GRAPHICS_OUT) $(GRAPH_DEPS)
 pdf: $(PDF)
 complete: $(OUT)/complete.pdf
+
 
 $(OUT)/%.pdf: %.md graphics template.cls
 	cd $(@D); $(call XELATEX,'\documentclass{../template}\begin{document}\tableofcontents\markdownInput{../$<}\end{document}')

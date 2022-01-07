@@ -64,6 +64,9 @@
 	- hodnota určena vzhledem k vodíkové elektrodě (u ní $\phi = 0$)
 
 #### Druhy
+- existují různé druhy článků podle použitý materiálů
+- jiné vlastnosti (náboj, výdrž, životnost\dots)
+
 \begin{table}
 \centering
 \begin{tabularx}{0.9\textwidth}{CcCC}
@@ -79,8 +82,7 @@ lithiový článek&$+\ce{MnO2}, -\ce{Li}$&lithiová sůl v organickém rozpoušt
 \caption{Různé druhy galvanických článků}
 \end{table}
 
-% TODO voltampérová charakteristika
-%\plotfig{../graphics/19-VA-roztok}
+\fullfig[width=16cm]{19-VA-roztok}[Voltampérová charakteristika roztoku]
 
 ### Využití
 - elektrolýza
@@ -99,7 +101,7 @@ lithiový článek&$+\ce{MnO2}, -\ce{Li}$&lithiová sůl v organickém rozpoušt
 - opakem *rekombinace* -- slučování elektronů a iontů
 - plynem prochází proud -- elektrický výboj
 
-% TODO VA charakteristika
+\fullfig[width=16cm]{19-VA-plyn}[Voltampérová charakteristika plynu]
 
 ### Elektrický výboj
 - při ionizovaném plynu mezi elektrodami

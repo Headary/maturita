@@ -8,9 +8,11 @@
 \RequirePackage{fontspec}
 \RequirePackage{polyglossia}
 \setmainlanguage{czech}
+
 \RequirePackage{krskasugar}
 \newcommand\uv[1]{„#1“}
 \RequirePackage{fkssugar}
+
 \RequirePackage{booktabs}
 \RequirePackage{mhchem}
 \RequirePackage{color}
@@ -38,7 +40,7 @@
   underscores=false
 ]{markdown}
 
-\graphicspath{{../graphics}}
+\graphicspath{{../graphics/out/}}
 
 \author{Adam Krška}
 \title{Maturitní otázky z fyziky}
