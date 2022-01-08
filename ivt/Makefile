@@ -12,7 +12,7 @@ all: graphics pdf complete
 
 include ../Makefile.inc
 
-graphics: $(GRAPHICS_OUT) $(GRAPH_DEPS)
+graphics: $(GRAPH_DEPS) | $(GRAPHICS_OUT)
 pdf: $(PDF)
 complete: $(OUT)/complete.pdf
 
