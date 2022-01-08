@@ -19,6 +19,7 @@
 \RequirePackage{subfig}
 \RequirePackage{tabularx}
 \RequirePackage{hyperref}
+\RequirePackage{bookmark}
 
 \renewcommand{\bottomtitlespace}{0.05\textheight}
 
