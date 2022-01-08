@@ -20,9 +20,6 @@ $(GRAPHICS_OUT)/%.svg: $(GRAPHICS)/%.src.mp
 	cd $(@D); $(METAPOST_SVG)
 
 # -- Gnuplot figures --
-GNUPLOT = gnuplot -e "set format '$$\"%g\"$$'; set terminal epslatex color\
-	size 16cm,9cm; set output '$(@F)'" ../$(<F)
-
 GNUPLOT = gnuplot -e \
 "set format '$$\"%g\"$$'; \
 set terminal epslatex standalone color size 16cm,9cm header\
@@ -39,7 +36,7 @@ $(GRAPHICS_OUT)/%.tex: $(GRAPHICS)/%.src.plt
 
 # final compilation
 $(GRAPHICS_OUT)/%.pdf: $(GRAPHICS_OUT)/%.tex
-	cd $(GRAPHICS_OUT); pdflatex $(<F)
+	cd $(GRAPHICS_OUT); pdflatex $(<F) || (rm -f $(@F) && false)
 
 # -- IPE figures --
 $(GRAPHICS_OUT)/%.eps: $(GRAPHICS)/%.src.ipe

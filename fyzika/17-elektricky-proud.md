@@ -42,13 +42,19 @@
 		\eq{
 			R = \rho\frac{l}{S}
 		}
-		- $\rho$ -- měrný elektrický odpor
+		- $\rho$ -- měrný elektrický odpor, závislý na materiálu a teplotě
+		\eq{
+			\rho=\rho_0(1+\alpha\Delta T)
+		}
+			- $\alpha$ -- teplotní součinitel odporu
 		- $l$ -- délka vodiče
 		- $S$ -- průřez vodiče
 - rezistor -- el.~součástka pro vytvoření el.~odporu
 - rezistor s proměnnou hodnotou odporu -- potenciometr nebo reostat
 	- reostat -- měnitelný odpor, má 2 vývody -- jeden konec a jezdec
 	- potenciometr -- dělič napětí, 3 vývody -- 2 konce a jezdec
+
+\fullfig[width=16cm]{17-VA-kov}[Voltapérová charakteristika kovů]
 
 ### Zapojení rezistorů
 #### Sériově
