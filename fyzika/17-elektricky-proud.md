@@ -76,7 +76,24 @@
 		\frac{I}{U} &= \frac{R_1} + \frac{R_2} + \dots\\\\
 		\frac{R} &= \frac{R_1} + \frac{R_2} + \dots\\\\
 	}
-	
+
+### Supravodivost
+- stav téměř nulového odporu
+- při velmi nízké teplotě
+- elektrony spojeny do párů, nesrážejí se s krystalickou mřížkou kovu
+- využití -- silné magnety, přenos velmi vysoké energie, magnetická levitace
+
+### Termoelektrický jev
+- vznik napětí při spojení dvou různých kovů a změně teploty spojů
+	\eq{
+		U_e=\alpha\Delta T
+	}
+	- $\alpha$ -- termoelektrický koeficient, závislý na materiálech
+- zdroj elektrického napětí -- *termočlánek*
+- využití -- měření teplot, zdroj napětí
+
+\fullfig[width=0.5\textwidth]{17-termoclanek}[Zapojení termočlánku]
+
 ## Kirchhoffovy zákony
 - zákony popisující elektrický obvod
 - na principu zachování náboje a energie
