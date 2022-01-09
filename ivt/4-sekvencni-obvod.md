@@ -1,6 +1,9 @@
 \setcounter{section}{3}
 # Sekvenční logický systém a jeho návrh, synchronní klopní obvody SR, JK, D a T, konečný automat
 
+% https://www.youtube.com/watch?v=DwKKly9M1cE
+% https://www.youtube.com/watch?v=LRaCh6AvTlM
+
 ## Sekvenční logický systém
 - též taky jen sekvenční obvod
 - na rozdíl od kombinačních obvodů není závislý pouze na vstupních signálech ale také na pořadí zadání
@@ -73,6 +76,12 @@
 
 \fullfig[width=0.3\textwidth]{4-D-latch}[D latch s enable signálem]
 
+### Rising edge D flip-flop
+- uložení hodin pouze na začátku clock cyklu
+- možnosti sestavení
+	- master-slave -- 2 D latches za sebou, u jednoho invertovaný clock signál
+	- rising-edge detektor na clock signálu (viz~\ref{fig:rising-circ})
+
 ## JK latch
 - modifikovaná gated SR latch
 - zamezení nedefinovaného stavu
@@ -110,7 +119,26 @@
 	- falling edge -- k rychlé aktivaci dojde při změně signálu z 1 na 0
 	- většinou využita rising edge
 
-\fullfig[width=0.5\textwidth]{4-rising-circ}[Obvod pro dosažení rychlého zapnutí, možno přidat diodu pro odstranění *negativních pulzů*]
+\fullfig[width=0.5\textwidth]{4-rising-circ}[Obvod pro dosažení rychlého zapnutí, možno přidat diodu pro odstranění *negativních pulzů*][fig:rising-circ]
 
 %TODO
 ## Konečný automat
+- popis jednoduché počítače
+- model systémů různých stavů
+- přechod mezi stavy na základě vstupů
+- vždy pouze v jednom stavu
+- skladba
+	- konečný počet stavů
+	- konečný počet externích vstupů
+	- konečný počet externích výstupů
+	- explicitní specifikace přechodu mezi stavy
+	- explicitní specifikace hodnoty výstupu
+- části
+	- logika dalšího stavu
+	- registr stavu
+		- uložení dat na začátku clock cyklu
+		- data dostupná celý clock cyklus
+	- logika výstupu
+- příklad: výtahy, semafory, kombinační zámky\dots
+
+\fullfig{4-automat}[Symbolický nákres konečného automatu]
