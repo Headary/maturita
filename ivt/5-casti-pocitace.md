@@ -43,7 +43,7 @@
 		- zvukový interface a porty
 		- dnes většinou integrovaná do motherboardy
 	- síťová karta atd.
-		- spojení s LAN, případně WAN
+		- spojení s LAN, případně WLAN
 
 
 ## Záznamová média

@@ -14,6 +14,7 @@
 \RequirePackage{fkssugar}
 
 \RequirePackage{booktabs}
+\RequirePackage{multirow}
 \RequirePackage{mhchem}
 \RequirePackage{color}
 \RequirePackage{subfig}
