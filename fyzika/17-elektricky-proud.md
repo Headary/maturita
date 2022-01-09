@@ -42,13 +42,19 @@
 		\eq{
 			R = \rho\frac{l}{S}
 		}
-		- $\rho$ -- měrný elektrický odpor
+		- $\rho$ -- měrný elektrický odpor, závislý na materiálu a teplotě
+		\eq{
+			\rho=\rho_0(1+\alpha\Delta T)
+		}
+			- $\alpha$ -- teplotní součinitel odporu
 		- $l$ -- délka vodiče
 		- $S$ -- průřez vodiče
 - rezistor -- el.~součástka pro vytvoření el.~odporu
 - rezistor s proměnnou hodnotou odporu -- potenciometr nebo reostat
 	- reostat -- měnitelný odpor, má 2 vývody -- jeden konec a jezdec
 	- potenciometr -- dělič napětí, 3 vývody -- 2 konce a jezdec
+
+\fullfig[width=16cm]{17-VA-kov}[Voltapérová charakteristika kovů]
 
 ### Zapojení rezistorů
 #### Sériově
@@ -70,7 +76,24 @@
 		\frac{I}{U} &= \frac{R_1} + \frac{R_2} + \dots\\\\
 		\frac{R} &= \frac{R_1} + \frac{R_2} + \dots\\\\
 	}
-	
+
+### Supravodivost
+- stav téměř nulového odporu
+- při velmi nízké teplotě
+- elektrony spojeny do párů, nesrážejí se s krystalickou mřížkou kovu
+- využití -- silné magnety, přenos velmi vysoké energie, magnetická levitace
+
+### Termoelektrický jev
+- vznik napětí při spojení dvou různých kovů a změně teploty spojů
+	\eq{
+		U_e=\alpha\Delta T
+	}
+	- $\alpha$ -- termoelektrický koeficient, závislý na materiálech
+- zdroj elektrického napětí -- *termočlánek*
+- využití -- měření teplot, zdroj napětí
+
+\fullfig[width=0.5\textwidth]{17-termoclanek}[Zapojení termočlánku]
+
 ## Kirchhoffovy zákony
 - zákony popisující elektrický obvod
 - na principu zachování náboje a energie
