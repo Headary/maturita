@@ -1,14 +1,14 @@
 % Booleova algebra - zákony a pravidla, základní logické operace a členy, zápis
 % logické funkce, minimalizace funkce. Kombinační logický systém a jeho návrh.
 \setcounter{section}{2}
-## Booleova algebra
+# Booleova algebra
 - algebraická struktura se dvěma binárními a jednou unární operací
 - zobecnění vlastností množinových a logických operací
 - dvouprvková Booleova algebra
 	- reprezentace pravdivostních hodnot a logických hodnot
 - hodnoty proměnných -- pravda/lež, true/false, 1/0
 
-### Zákony a pravidla
+## Zákony a pravidla
 - asociativita
 	- pro $\land$: $(x\land y)\land z = x\land (y\land z)$
 	- pro $\lor$: $(x\lor y)\lor z = x\lor (y\lor z)$
@@ -31,11 +31,11 @@
 	- $x\land x = x$
 	- $x\lor x = x$
 
-### Základní logické operace
+## Základní logické operace
 - výsledkem opět výrok
 - hodnota výsledku závislá na hodnotách vstupu a druhu operace
 
-#### Konjunkce / AND
+### Konjunkce / AND
 - značka~$\land$
 - operace pravdivá, pokud oba výroky pravdivé
 
@@ -47,7 +47,7 @@
 |1|1|1|
 : Implikace
 
-#### Disjunkce / OR
+### Disjunkce / OR
 - značka~$\lor$
 - operace pravdivá, pokud alespoň jeden výrok pravdivý
 
@@ -59,7 +59,7 @@
 |1|1|1|
 : Disjunkce
 
-#### Implikace
+### Implikace
 - značka~$\Rightarrow$
 - $x$ implikuje $y$, pokud z $x$ nutně vyplývá $y$ nebo je $y$ již v $x$ zahrnuto
 
@@ -71,7 +71,7 @@
 |1|1|1|
 : Implikace
 
-#### Ekvivalence
+### Ekvivalence
 - značka~$\Leftrightarrow$
 - $x$ a $y$ platí nutně zároveň
 
@@ -83,7 +83,7 @@
 |1|1|1|
 : Ekvivalence
 
-#### Negace / NOT
+### Negace / NOT
 - značka~$\neg$
 - hodnota operace opačná hodnotě výroku
 
@@ -93,28 +93,28 @@
 |1|0|
 : Negace
 
-### Základní logické členy
+## Základní logické členy
 - \uv{hradla}
 - prvek logických/elektrických obvodů
 - vyčíslení logické funkce
 - pomocí AND, OR a NOT možno sestavit jakýkoliv obvod
 
-#### NOT
+### NOT
 - realizace negace
 - stejné hodnoty jako negace
 \fullfig[width=0.25\textwidth]{3-not}[Člen NOT]
 
-#### AND
+### AND
 - realizace konjunkce
 - stejné hodnoty jako konjunkce
 \fullfig[width=0.25\textwidth]{3-and}[Člen AND]
 
-#### OR
+### OR
 - realizace disjunkce
 - stejné hodnoty jako disjunkce
 \fullfig[width=0.25\textwidth]{3-or}[Člen OR]
 
-#### NAND
+### NAND
 - převrácené (znegované) AND
 
 |$x$|$y$|NAND|
@@ -127,7 +127,7 @@
 
 \fullfig[width=0.25\textwidth]{3-nand}[Člen NAND]
 
-#### NOR
+### NOR
 - převrácené (znegované) OR
 
 |$x$|$y$|NOR|
@@ -140,7 +140,7 @@
 
 \fullfig[width=0.25\textwidth]{3-nor}[Člen NOR]
 
-#### XOR
+### XOR
 - \uv{exklusive OR}
 - platné, pokud pouze jeden ze členů platný
 
@@ -154,7 +154,7 @@
 
 \fullfig[width=0.25\textwidth]{3-xor}[Člen XOR]
 
-#### XNOR
+### XNOR
 - negace XOR
 
 |$x$|$y$|XNOR|
@@ -168,12 +168,12 @@
 \fullfig[width=0.25\textwidth]{3-xnor}[Člen XNOR]
 
 % TODO: Logické funkce
-### Logická funkce
+## Logická funkce
 - funkce přijímající pravdivostní hodnoty jako vstup
 - výstup také pravdivostní hodnota
 - deterministická
 
-#### Minimalizace logické funkce
+### Minimalizace logické funkce
 - prováděna pomocí pravidel boolenové algebry
 - užitečné pro zmenšení obvodu
 \eq[m]{
@@ -193,11 +193,9 @@ A \land(\lnot A \lor B) &= A \land B \\\\
 (A \lor B) \land (\lnot A \lor C) \land (B \lor C) &= (A \lor B) \land (\lnot A \lor C) \\\\
 }
 
-### Kombinační obvod
+## Kombinační obvod
 - realizace logické funkce
 - nemá paměť
 - v počítači provádí boolenovou algebru na vstupních signálech a uložených datech
 	- např. ALU (arithmetic logic unit)
 - stavba na základě matematické funkce z logických členů
-
-
