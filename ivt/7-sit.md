@@ -28,6 +28,7 @@
 - LAN (Local Area Network)
 - CAN (Campus Area Network)
 - MAN (Metropolitan Area Network)
+- RAN (Radio Area Network)
 - WAN (Wide Area Network)
 
 #### LAN
@@ -99,11 +100,83 @@
 - specifikace paketizace dat, adresování, přenos, routování, a přijímání
 - zjednodušený RM OSI model
 - funkce rozdělena do 4 vrstev
-	- vrstva síťového rozhraní
-	- síťová vrstva
-	- transportní vrstva
-	- aplikační vrstva
-
-% TODO
+	1. vrstva síťového rozhraní
+	1. síťová vrstva
+	1. transportní vrstva
+	1. aplikační vrstva
 
 \fullfig{7-tcp}[Zabalení TCP dat]
+
+#### Aplikační vrstva (application layer)
+- vrstva aplikací a procesů
+- vytvoření uživatelských dat a předání dat dalším aplikacím na jiném, či stejném, hostovy
+- protokoly pro přenos dat -- FTP, DNS, DHCP, Telnet, SMB, NTP, NFS\dots
+
+#### Transportní vrstva (transport layer)
+- host-to-host komunikace na lokální či vzdálené síti spojené routerem
+- kanál pro komunikační potřeby aplikací
+- spolehlivý (TCP) a nespolehlivý přenos (UDP) datagramů
+
+#### Síťová vrstva (internet layer)
+- předávání datagramů dalšímu hostovi
+- navázání internetového spojení
+- definice adres a routovacích struktur
+- hlavní protokol -- IP; funkce IP routeru
+
+#### Vrstva síťového rozhraní (link layer)
+- síťové metody v lokální síti, komunikace bez přerušení routerem
+- protokoly popisující topologii sítě
+- přístup k fyzickým hostům
+- Ethernet, Token ring, FDDI
+
+\fullfig{7-tcp-topologie}[Topologie sítě při TCP přenosu]
+
+\begin{table}[htbp]
+\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabularx}{0.6\textwidth}{C | C}
+\toprule
+TCP/IP & RM OSI\\\\
+\midrule
+\multirow{3}{\*}{Aplikační vrstva} & Aplikační vrstva\\\\
+& Prezentační vrstva\\\\
+& Relační vrstva\\\\
+\midrule
+Transportní vrstva & Transportní vrstva\\\\
+\midrule
+Síťová vrstva & Síťová vrstva\\\\
+\midrule
+\multirow{2}{\*}{Vrstva síťového rozhraní} & Linková vrstva\\\\
+& Fyzická vrstva\\\\
+\bottomrule
+\end{tabularx}
+\caption{Porovnání TCP a OSI modelu}
+\end{table}
+
+## Síťové prvky
+### Router
+- spojení jedné či více sítí
+- využití IP protokolu
+- dneska často spojení všech funkcí v jednom zařízení -- modem, switch, AP, router a NAT v jednom
+- vytváření podsítí
+- routing tables pro směřování příchozích dat ke správným zařízením
+
+### Modem
+- převod analogového a digitálního signálu
+- přenos digitálních dat po analogových trasách (telefon, koaxial, rádiový přenos)
+
+### Switch
+- síťový přepínač
+- propojení několika části sítě či zařízení k sobě
+- přeposílání signálu do cílového směru
+
+#### Hub
+- předchůdce switch, posílá data do všech připojených směrů
+
+### Wireless Access Point (WAP, AP)
+- 
+
+### NAT -- Network address translation
+\fullfig{7-nat}[Funkce NATu]
+## Protokoly
+## Paket
