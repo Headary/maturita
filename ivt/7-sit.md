@@ -98,6 +98,7 @@
 - *transmission control protocol* / *internet protocol*
 - specifikace end-to-end komunikace
 - specifikace paketizace dat, adresování, přenos, routování, a přijímání
+	- paket -- jednotka informace posílána sítí, obsahuje data a metadata
 - zjednodušený RM OSI model
 - funkce rozdělena do 4 vrstev
 	1. vrstva síťového rozhraní
@@ -106,6 +107,7 @@
 	1. aplikační vrstva
 
 \fullfig{7-tcp}[Zabalení TCP dat]
+\fullfig{7-paket}[Paket dat]
 
 #### Aplikační vrstva (application layer)
 - vrstva aplikací a procesů
@@ -174,9 +176,63 @@ Síťová vrstva & Síťová vrstva\\\\
 - předchůdce switch, posílá data do všech připojených směrů
 
 ### Wireless Access Point (WAP, AP)
-- 
+- zařízení vytvářející a umožňující připojení k bezdrátové síti
+- funguje jako bridge
+- zabezpečení -- WEB, WPA, WPA2 (WPA-Personal, WPA-Enterprise)
 
 ### NAT -- Network address translation
+- překlad lokálních a veřejných IP adres
+- využíváno ISP pro zmenšení potřeby počtu nových IPv4 adres
+
 \fullfig{7-nat}[Funkce NATu]
+
 ## Protokoly
-## Paket
+- TCP a UDP
+	- navazují spojení mezi hostem a cílem
+	- TCP
+		- naváže komunikace, přenese data, uzavře komunikace; spolehlivý přenos
+	- UDP
+		- pouze přenese data, může vysílat na celou síť, nespolehlivý přenos
+- IP (IPv4, IPv6)
+	- adresování klientů a routování packetů
+	- funkce společně s TCP pro vytvoření komunikačního modelu
+	- IPv4
+		- jednodušší verze
+		- 32 bitové adresy
+		- komplexní, možné errory
+		- dnes již došli na veřejném internetu IP adresy
+	- IPv6
+		- rozšíření IP protokolu
+		- 128 bitů na adresy
+		- efektivnější a bezpečnější než IPv4
+		- dnes se již plně nepřešlo, hlavně na lokálních sítích
+- DHCP
+	- protokol zajišťující příděl IP adres
+	- automatické přidělování, obnovení a znovupoužití IP adres
+	- hosti nemají nutně statickou IP
+	- při připojení zařízení vyšle do sítě požadavek a DCHP server mu na jeho MAC adresu odpoví
+- DNS
+	- *domain name system*
+	- systém pro přidělování jmen a domén IP adresám
+	- client si vyžádá po DNS serveru IP adresu dané destinace a dostane ji
+	- př.: \texttt{google.com $\rightarrow$ 142.250.186.78}
+- protokoly pro přenos souborů
+	- připojení na jiný počítač/server a získání souboru
+	- FTP -- File Transfer Protocol
+		- univerzální, možnost obnovení spojení, chybí šifrování
+	- SMB -- Server Message Block
+		- sdílení souborů na lokální síti pro Windows
+		- Linux provider Samba
+	- NFS -- Network File System
+		- protokol pro sílení souborů na lokální síti, podporovaný Unix systémy
+- HTTP(S)
+	- Hyper Text Transfer Protocol
+	- přenos HTML dokumentů a obecně webových stránek
+	- HTTPS -- šifrováno
+- mailové protokoly -- POP3, SMTP, IMAP
+
+## Tok dat v síti
+- síť tvoří graf
+- vrcholy -- síťové křižovatky (routery, switchs, NATy\dots) a jednotlivá zařízení; hrany -- propojení mezi síťovými zařízeními
+- každá hrana ohodnocena podle rychlosti spojení
+- algoritmy pro nalezení nejrychlejší a nejkratší cesty
