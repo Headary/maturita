@@ -9,16 +9,16 @@
 \RequirePackage{polyglossia}
 \setmainlanguage{czech}
 
+\RequirePackage{krskasugar}
+\newcommand\uv[1]{„#1“}
+\RequirePackage{fkssugar}
+
 \RequirePackage{booktabs}
 \RequirePackage{mhchem}
 \RequirePackage{color}
 \RequirePackage{subfig}
 \RequirePackage{tabularx}
 \RequirePackage{hyperref}
-
-\RequirePackage{krskasugar}
-\newcommand\uv[1]{„#1“}
-\RequirePackage{fkssugar}
 
 \renewcommand{\bottomtitlespace}{0.05\textheight}
 
