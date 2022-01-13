@@ -16,7 +16,6 @@
 	- $\phi$ -- fázový posun mezi proudem a napětím
 
 ## Součástky v obvodu se střídavým napětím
-
 ### Rezistor
 - odpor rezistoru v obvodu střídavého napětí -- rezistance
 - značka~$X_R$, jednotky~$\ohm$ (ohm)
@@ -112,4 +111,96 @@
 		f_0 = \frac{2\pi\sqrt{LC}} \Rightarrow \omega = \frac{\sqrt{LC}}
 	}
 
-## Efektivní hodnoty
+## Hodnoty střídavého proudu
+### Efektivní hodnota proudu
+- hodnota střídavého proudu odpovídající stejnosměrnému proudu
+- *proud, který má v obvodu s rezistorem stejný výkon jako střídavý proud $i=I\\_m\sin\omega t$*
+	\eq{
+	I = \frac{I\\_m}{\sqrt{2}} = "0.707" I\\_m
+	}
+
+### Efektivní hodnota napětí
+- hodnota střídavého proudu odpovídající stejnosměrnému napětí
+- *napětí, který má v obvodu s rezistorem stejný výkon jako střídavý proud $i=I\\_m\sin\omega t$*
+	\eq{
+		U = \frac{U\\_m}{\sqrt{2}} = "0.707" I\\_m
+	}
+
+### Výkon
+#### Efektivní hodnota výkonu
+- výpočet z efektivních hodnot proudu a napětí
+	\eq{
+		P = UI = RI^2 = \frac{U^2}{R}
+	}
+- bez posunu fáze napětí
+
+#### Střední hodnota
+- průměrná hodnota výkonu při průběhu střídavého proudu
+	\eq{
+		P = \frac{2}U\\_mI\\_m = \frac{2}RI\\_m^2
+	}
+
+#### Činný výkon
+- elektrická energie dodaná zdrojem změněna v užitečnou práci či teplo
+	\eq{
+		P = UI\cos\phi
+	}
+	- $\cos\phi$ -- účiník
+- speciální případ pro RLC obvod s posunem fáze napětí
+
+## Zařízení střídavého proudu
+### Alternátor
+- výroba střídavého napětí
+- přeměna mechanické energie na elektrickou
+- rotor -- stálý magnet, otáčí se
+- stator -- vodič navinut v cívce s jádrem
+- měnící se magnetické pole indukuje na statoru el.~proud
+
+\fullfig[width=0.6\textwidth]{21-alternator}[Nákres jednoduchého alternátoru]
+
+### Třífázový generátor (třífázový alternátor)
+- výroba střídavého napětí
+- stator -- statická vnější část -- 3 cívky
+- rotor -- otáčivá část -- elektromagnet
+- indukce střídavého napětí na každé cívce, napětí o třetinu fáze navzájem posunuty
+	\eq{
+		u_1 = U\\_m\sin\omega t
+		u_2 = U\\_m\sin\\(\omega t+\frac{2}{3}\pi\\)
+		u_3 = U\\_m\sin\\(\omega t+\frac{4}{3}\pi\\)
+	}
+
+\fullfig[width=0.6\textwidth]{21-three-phase}[Průběh tří fází generátoru]
+
+### Transformátor
+- změna napětí střídavého proudu
+- energie zachována -- při zvýšení napětí snížení proudu a naopak
+- dvě cívky na společném jádře
+	- primární cívka -- přijímá vstupní napětí, vytváří elektromagnetické pole
+	- sekundární cívka -- indukování proudu na základě elektromagnetického pole
+- napětí na cívkách
+	\eq{
+		u = N\der{\Phi}{t}
+	}
+	- $\Phi$ -- magnetický tok
+- transformační poměr
+	\eq{
+		k  = \frac{N_2}{N_1} = \frac{u_2}{u_1} = \frac{i_1}{i_2}
+	}
+	- $k>1$ -- zvýšení napětí
+	- $k=1$ -- napětí se nemění
+	- $k<1$ -- napětí se nemění %>
+
+\fullfig{21-transformator}[Nákres transformátoru]
+
+### Třífázová soustava střídavého napětí
+- součet okamžitých hodnot napětí fází~$u_1+u_2+u_3=0$
+- vodič z každé cívky spojen do uzlu -- nulový potenciál -- nulovací vodič
+- druhé konce vyvedeny separátně -- fázové vodiče
+- napětí
+	- fázové napětí -- mezi fází a nulou -- $230 V$
+	- sdružená napětí -- mezi fázemi, efektivní hodnota napětí $\sqrt{3}$krát větší než efektivní hodnota napětí fáze -- $"398 V"$ ($"400 V"$)
+- zapojení
+	- trojúhelník -- na spotřebičích sdružená (vyšší) napětí, absence nulovacího vodiče
+	- hvězda -- na spotřebičích fázová napětí, nulovací vodič
+
+\fullfig[width=0.8\textwidth]{21-trojuhelnik-hvezda}[Zapojení trojúhelník-hvězda]
