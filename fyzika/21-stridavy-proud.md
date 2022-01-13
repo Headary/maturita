@@ -15,8 +15,7 @@
 	- $\phi_0$ -- počáteční fáze napětí
 	- $\phi$ -- fázový posun mezi proudem a napětím
 
-## Součástky v RLC obvodu
-- RLC obvod -- obvod složen z resizoru~$R$, cívky~$L$ a kondenzátoru~$C$
+## Součástky v obvodu se střídavým napětím
 
 ### Rezistor
 - odpor rezistoru v obvodu střídavého napětí -- rezistance
@@ -24,7 +23,7 @@
 - stejné chování jako při stejnosměrném proudu
 - výpočet 
 	\eq{
-		i = X_Ru \rightarrow X_R = \frac{u}{i} = \frac{U\\_m}{I\\_m}
+		i = X_Ru \rightarrow X_R = R = \frac{u}{i} = \frac{U\\_m}{I\\_m}
 	}
 - nevytváří fázový posun
 - změna energie na teplo
@@ -41,7 +40,7 @@
 	}
 - při připojení na zdroj cívka vytváří elektromagnetické pole $\rightarrow$ vlastní indukce napětí $u\\_i = -L\Delta i/\Delta t$ s opačnou polaritou než $u$ $\rightarrow$ $u$ v maximu dříve než $i$ $\rightarrow$ fázový posun
 	\eq{
-		\phi = -\frac{\pi}{2}
+		\phi = \frac{\pi}{2}
 	}
 	- proud zpožděn za napětím
 - změna energie v magnetické pole
@@ -50,5 +49,67 @@
 
 ### Kondenzátor
 - kapacitance, značka~$X_C$, jednotky~$\ohm$ (ohm)
-- záporný fázový posun -- napětí se zpožďuje za proudem
-### Efektivní hodnoty
+	\eq{
+		X_C = \frac{\omega C}
+	}
+- platí Ohmův zákon
+	\eq{
+		I\\_m = \frac{U\\_m}{X_C}
+	}
+- záporný fázový posun -- napětí zpožděné za proudem
+	\eq[m] {
+		u &= U\\_m\sin\omega t\\\\
+		i &= I\\_m\sin\\(\omega t + \frac{\pi}{2}\\)\\\\
+		\phi &= -\frac{\pi}{2}
+	}
+- v obvodu střídavého proudu se chová jako prvek s odporem
+	- lepší propustnost pro velké frekvence; špatná propustnost malých frekvencí
+- přeměna energie na elektrické pole
+
+## RLC Obvod
+- RLC obvod -- obvod složen z resizoru~$R$, cívky~$L$ a kondenzátoru~$C$
+	- zapojeny za sebou -- sériový RLC obvod
+
+### Sériový RLC obvod
+- $\avg{U_R}, \avg{U_L}, \avg{U_C}$ -- fázory otáčející se v čase
+	- $\avg{U_R}$ -- fázor rezistoru, stejná fáze jako~$\avg{I\\_m}$
+	- $\avg{U_L}$ -- fázor cívky, vektor posunut o~$"90\dg"$
+	- $\avg{U_C}$ -- fázor kondenzátoru, vektor posunut o~$"-90\dg"$ 
+- $U_{R\text{m}}, U_{L\text{m}}, U_{C\text{m}}$ -- amplitudy napětí
+- výsledný fázor napětí roven součtu všech fázorů
+	\eq[m]{
+		U\\_m^2 &= U_{R\text{m}}^2 + (U_{R\text{m}}-U_{R\text{m}})^2 \text{(Pythagorova věta)}\\\\
+		U\\_m^2 &= (X_RI\\_m)^2 + (X_LI\\_m-X_CI\\_m)^2\\\\
+		U\\_m^2 &= I\\_m^2\\(X_R^2 + (X_L-X_C)^2\\)\\\\
+		U\\_m^2 &= I\\_m\sqrt{X_R^2 + (X_L-X_C)^2}
+	}
+
+\fullfig[width=0.5\textwidth]{21-fazovy-diagram}
+
+### Impedance
+- $Z, [Z]=\jd{\ohm}$
+- veličina jednotně popisující RLC obvod
+	\eq{
+		Z = \frac{U\\_m}{I\\_m} = \sqrt{X_R^2 + \\(X_L-X_C\\)^2} = \sqrt{X_R^2 + \\(\omega L-\frac{\omega C}\\)^2}
+	}
+- komplexní veličina
+
+### Fázový posun
+- značka~$\phi$, úhel
+- posun napětí vůči proudu
+	\eq[m]{
+		\tg\phi&=\frac{X_L-X_C}{X_R}\\\\
+		\cos\phi&=\frac{X_R}{Z}
+	}
+
+### Resonance sériového RLC obvodu
+- nastává při $X_C = X_L$
+- impedance je na minimální hodnotě $Z = X_R$
+- fázový posun nulový
+- proud nabývá maximální hodnoty
+- rezonanční frekvence~$f_0$
+	\eq{
+		f_0 = \frac{2\pi\sqrt{LC}} \Rightarrow \omega = \frac{\sqrt{LC}}
+	}
+
+## Efektivní hodnoty
