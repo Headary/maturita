@@ -48,3 +48,8 @@
 \title{Maturitní otázky z informatiky}
 
 \renewcommand*{\fps@table}{htbp}
+
+\renewcommand\thefigure{\thesection.\arabic{figure}}
+\counterwithin{figure}{section}
+\renewcommand\thetable{\thesection.\arabic{figure}}
+\counterwithin{table}{section}

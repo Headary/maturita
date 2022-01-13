@@ -128,7 +128,7 @@
 - na kondenzátorech dílčí proudy
 - dílčí proudy se sčítají -- $I = I\_1 + I\_2 + ... + I\_n$
 
-\fullfig{16-capacitors}
+\fullfig{16-capacitors}[Sériové a paralelní zapojení kondenzátorů]
 
 #### Využití
 - uložení energie na rychlé využití -- blesk fotoaparátu, defibrilátor

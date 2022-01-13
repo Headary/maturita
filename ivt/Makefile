@@ -22,4 +22,4 @@ $(OUT)/%.pdf: %.md template.cls $(GRAPH_DEPS) | $(GRAPHICS_OUT) $(OUT)
 allMarkdownInputs=$(addsuffix }, $(addprefix \markdownInput{../,$(wildcard *.md)))
 
 $(OUT)/complete.pdf: $(wildcard *.md) template.cls $(GRAPH_DEPS) | $(GRAPHICS_OUT) $(OUT)
-	cd $(@D); $(call XELATEX,'\documentclass{../template}\begin{document}\tableofcontents$(allMarkdownInputs)\end{document}')
+	cd $(@D); $(call XELATEX,'\documentclass{../template}\begin{document}\tableofcontents$(allMarkdownInputs)\listoffigures\listoftables\end{document}')
