@@ -16,10 +16,10 @@ graphics: $(GRAPH_DEPS) | $(GRAPHICS_OUT)
 pdf: $(PDF)
 complete: $(OUT)/complete.pdf
 
-$(OUT)/%.pdf: %.md graphics template.cls
+$(OUT)/%.pdf: %.md template.cls $(GRAPH_DEPS) | $(GRAPHICS_OUT) $(OUT)
 	cd $(@D); $(call XELATEX,'\documentclass{../template}\begin{document}\tableofcontents\markdownInput{../$<}\end{document}')
 
 allMarkdownInputs=$(addsuffix }, $(addprefix \markdownInput{../,$(wildcard *.md)))
 
-$(OUT)/complete.pdf: $(wildcard *.md) graphics template.cls
+$(OUT)/complete.pdf: $(wildcard *.md) template.cls $(GRAPH_DEPS) | $(GRAPHICS_OUT) | $(OUT)
 	cd $(@D); $(call XELATEX,'\documentclass{../template}\begin{document}\tableofcontents$(allMarkdownInputs)\end{document}')
