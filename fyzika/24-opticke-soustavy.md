@@ -211,15 +211,12 @@ v~závislosti na násobku~$f_0=1$][graph:dute]
 - úhlové zvětšení~$\gamma\_2=d/f\_0$
 - celkové zvětšení~$\gamma=Z\gamma_2=\Delta d/(ff\_0)$ 
 
-\begin{figure}
-\centering
-\includegraphics[width=0.6\textwidth]{24-mikroskop-soustava}
-\caption[Zobrazení předmětu mikroskopem]{Zobrazení předmětu mikroskopem, kde
-$f$ a $f\\_0$ jsou ohniskové vzdálenosti, delta je optický interval mikroskopu;
-$F$, $F'$, $F\\_0$, $F'\\_0$ značí ohniska, $y$ je objekt a~$y'$ je skutečný
-obraz. Optická soustava mikroskopu se skládá ze dvou čoček. Objektiv funguje
-jako běžná spojná čočka, okulár jako lupa.}
-\end{figure}
+\fullfig[width=0.6\textwidth]{24-mikroskop-soustava}[Zobrazení předmětu
+mikroskopem, kde $f$ a $f\\_0$ jsou ohniskové vzdálenosti, delta je optický
+interval mikroskopu; $F$, $F'$, $F\\_0$, $F'\\_0$ značí ohniska, $y$ je objekt
+a~$y'$ je skutečný obraz. Optická soustava mikroskopu se skládá ze dvou čoček.
+Objektiv funguje jako běžná spojná čočka, okulár jako lupa.][][Zobrazení
+předmětu mikroskopem]
 
 ### Dalekohled
 - zvětšování velice vzdálených předmětů

@@ -119,7 +119,9 @@
 	- falling edge -- k rychlé aktivaci dojde při změně signálu z 1 na 0
 	- většinou využita rising edge
 
-\fullfig[width=0.5\textwidth]{4-rising-circ}[Obvod pro dosažení rychlého zapnutí, možno přidat diodu pro odstranění *negativních pulzů*][fig:rising-circ]
+\fullfig[width=0.5\textwidth]{4-rising-circ}[Obvod pro dosažení rychlého
+zapnutí, možno přidat diodu pro odstranění *negativních
+pulzů*][fig:rising-circ][Rising edge obvod]
 
 %TODO
 ## Konečný automat

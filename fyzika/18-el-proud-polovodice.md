@@ -36,7 +36,7 @@
 
 \fullfig[width=0.8\textwidth]{18-polovodice-typy}[Vlastní vodivost je spojena
 se vznikem párů elektron–díra, zatímco příměsi jiných prvků mohou způsobit
-přebytek nebo nedostatek elektronů.]
+přebytek nebo nedostatek elektronů.][][Vlastní vodivost a příměsi v polovodičích]
 
 ## PN přechod -- Dioda
 - spojení polovodiče typu~P a~typu~N
