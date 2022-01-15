@@ -7,7 +7,7 @@
 
 \RequirePackage{fontspec}
 \RequirePackage{polyglossia}
-\setmainlanguage{czech}
+\setmainlanguage[splithyphens=false]{czech}
 
 \RequirePackage{krskasugar}
 \newcommand\uv[1]{„#1“}
