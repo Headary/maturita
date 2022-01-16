@@ -1,0 +1,26 @@
+[ ] 1. Kinematika hmotného bodu
+[ ] 2. Dynamika přímočarých a křivočarých pohybů
+[ ] 3. Druhy energie a jejich vzájemné přeměny, zákony zachování
+[ ] 4. Mechanika tuhého tělesa
+[ ] 5. Mechanika kapali a plynů
+[ ] 6. Gravitační pole a pohyb těles v tomto poli
+[ ] 7. Sluneční soustava, Keplerovy zákony
+[ ] 8. Základní poznatky molekulové fyziky a termodynamiky
+[ ] 9. Vnitřní energie, práce a teplo
+[ ] 10. Struktura a vlastnosti plynného skupenství
+[ ] 11. Struktura a vlastnosti pevných látek
+[ ] 12. Struktura a vlastnosti kapalin
+[ ] 13. Změny skupenství látek
+[ ] 14. Mechanické kmitání
+[ ] 15. Mechanické vlnění
+[x] 16. Elektrické pole
+[x] 17. Vznik elektrického proudu, el.~proud v kovech
+[x] 18. El.~proud v polovodičích
+[x] 19. El.~proud v elektrolytech, plynech a ve vakuu
+[ ] 20. Stacionární a nestacionární magnetické pole
+[x] 21. Střídavý elektrický proud
+[ ] 22. Elektromagnetické vlnění
+[x] 23. Světlo, vlnové vlastnosti světla
+[x] 24. Optické soustavy a optické zobrazení
+[x] 25. Základní pojmy kvantové fyziky
+[x] 26. Elektronový obal atomu, atomové jádro, elementární částice
