@@ -1,0 +1,25 @@
+[x] 1. historie
+[x] 2. informace v počítači
+[x] 3. boolenova algebra
+[x] 4. sekvenční systém
+[x] 5. základní části počítače
+[x] 6. periferie
+[x] 7. počítačové sítě
+[x] 8. internet
+[x] 9. textové editory
+[ ] 10. MS Word
+[ ] 11. Tabulkové editory
+[ ] 12. MS PowerPoint
+[ ] 13. MS Accesss, SQL
+[x] 14. obrazové informace
+[ ] 15. bitmapové grafické editory
+[ ] 16. vektorové editory
+[ ] 17. viry, WWW, FTP
+[ ] 18. tvorba stránek
+[ ] 19. algoritmus
+[ ] 20. vývojový diagram, programovací jazyky
+[ ] 21. kompilace, linkování
+[ ] 22. IO programu, podmínky
+[ ] 23. cykly
+[ ] 24. IO programu do souboru, struktury, pole, pole struktur
+[ ] 25. práce s polem, řadící algoritmy, vícerozměrné pole
