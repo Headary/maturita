@@ -19,7 +19,7 @@ complete: $(OUT)/complete.pdf
 $(OUT)/%.pdf: %.md template.cls $(GRAPH_DEPS) | $(GRAPHICS_OUT) $(OUT)
 	cd $(@D); $(call XELATEX,'\documentclass{../template}\begin{document}\tableofcontents\markdownInput{../$<}\end{document}')
 
-allMarkdownInputs=$(addsuffix }, $(addprefix \markdownInput{../,$(wildcard *.md)))
+allMarkdownInputs=$(addsuffix }, $(addprefix \markdownInput{../,$(shell ls -v *.md)))
 
 $(OUT)/complete.pdf: $(wildcard *.md) template.cls $(GRAPH_DEPS) | $(GRAPHICS_OUT) $(OUT)
 	cd $(@D); $(call XELATEX,'\documentclass{../template}\begin{document}\tableofcontents$(allMarkdownInputs)\listoffigures\listoftables\end{document}')
