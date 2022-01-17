@@ -21,6 +21,8 @@
 \RequirePackage{tabularx}
 \RequirePackage{hyperref}
 \RequirePackage{bookmark}
+\RequirePackage{xcolor}
+\RequirePackage{listingsutf8}
 
 \renewcommand{\bottomtitlespace}{0.05\textheight}
 
@@ -53,3 +55,33 @@
 \counterwithin{figure}{section}
 \renewcommand\thetable{\thesection.\arabic{figure}}
 \counterwithin{table}{section}
+
+\definecolor{editorGray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{editorOcher}{rgb}{1, 0.5, 0} % #FF7F00 -> rgb(239, 169, 0)
+\definecolor{editorGreen}{rgb}{0, 0.5, 0} % #007C00 -> rgb(0, 124, 0)
+
+\lstset{%
+	% Basic design
+	backgroundcolor=\color{editorGray},
+	basicstyle={\small\ttfamily},
+	frame=l,
+	% Line numbers
+	xleftmargin={0.75cm},
+	numbers=left,
+	stepnumber=1,
+	firstnumber=1,
+	numberfirstline=true,
+	% Code design   
+	keywordstyle=\color{blue}\bfseries,
+	commentstyle=\color{darkgray}\ttfamily,
+	ndkeywordstyle=\color{editorGreen}\bfseries,
+	stringstyle=\color{editorOcher},
+	% Code
+	alsodigit={.:;},
+	tabsize=2,
+	showtabs=false,
+	showspaces=false,
+	showstringspaces=false,
+	extendedchars=true,
+	breaklines=true
+}

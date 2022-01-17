@@ -15,7 +15,7 @@
 [ ] 15. bitmapové grafické editory
 [ ] 16. vektorové editory
 [x] 17. viry, WWW, FTP
-[ ] 18. tvorba stránek
+[x] 18. tvorba stránek
 [ ] 19. algoritmus
 [ ] 20. vývojový diagram, programovací jazyky
 [ ] 21. kompilace, linkování
