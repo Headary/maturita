@@ -36,6 +36,14 @@
 - čtveřice číslic -- $("0 \\\%", "56 \\\%", "99 \\\%", "2 \\\%")$
 - použití -- tisk
 
+\begin{figure}
+\centering
+\subfloat[RGB]{\includegraphics[height=0.2\textheight]{14-rgb}}
+\qquad
+\subfloat[CMYK]{\includegraphics[height=0.2\textheight]{14-CMYK}}
+\caption{Porovnání RGB a CMYK modelu}
+\end{figure}
+
 ### HSV
 - Hue, Saturation, Value
 - reprezentace barvy jako odstínu, sytosti a světlosti / hodnoty
