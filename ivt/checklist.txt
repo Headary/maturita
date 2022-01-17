@@ -14,7 +14,7 @@
 [x] 14. obrazové informace
 [ ] 15. bitmapové grafické editory
 [ ] 16. vektorové editory
-[ ] 17. viry, WWW, FTP
+[x] 17. viry, WWW, FTP
 [ ] 18. tvorba stránek
 [ ] 19. algoritmus
 [ ] 20. vývojový diagram, programovací jazyky
