@@ -16,7 +16,7 @@
 [ ] 16. vektorové editory
 [x] 17. viry, WWW, FTP
 [x] 18. tvorba stránek
-[ ] 19. algoritmus
+[x] 19. algoritmus
 [ ] 20. vývojový diagram, programovací jazyky
 [ ] 21. kompilace, linkování
 [ ] 22. IO programu, podmínky

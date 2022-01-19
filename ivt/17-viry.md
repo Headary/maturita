@@ -42,7 +42,7 @@
 		- šíření v office souborech
 		- dnes již ne moc rozšířené
 
-#### Randomware
+#### Ransomware
 - šifrování dat na pevném disku
 - uzamčení systému s výhružnou zprávou
 - požadavky výkupného (většinou krypto -- BTC\dots)
