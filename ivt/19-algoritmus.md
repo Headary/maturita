@@ -19,7 +19,7 @@
 - matematický -- zápis pomocí veličin a rovnic
 - v programovacím jazyku -- vyjádření v programovacím jazyce pomocí funkcí, keywords, proměnných\dots
 
-\fullfig{19-flowchart}[Grafický diagram algoritmu]
+\fullfig[width=0.4\textwidth]{19-flowchart}[Grafický diagram algoritmu]
 
 ## Rozdělení algoritmů
 ### Podle implementace
@@ -112,12 +112,26 @@
 - při nekonečném čase nalezení optimálního řešení
 - local search, tabu search, genetické algoritmy
 
-### Podle komplexnosti
-#### Komplexnost času
-- konstantní čas-- $O(1)$
-- logaritmický čas -- $O(\log n)$
-- lineární čas -- $O(n)$
-- polynomiální čas -- $O(n^2), O(n^3)$
-- exponenciální čas -- $O(x^n)$
+## Komplexnost algoritmu
+- vlastnost udávající výpočetní náročnost
+- především sledován čas potřebný na spuštění, někdy i velikost potřebné paměti
+- vyjádřeno pomocí Big-O notace
+	- vyjádření nejhorší/nejdelší kalkulace
+	- zápis pomocí matematické funkce; $n$ -- počet prvků
+	- brán v potaz pouze nejrychleji rostoucí komponent
+		- z předpokladu $n\rightarrow\infty$
+		- $O(n^2+n)=O(n^2)$
+- související veličiny
+	- big-omega $\Omega(n)$ -- nejlepší případ
+	- bit-theta $\Theta(n)$ -- průměrný případ
 
-#### Komplexnost paměti
+\fullfig[width=16cm]{19-bigO}[Porovnání průběhu jednotlivých funkcí]
+
+### Příklady komplexnosti
+- konstantní čas -- $O(1)$ -- získání array elementu, hledání v hashmapě
+- logaritmický čas -- $O(\log n)$ -- binary search
+- lineární čas -- $O(n)$ -- projití všech prvků v poli
+- polynomiální čas -- $O(n^2), O(n^3)$ -- bubble sort ($O(n^2)$)
+- exponenciální čas -- $O(x^n)$ -- brute-force search
+
+\fullfig{19-sort-complexity}[Porovnání složitosti řadících algoritmů]
