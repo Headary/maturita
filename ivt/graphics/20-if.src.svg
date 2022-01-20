@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="320"
+   height="240"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="Flowchart Decision.svg">
+  <title
+     id="title2985">Flowchart Decision</title>
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.76"
+     inkscape:cx="205.44407"
+     inkscape:cy="146.88238"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-center="true"
+     inkscape:bbox-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="635px"
+       originy="-1270px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:title>Flowchart Decision</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Devin Cook</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>IBM</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:source>IBM. (1970). Flowcharting Techniques, Publication: C20-8152-1 </dc:source>
+        <dc:description>The Decision Shape represents a Boolean structure.</dc:description>
+        <dc:date>2015-05-08</dc:date>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(635,457.63782)">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m -475,-217.63782 160,-120 -160,-120 -160,120 z"
+       id="rect2987-1-7-4-1-7-8-7-1-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m -625.0625,-337.625 c 50.02083,37.52083 100.04167,75.04167 150.0625,112.5625 50.02083,-37.52083 100.04167,-75.04167 150.0625,-112.5625 -50.02083,-37.52083 -100.04167,-75.04167 -150.0625,-112.5625 -50.02083,37.52083 -100.04167,75.04167 -150.0625,112.5625 z"
+       id="rect2987-1-7-4-1-7-8-7-1-7-1"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
