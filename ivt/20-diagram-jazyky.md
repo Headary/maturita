@@ -66,9 +66,9 @@
 ### Nižší programovací jazyky
 - strojový kód či mu velice blízko
 - jednoduché na převod do binárního záznamu
-- strojový kód, assembly, občas za něj považované i~C
 - základ vyšších jazyků
 - přímá kontrola nad registry, pamětí, pointery\dots
+- strojový kód, assembly, občas za něj považované i~C
 
 ### Vyšší programovací jazyky
 - použití přirozeného jazyku
@@ -78,8 +78,12 @@
 - menší kontrola nad samotným hardwarem
 
 ### Procedurální vs neprocedurální
-- procedurální/imperativní -- popis výpočtu pomocí příkazů, určení přesného postupu
-- neprocedurální -- specifikace cíle namísto postupu získání cíle
+- procedurální/imperativní
+	- popis výpočtu pomocí příkazů, určení přesného postupu
+	- Fortran, ALGOL, BASIC, C
+- neprocedurální
+	- specifikace cíle namísto postupu získání cíle
+	- SQL, PROLOG, LIPS
 
 ### Strukturované vs objektově orientované
 - strukturované -- jeden vstup a výstup, vytvoření algoritmu z řídíc struktur a funkcí
@@ -93,11 +97,26 @@
 - funkcionální
 	- vyhodnocování matematických funkcí
 	- využití lambda funkcí
-- logický -- použití matematické logiky k programování
+	- SQL, Mathematica, Haskell
+- logický
+	- použití matematické logiky k programování
+	- PROLOG
 
 ### Kompilované vs interpretované
-- kompilované -- jazyky přeloženy do binárního souboru, který je následně spuštěn
+- kompilované 
+	- jazyky přeloženy do binárního souboru, který je následně spuštěn
+	- C, C++, Rust
 - interpretované
 	- interpreter interpretuje jazyk v reálném čase
 	- flexibilnější, ale pomalejší
 	- chyby jsou zachyceny až při spuštění kódu
+	- Python, JavaScript, Java, R
+
+### Statické vs dynamické
+- statické programovací jazyky
+	- typ proměnných je znám v čase kompilace
+	- typ proměnných zadán programátorem (Java, C, C++) nebo odvozen kompilátorem (Haskell, Rust)
+- dynamicky psané programovací jazyky
+	- typ dat specifikován pro konkrétní hodnotu, ne pro proměnnou
+	- možno změnit typ proměnné v průběhu programu
+	- Python, JavaScript, PHP, Ruby

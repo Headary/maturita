@@ -17,7 +17,7 @@
 [x] 17. viry, WWW, FTP
 [x] 18. tvorba stránek
 [x] 19. algoritmus
-[ ] 20. vývojový diagram, programovací jazyky
+[x] 20. vývojový diagram, programovací jazyky
 [ ] 21. kompilace, linkování
 [ ] 22. IO programu, podmínky
 [ ] 23. cykly
