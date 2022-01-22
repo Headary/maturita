@@ -18,7 +18,7 @@
 [x] 18. tvorba stránek
 [x] 19. algoritmus
 [x] 20. vývojový diagram, programovací jazyky
-[ ] 21. kompilace, linkování
+[X] 21. kompilace, linkování
 [ ] 22. IO programu, podmínky
 [ ] 23. cykly
 [ ] 24. IO programu do souboru, struktury, pole, pole struktur
