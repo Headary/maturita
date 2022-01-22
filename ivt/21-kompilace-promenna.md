@@ -85,6 +85,12 @@ Typ & Vysvětlení & Min. velikost (bity) & Formátování\\\\
 \label{21datatypes}
 \end{table}
 
+### Specifikování proměnné v~C
+- formát \uv{\texttt{<datytype> <variable name>;}}
+	- \texttt{int i;}
+	- \texttt{char c, ch;}
+	- \texttt{float f=0.5f, ch;}
+
 ### Uchování dat v programu
 - při specifikování proměnné se alokuje místo v paměti
 - čtení/zápis dat následně z paměti na místě adresy
