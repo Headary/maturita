@@ -40,6 +40,10 @@ jednotka1.obj + jednotka2.obj + \dots{} + knihovna1.lib + knihovna2.lib + \dots{
 	- hardware compilers
 	- assembler -- převod assembly do strojového kódu
 	- \dots
+- spuštění
+	- z IDE
+	- ruční spuštění příkazů -- cmd, bash
+	- automatické systémy -- make, cmake
 
 ### Linkování
 - seskupení objektových souborů a vytvoření jednoho spustitelného souboru, knihovny nebo objektu
