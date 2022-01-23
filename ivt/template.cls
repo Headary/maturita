@@ -22,7 +22,7 @@
 \RequirePackage{hyperref}
 \RequirePackage{bookmark}
 \RequirePackage{xcolor}
-\RequirePackage{listingsutf8}
+\RequirePackage{listings}
 
 \renewcommand{\bottomtitlespace}{0.05\textheight}
 
@@ -53,8 +53,10 @@
 
 \renewcommand\thefigure{\thesection.\arabic{figure}}
 \counterwithin{figure}{section}
-\renewcommand\thetable{\thesection.\arabic{figure}}
+\renewcommand\thetable{\thesection.\arabic{table}}
 \counterwithin{table}{section}
+
+\renewcommand\lstlistingname{Kód}
 
 \definecolor{editorGray}{rgb}{0.95, 0.95, 0.95}
 \definecolor{editorOcher}{rgb}{1, 0.5, 0} % #FF7F00 -> rgb(239, 169, 0)
@@ -83,5 +85,7 @@
 	showspaces=false,
 	showstringspaces=false,
 	extendedchars=true,
-	breaklines=true
+	breaklines=true,
+	captionpos=b,
+	numberbychapter
 }
