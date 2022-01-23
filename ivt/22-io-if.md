@@ -55,8 +55,6 @@
 ### Booleovské výrazy
 - v~C použit \texttt{int}, případně \texttt{bool} ze \texttt{stdbool.h}
 - \texttt{True} -- nenulová hodnota (nejčastěji 1), \texttt{False} -- 0
-- logické výrazy možno skládat, závorky pro přednost\dots
-- pokud v AND je první argument 0, další hodnoty již nejsou vyhodnoceny
 
 \begin{table}[htbp]
 \centering
@@ -78,7 +76,9 @@
 \caption{Logické operátory v~C}
 \end{table}
 
-\lstinputlisting[language=C, caption=Příklady boolenových operací]{../source_codes/22-comparision.c}
+\begin{minipage}{\linewidth}
+\lstinputlisting[language=C, caption=Příklad programu s podmínkou a if]{../source_codes/22-odd-even.c}
+\end{minipage}
 
 \begin{table}[htbp]
 \centering
@@ -99,8 +99,14 @@
 \bottomrule
 \end{tabular}
 \caption{Priorita vyhodnocování logických výrazů}
+\label{22operations}
 \end{table}
 
-\begin{minipage}{\linewidth}
-\lstinputlisting[language=C, caption=Příklad programu s podmínkou a if]{../source_codes/22-odd-even.c}
-\end{minipage}
+### Kombinace podmínek
+- kombinování podmínek za pomocí logických operací \texttt{\&\&} a \texttt{||}
+- první vyhodnocení podmínek, následně vyhodnocení kombinací (viz~tab.~\ref{22operations})
+- vyhodnocení zleva doprava
+- logické výrazy možno skládat, závorky pro přednost\dots
+- pokud v AND je první argument 0, další hodnoty již nejsou vyhodnoceny
+
+\lstinputlisting[language=C, caption=Příklady boolenových operací]{../source_codes/22-comparision.c}
