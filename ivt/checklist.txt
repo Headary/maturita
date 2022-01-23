@@ -19,7 +19,7 @@
 [x] 19. algoritmus
 [x] 20. vývojový diagram, programovací jazyky
 [X] 21. kompilace, linkování
-[ ] 22. IO programu, podmínky
-[ ] 23. cykly
+[x] 22. IO programu, podmínky
+[x] 23. cykly
 [ ] 24. IO programu do souboru, struktury, pole, pole struktur
 [ ] 25. práce s polem, řadící algoritmy, vícerozměrné pole
