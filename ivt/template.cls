@@ -35,7 +35,7 @@
   definitionLists,
   footnotes,
   inlineFootnotes,
-  smartEllipses,
+  smartEllipses=false,
   fencedCode,
   contentBlocks,
   pipeTables,
@@ -73,7 +73,7 @@
 	stepnumber=1,
 	firstnumber=1,
 	numberfirstline=true,
-	% Code design   
+	% Code design
 	keywordstyle=\color{blue}\bfseries,
 	commentstyle=\color{darkgray}\ttfamily,
 	ndkeywordstyle=\color{editorGreen}\bfseries,
@@ -89,3 +89,6 @@
 	captionpos=b,
 	numberbychapter
 }
+
+\newcommand\inlistc[1]{\lstinline[language=C]{#1}}
+\newcommand\inlisth[1]{\lstinline[language=HTML]{#1}}

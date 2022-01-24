@@ -6,40 +6,40 @@
 ## Vstup/výstup do/z programu
 - tzv. IO (input output) operace
 - způsob komunikace programu se systémem, uživatelem a dalšími programy
-- funkce poskytnuty knihovnou \texttt{stdio.h}
+- funkce poskytnuty knihovnou \inlistc{stdio.h}
 
 ### Uživatelský vstup
-- čtení vstupu z \texttt{stdin}^[standard stream pro vstup v terminálu]
-- funkce \texttt{getchar(<variable>);}, \texttt{gets(<variable>);}, \texttt{scanf(<format>, <pointer>);}
-	- \texttt{getchar} -- načtení jednoho znaku
-	- \texttt{gets}
+- čtení vstupu z \inlistc{stdin}^[standard stream pro vstup v terminálu]
+- funkce \inlistc{getchar(<variable>);}, \inlistc{gets(<variable>);}, \inlistc{scanf(<format>, <pointer>);}
+	- \inlistc{getchar} -- načtení jednoho znaku
+	- \inlistc{gets}
 		- načtení stringu s mezerami, nelze číst čísla
 		- konec inputu novým řádkem nebo EOF
 		- unsafe, chybí ochrana před buffer overflow
-	- \texttt{scanf} -- načtení vstupu v zadaném formátu, konec inputu mezerou, \texttt{\textbackslash n} nebo EOF
+	- \inlistc{scanf} -- načtení vstupu v zadaném formátu, konec inputu mezerou, \texttt{\textbackslash n} nebo EOF
 
 \lstinputlisting[language=C, caption=Načtení vstupu od uživatele]{../source_codes/22-inputs.c}
 
 ### Výstup programu
-- výpis textu do \texttt{stdout} nebo \texttt{stderr}
-	- \texttt{stdout} -- standard stream pro output
-	- \texttt{stderr} -- standard stream pro errory
-- funkce \texttt{putchar}, \texttt{puts}, \texttt{printf}, \texttt{fwrite}
-	- \texttt{putchar(<variable>);} -- vypsání jednoho znaku
-	- \texttt{puts(<variable>);}
-		- funkce z knihovny
-		- prostý výpis proměnné do \texttt{stdout} bez formátování
+- výpis textu do \inlistc{stdout} nebo \inlistc{stderr}
+	- \inlistc{stdout} -- standard stream pro output
+	- \inlistc{stderr} -- standard stream pro errory
+- funkce \inlistc{putchar}, \inlistc{puts}, \inlistc{printf}, \inlistc{fwrite}
+	- \inlistc{putchar(<variable>);} -- vypsání jednoho znaku
+	- \inlistc{puts(<variable>);}
+		- funkce z knihovnyinlistc
+		- prostý výpis proměnné do \inlistc{stdout} bez formátování
 		- na konci automaticky \texttt{\textbackslash n}
-	- \texttt{printf(<string and format>, <variable>);}
+	- \inlistc{printf(<string and format>, <variable>);}
 		- interpretace prvního stringu jako formátu
 		- následné proměnné specifikují hodnotu dat ve formátu
 		- nekončí automaticky novým řádkem
-	- \texttt{fwrite(const void *ptr, size\textunderscore t size, size\textunderscore t nmemb, FILE *stream);}
-		- \texttt{*ptr} -- buffer na vypsání, \texttt{size, nmemb} -- délka a počet da
+	- \inlistc{fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream);}
+		- \inlistc{*ptr} -- buffer na vypsání, \inlistc{size, nmemb} -- délka a počet da
 		- zápis binárních dat do souboru nebo streamu
 
 ### Formát printf/scanf
-- využití formátovací značek pro definici formátu outputu -- \texttt{\%d, \%i, \%u, \%c}\dots
+- využití formátovací značek pro definici formátu outputu -- \inlistc{\%d, \%i, \%u, \%c}\dots
 - zápis do stringu
 - formátovací značky různé pro každý data typ (viz otázka~21)
 
@@ -47,14 +47,14 @@
 
 ## Podmínky
 - způsob spouštění kódu za pomocí podmínek
-- příkaz \texttt{if(rule)\\\{\dots\\\} else \\\{\dots\\\}}
+- příkaz \inlistc{if (rule)\\{...\\} else \\{...\\}}
 - pokud je podmínka splněna, je spuštěn kód v bloku; pokud není splněna, blok je přeskočen
-- \texttt{else} blok spuštěn pouze za nedodržení podmínky
+- \inlistc{else} blok spuštěn pouze za nedodržení podmínky
 - podmínka -- boolenový výraz
 
 ### Booleovské výrazy
-- v~C použit \texttt{int}, případně \texttt{bool} ze \texttt{stdbool.h}
-- \texttt{True} -- nenulová hodnota (nejčastěji 1), \texttt{False} -- 0
+- v~C použit \inlistc{int}, případně \inlistc{bool} ze \inlistc{stdbool.h}
+- \inlistc{True} -- nenulová hodnota (nejčastěji 1), \inlistc{False} -- 0
 
 \begin{table}[htbp]
 \centering
@@ -86,16 +86,16 @@
 \toprule
 \textnormal{Operátor} & Směr vyhodnocení\\\\
 \midrule
-! ++ -- - + & $\leftarrow$\\\\
-\* / \% & $\rightarrow$\\\\
-+ - & $\rightarrow$\\\\
-< <= >= > & $\rightarrow$\\\\
-== != & $\rightarrow$\\\\
-\&\& & $\rightarrow$\\\\
-|| & $\rightarrow$\\\\
-? : & $\leftarrow$\\\\
-= += -= *= \dots & $\rightarrow$\\\\
-, & $\rightarrow$\\\\
+! ++ -- - + & $\longleftarrow$\\\\
+\* / \% & $\longrightarrow$\\\\
++ - & $\longrightarrow$\\\\
+< <= >= > & $\longrightarrow$\\\\
+== != & $\longrightarrow$\\\\
+\&\& & $\longrightarrow$\\\\
+|| & $\longrightarrow$\\\\
+? : & $\longleftarrow$\\\\
+= += -= *= \dots & $\longrightarrow$\\\\
+, & $\longrightarrow$\\\\
 \bottomrule
 \end{tabular}
 \caption{Priorita vyhodnocování logických výrazů}
@@ -103,7 +103,7 @@
 \end{table}
 
 ### Kombinace podmínek
-- kombinování podmínek za pomocí logických operací \texttt{\&\&} a \texttt{||}
+- kombinování podmínek za pomocí logických operací \inlistc{\&\&} a \inlistc{||}
 - první vyhodnocení podmínek, následně vyhodnocení kombinací (viz~tab.~\ref{22operations})
 - vyhodnocení zleva doprava
 - logické výrazy možno skládat, závorky pro přednost\dots

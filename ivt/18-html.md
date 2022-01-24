@@ -2,8 +2,8 @@
 % dokumenty, rámy, iframe-vkládání prvků, tabulky, obrázky, formátování textu,
 % prohlížeče HTML dokumentů
 
-\newcommand\htmlsingle[1]{\texttt{<#1>}}
-\newcommand\htmlpair[1]{\texttt{<#1>}\dots\texttt{</#1>}}
+\newcommand\htmlsingle[1]{\inlisth{<#1>}}
+\newcommand\htmlpair[1]{\inlisth{<#1>}\dots\inlisth{</#1>}}
 
 \setcounter{section}{17}
 # WWW stránky / HTML
@@ -54,7 +54,7 @@
 ## HTML dokument
 - vždy nutnost základních tagů
 - pokud chybí, prohlížeč si je doplní
-- \texttt{<\!DOCTYPE html>} -- specifikace HTML formátu
+- \htmlsingle{\!DOCTYPE html} -- specifikace HTML formátu
 - \htmlpair{html} -- začátek a konec HTML dokumentu
 - \htmlpair{head}
 	- hlavička dokumentu
@@ -70,10 +70,10 @@
 - \htmlpair{style} -- CSS styl stránky přímo v HTML
 - \htmlsingle{link} -- link k externí resource (CSS, JS\dots)
 - \htmlsingle{meta} -- specifikace metadat stránky
-	- \texttt{charset} -- HTML encoding
-	- \texttt{name} -- jméno specifikovaných metadat
-	- \texttt{content} -- specifikace hodnoty v name atributu
-	- \texttt{http-equiv} -- HTTP header pro informace/hodnotu v content atributu
+	- \inlisth{charset} -- HTML encoding
+	- \inlisth{name} -- jméno specifikovaných metadat
+	- \inlisth{content} -- specifikace hodnoty v name atributu
+	- \inlisth{http-equiv} -- HTTP header pro informace/hodnotu v content atributu
 
 \lstinputlisting[language=HTML]{../source_codes/18-head.html}
 
@@ -91,7 +91,7 @@
 - \htmlpair{tt} -- strojní styl
 - \htmlpair{del} -- smazaný text
 - \htmlpair{font} -- specifikace fontu
-	- atributy \texttt{size}, \texttt{color}, \texttt{face}\dots
+	- atributy \inlisth{size}, \inlisth{color}, \inlisth{face}\dots
 
 #### Logické formátování
 - \htmlpair{strong} -- důležitý text
@@ -100,17 +100,17 @@
 - \htmlpair{q} -- text s uvozovkami
 - \htmlpair{em} -- kurzíva
 - \htmlpair{a} -- odkaz
-	- \texttt{src} -- cesta odkazu
-	- \texttt{target} -- místo otevření odkazu
+	- \inlisth{src} -- cesta odkazu
+	- \inlisth{target} -- místo otevření odkazu
 
 \lstinputlisting[language=HTML]{../source_codes/18-body.html}
 
 #### Obrázky
 - \htmlsingle{img} -- tag pro vložení obrázku
-	- \texttt{src} -- zdroj obrázku
-	- \texttt{width}, \texttt{height} -- rozměry
-	- \texttt{alt} -- alternativní text
-	- \texttt{loading}, \texttt{longdesc}, \dots
+	- \inlisth{src} -- zdroj obrázku
+	- \inlisth{width}, \inlisth{height} -- rozměry
+	- \inlisth{alt} -- alternativní text
+	- \inlisth{loading}, \inlisth{longdesc}, \dots
 
 #### Tabulky
 - \htmlpair{table} -- specifikuje tabulku
@@ -118,8 +118,8 @@
 - \htmlpair{tr} -- řádek tabulky
 - \htmlpair{th} -- buňka nadpisu
 - \htmlpair{td} -- buňka tabulky
-	\texttt{colspan} -- šířka buňky ve sloupcích
-	\texttt{align} -- zarovnání
+	\inlisth{colspan} -- šířka buňky ve sloupcích
+	\inlisth{align} -- zarovnání
 
 \lstinputlisting[language=HTML]{../source_codes/18-table.html}
 
@@ -129,10 +129,10 @@
 
 #### Iframe
 - \htmlpair{iframe} -- zobrazení obsahu jiné stránky
-	- \texttt{width}, \texttt{height} -- velikost
-	- \texttt{src} -- URL zdroje
-	- \texttt{allow} -- povolení funkcí
-	- \texttt{loading}, \texttt{name}\dots
+	- \inlisth{width}, \inlisth{height} -- velikost
+	- \inlisth{src} -- URL zdroje
+	- \inlisth{allow} -- povolení funkcí
+	- \inlisth{loading}, \inlisth{name}\dots
 - sociální sítě (Youtube, Facebook, Instagram), embedded mapy\dots
 
 ## Prohlížeče HTML dokumentů

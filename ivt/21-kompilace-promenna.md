@@ -57,8 +57,8 @@ jednotka1.obj + jednotka2.obj + \dots{} + knihovna1.lib + knihovna2.lib + \dots{
 - způsob uložení dat v programu
 - na hodnotu ukazuje symbolické jméno
 - specifikace typu dat -- int, string, float, char, bool, double\dots
-- konstanty -- keyword \texttt{const} -- nelze měnit v průběhu programu
-- \texttt{signed}, \texttt{unsigned} -- specifikace čísel s/bez znamének, keyword před data typem
+- konstanty -- keyword \inlistc{const} -- nelze měnit v průběhu programu
+- \inlistc{signed}, \inlistc{unsigned} -- specifikace čísel s/bez znamének, keyword před data typem
 - další data typy, než ty zmíněny v~tabulce~\ref{21datatypes}, definovány ve standardních C knihovnách
 
 \begin{table}[htbp]
@@ -68,17 +68,17 @@ jednotka1.obj + jednotka2.obj + \dots{} + knihovna1.lib + knihovna2.lib + \dots{
 \toprule
 Typ & Vysvětlení & Min. velikost (bity) & Formátování\\\\
 \midrule
-\texttt{char} & nejmenší adresovatelná jednotka uchovávající znak; vnitřně číslo & 8 & \texttt{\%c}\\\\
-\texttt{signed char} & stejné jako char, garance znaménka, hodnoty $\cintc{-127}{+127}$ & 8 & \texttt{\%c}\\\\
-\texttt{unsigned char} & stejné jako char, garance bez znaménka, hodnoty $\cintc{0}{255}$ & 8 & \texttt{\%c}\\\\
-\texttt{short}, \texttt{short int} & krátký integer typ & 16 & \texttt{\%hi}, \texttt{\%hd}\\\\
-\texttt{int}, \texttt{signed}, \texttt{signed int} & uchování čísla, rozšíření počtu bitů v operačních systémem se širším busem & 16 & \texttt{\%i}, \texttt{\%d}\\\\
-\texttt{unsigned}, \texttt{unsigned int} & uchování čísla bez znaménka & 16 & \texttt{\%u}\\\\
-\texttt{long}, \texttt{long int} & delší \texttt{int}, v moderních systémech shodné s \texttt{int} & 32 & \texttt{\%li} (signed), \texttt{\%lu} (unsigned)\\\\
-\texttt{long long}, \texttt{long long int} & delší \texttt{long} & 64 & \texttt{\%lli}, \texttt{\%llu}\\\\
-\texttt{float} & reálné číslo s desetinnými čísly, na většině systémech 32~bitů & & \texttt{\%f}\\\\
-\texttt{double} & větší reálné číslo s desetinnými čísly, na většině systémech 64~bitů & & \texttt{\%lf}\\\\
-\texttt{long double} & velké reálné číslo s desetinnými čísly; 80, 96 nebo 128~bitů & & \texttt{\%Lf}\\\\
+\inlistc{char} & nejmenší adresovatelná jednotka uchovávající znak; vnitřně číslo & 8 & \inlistc{\%c}\\\\
+\inlistc{signed char} & stejné jako char, garance znaménka, hodnoty $\cintc{-127}{+127}$ & 8 & \inlistc{\%c}\\\\
+\inlistc{unsigned char} & stejné jako char, garance bez znaménka, hodnoty $\cintc{0}{255}$ & 8 & \inlistc{\%c}\\\\
+\inlistc{short}, \inlistc{short int} & krátký integer typ & 16 & \inlistc{\%hi}, \inlistc{\%hd}\\\\
+\inlistc{int}, \inlistc{signed}, \inlistc{signed int} & uchování čísla, rozšíření počtu bitů v operačních systémem se širším busem & 16 & \inlistc{\%i}, \inlistc{\%d}\\\\
+\inlistc{unsigned}, \inlistc{unsigned int} & uchování čísla bez znaménka & 16 & \inlistc{\%u}\\\\
+\inlistc{long}, \inlistc{long int} & delší \inlistc{int}, v moderních systémech shodné s \inlistc{int} & 32 & \inlistc{\%li} (signed), \inlistc{\%lu} (unsigned)\\\\
+\inlistc{long long}, \inlistc{long long int} & delší \inlistc{long} & 64 & \inlistc{\%lli}, \inlistc{\%llu}\\\\
+\inlistc{float} & reálné číslo s desetinnými čísly, na většině systémech 32~bitů & & \inlistc{\%f}\\\\
+\inlistc{double} & větší reálné číslo s desetinnými čísly, na většině systémech 64~bitů & & \inlistc{\%lf}\\\\
+\inlistc{long double} & velké reálné číslo s desetinnými čísly; 80, 96 nebo 128~bitů & & \inlistc{\%Lf}\\\\
 \bottomrule
 \end{tabularx}
 \caption{Data typy v~C~standartu}
@@ -86,10 +86,10 @@ Typ & Vysvětlení & Min. velikost (bity) & Formátování\\\\
 \end{table}
 
 ### Specifikování proměnné v~C
-- formát \uv{\texttt{<datytype> <variable name>;}}
-	- \texttt{int i;}
-	- \texttt{char c, ch;}
-	- \texttt{float f=0.5f, ch;}
+- formát \uv{\inlistc{<datytype> <variable name>;}}
+	- \inlistc{int i;}
+	- \inlistc{char c, ch;}
+	- \inlistc{float f=0.5f, ch;}
 
 ### Uchování dat v programu
 - při specifikování proměnné se alokuje místo v paměti

@@ -6,30 +6,30 @@
 - způsob opakování kódu
 - \uv{*iterace*} -- jedno spuštění kódu
 - 3 typy
-	- \texttt{for} -- opakování kódu $n$-krát
-	- \texttt{while} -- spuštění kódu za platné podmínky
-	- \texttt{do while} -- vykoná kód a za platné podmínky jej spustí znovu
+	- \inlistc{for} -- opakování kódu $n$-krát
+	- \inlistc{while} -- spuštění kódu za platné podmínky
+	- \inlistc{do while} -- vykoná kód a za platné podmínky jej spustí znovu
 - související keywords
-	- \texttt{break;} -- ukončí cyklus, pokračuje kódem po bloku cyklu
-	- \texttt{continue;} -- ukončí započatou iteraci, skočí na další iteraci cyklu
+	- \inlistc{break;} -- ukončí cyklus, pokračuje kódem po bloku cyklu
+	- \inlistc{continue;} -- ukončí započatou iteraci, skočí na další iteraci cyklu
 
 ## For loop
 - cyklus používán pro vykonání známého počtu opakování
 - použití -- procházení pole, vykreslování, vypisování řádků\dots
-- syntaxe -- \lstinline[language=C]{for(init; statement; increment)}\texttt{\\{\dots\\}}
-	- \texttt{init} -- výraz vyhodnocen za začátku, většinou zavedení proměnné indexu
-	- \texttt{statement} -- podmínka, za které se iterace spustí
-	- \texttt{increment} -- příkaz po vykonání iterace, většinou přičtení k indexu
+- syntaxe -- \inlistc{for(init; statement; increment)\\{...\\}}
+	- \inlistc{init} -- výraz vyhodnocen za začátku, většinou zavedení proměnné indexu
+	- \inlistc{statement} -- podmínka, za které se iterace spustí
+	- \inlistc{increment} -- příkaz po vykonání iterace, většinou přičtení k indexu
 	- výrazy nemusí být vůbec uvedeny či mohou být jinde, nicméně uvedený formát je standard
 
 \lstinputlisting[language=C, caption=Použití for cyklu]{../source_codes/23-for.c}
 
 ## While cyklus
-- syntaxe -- \lstinline{language=C}{while(condition)}
+- syntaxe -- \inlistc{while(condition)}
 - iteruje, dokud je podmínka platná
 - testování podmínky před cyklem
 - použití, pokud je podmínka během cyklu změněna
-- možnost zapsat jako \lstinline{language=C}{for(;condition;)}
+- možnost zapsat jako \inlistc{for(;condition;)}
 
 \lstinputlisting[language=C, caption=Použití while cyklu]{../source_codes/23-while.c}
 
