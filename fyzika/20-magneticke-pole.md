@@ -125,7 +125,7 @@
 - solenoid -- průměr cívky mnohem menší než délka, pole uvnitř homogenní
 - velikost indukce
 	\eq{
-		B = \mu_0\frac{NI}{l}
+		B = \mu\frac{NI}{l}
 	}
 	- $N$ -- počet závitů
 	- $l$ -- délka cívky
@@ -170,7 +170,7 @@
 - hliník, sodík, draslík, platina, kyslík, uran, hořčík\dots
 
 ### Feromagnetické látky
-- $\mu\\_r$ >> 1 %>
+- $\mu\\_r \gg 1$
 - značné zesílení mag.~pole
 - ztráta vlastní při určité teplotě (Curieova teplota)
 	- chladnutí bez mag.~pole $\rightarrow$ zničení struktury, přestává být magnetický
@@ -220,3 +220,5 @@
 	- indukční brzda
 	- indukční vařiče, metalurgie -- využití tepelných účinků
 	- indukční pece pece
+
+% TODO hystereze, energie mag. pole, rovnoběžné vodiče
