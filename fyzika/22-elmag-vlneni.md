@@ -11,8 +11,6 @@
 # Elektromagnetické vlnění
 - šíření elektrického a magnetického pole prostorem
 - oscilující elektrické a magnetické pole
-- složka magnetického pole kolmá na elektrické pole
-- šíření rychlostí světla~$c="3e8 m.s^{-1}"$
 - vlnoplocha z bodového zdroje -- koule
 - emitovány částicemi s nábojem při zrychlení
 
@@ -65,4 +63,72 @@
 \fullfig{22-divergence}[Vizualizace divergence]
 
 ## Elektromagnetický oscilátor
+- elektrický obvod generující elektromagnetické vlnění
+- přeměna elektrické energie na energii magnetickou a naopak
+
+### Nejjednodušší oscilátor
+- LC obvod ($L$ -- indukčnost -- cívka, $C$ -- kapacita -- kondenzátor)
+- dochází k rezonanci na rezonanční frekvenci \eq[m]{
+		X\_L &= X\_C\\\\
+		\omega L &= \frac{\omega C}\\\\
+		\omega &= \frac{\sqrt{LC}}\\\\
+		f &= \frac{2\pi\sqrt{LC}}
+	}
+- iniciace LC oscilátoru -- nabití kondenzátoru
+- průběh
+	- $t=0$ -- nabitý kondenzátor, začíná se vybíjet
+	- zvýšení proudu procházející cívkou, tvorba mag.~pole -- přeměna el.~pole na mag.~pole
+	- $t=T/4$ -- kondenzátor vybit, $I=I\\_{max}$, všechna energie v mag.~poli
+	- zmenšování proudu $\rightarrow$ indukování napětí, procházení indukovaného proudu $\rightarrow$ nabíjení kondenzátoru
+	- $t=T/2$ -- kondenzátor nabit, ovšem s opačnou polaritou
+	- opakování popsaného děje v druhé polovině periody s opačnou polaritou
+	
+\fullfig[width=0.4\textwidth]{22-lc-obvod}[Nákres LC obvodu]
+\fullfig[width=0.4\textwidth]{22-lc-prubeh}[Průběh oscilace LC obvodu]
+
 ## Vlastnosti elektrického vlnění
+- neoddělitelné oscilující elektrické a magnetické pole
+- elektrické a magnetického pole navzájem kolmé, společně se směrem pohybu
+- příčné vlnění
+- vlny
+	- postupná vlna -- souhlasné váze $\vect E$ a $\vect B$
+	- stojatá vlna -- fáze $\vect E$ a $\vect B$ posunuty o $\pi/2$
+- platí zákony odrazu a ohybu
+	- rozměry překážky $\leq \lambda \rightarrow$ ohyb
+	- rozměry překážky $> \lambda \rightarrow$ za překážkou stín
+- rychlost šíření
+	- ve vakuu -- pohyb rychlostí světla~$c="3e8 m.s^{-1}"$
+	- v prostředí
+		\eq{
+			v = \frac{c}{\epsilon\\_r\mu\\_r}
+		}
+		- $\epsilon\\_r, \mu\\_r$ -- relativní permitivita a permeabilita prostředí
+
+### Parametry elmag.~vlny
+- vlnová délka~$\lambda, [\lambda] = \jd{m}$
+	- vzdálenost, kterou vlna urazí za jednu periodu / délka jedné periody
+- perioda~$T, [T]=\jd{s}$
+	- doba jedné periody
+- frekvence~$f, [f] = \jd{Hz} = \jd{s^{-1}}$
+	- počet period za jednu sekundu
+	- \eq{
+		f = \frac{T}
+	}
+- rychlost šíření~$v, [v] = \jd{m.s^{-2}}$
+	- \eq{
+		v = \frac{\lambda}{T} = \lambda f
+	}
+- úhlová frekvence~$\omega, [\omega]=\jd{rad.s^{-1}}$
+	- rychlost kmitání vlny vyjádřeno jako úhlová rychlost
+	- \eq{
+		\omega = 2\pi f = 2\pi/T
+	}
+- okamžité elektrické a magnetické pole
+	\eq[m]{
+		\vect E &= \vect E\\_{max} \sin\omega t\\\\
+		\vect B &= \vect B\\_{max} \sin\omega t
+	}
+
+## Vlastní a nucené kmitání elmag.~vln
+## Elektromagnetický dipól
+## Šíření elektromagnetických vln
