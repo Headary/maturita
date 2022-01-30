@@ -84,7 +84,7 @@
 	- opakování popsaného děje v druhé polovině periody s opačnou polaritou
 	
 \fullfig[width=0.4\textwidth]{22-lc-obvod}[Nákres LC obvodu]
-\fullfig[width=0.4\textwidth]{22-lc-prubeh}[Průběh oscilace LC obvodu]
+\fullfig[width=0.5\textwidth]{22-lc-prubeh}[Průběh oscilace LC obvodu]
 
 ## Vlastnosti elektrického vlnění
 - neoddělitelné oscilující elektrické a magnetické pole
@@ -130,5 +130,44 @@
 	}
 
 ## Vlastní a nucené kmitání elmag.~vln
+### Vlastní kmitání
+- kmitání soustavy bez vnějšího zásahu
+- po prvotním nabití a odpoje LC obvod kmitá vlastním kmitáním
+- ztráty energie $\rightarrow$ tlumené
+	- soustava po čase kmitat přestane
+- oscilace pouze vlastní frekvencí
+
+### Nucené kmitání
+- kmitání soustavy s vnějším zásahem
+- dodávání síly/energie do systému
+- kompenzace ztrát energie
+- netlumené harmonické kmitání
+- oscilace s frekvencí vnějšího působení
+
 ## Elektromagnetický dipól
+- zařízení se dvěma konci, na kterých se nachází opačný náboj o stejné velikosti
+- rozevření konců rovnoběžných vodičů o délce $\lambda/4$ do směru kolmému vedení $\rightarrow$ půlvlnový dipól
+- periodické dosažení maxima napětí na koncích vodiče $\rightarrow$ vznik elektrického pole
+- vytváření elektromagnetického pole
+	- elektrické siločáry v rovině dipólu
+	- magnetické indukční vlny -- soustředné kružnice v rovině kolmé dipólu
+- využití -- antény
+	- vysílač -- vyzařování vlnění do okolí, většina energie vyzařována ve směru kolmém k ose energie
+	- přijímač -- vznik nuceného kmitání, příjem signálu
+
+\fullfig{22-dipol}[Vytvoření elektrického půlvlnového dipólu]
+\fullfig{22-antena}[Půlvlnový dipól jako anténa]
+\fullfig{22-dipol-pole}[Elektrické a magnetické pole dipólu]
+
 ## Šíření elektromagnetických vln
+- závislé na frekvenci / vlnové délce
+- ohyb podél zemského povrchu
+	- šíření přes velké překážky
+	- dlouhé a střední vlny
+	- velmi krátké vlny (rozhlas, televize) -- nutná zachovat přímou cestu k vysílači
+- ionosféra ($"60 km"$ -- $"80 km"$)
+	- volné elektrony a ionty -- vodivá pro elmag.~vlny
+	- odražení některých krátkých vln
+	- proměnlivé vlastnosti
+- radiolokace -- systémy sledující přímočaré šíření 
+	- radar -- určování poloha rádiem ($"0.01 m"$ -- $"0.5 m"$)
