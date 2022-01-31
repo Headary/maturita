@@ -67,6 +67,7 @@
 	backgroundcolor=\color{editorGray},
 	basicstyle={\small\ttfamily},
 	frame=l,
+	floatplacement=htbp,
 	% Line numbers
 	xleftmargin={0.75cm},
 	numbers=left,
