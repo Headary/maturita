@@ -17,9 +17,9 @@
 [x] 17. Vznik elektrického proudu, el.~proud v kovech
 [x] 18. El.~proud v polovodičích
 [x] 19. El.~proud v elektrolytech, plynech a ve vakuu
-[ ] 20. Stacionární a nestacionární magnetické pole
+[x] 20. Stacionární a nestacionární magnetické pole
 [x] 21. Střídavý elektrický proud
-[ ] 22. Elektromagnetické vlnění
+[x] 22. Elektromagnetické vlnění
 [x] 23. Světlo, vlnové vlastnosti světla
 [x] 24. Optické soustavy a optické zobrazení
 [x] 25. Základní pojmy kvantové fyziky

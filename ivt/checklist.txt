@@ -22,4 +22,4 @@
 [x] 22. IO programu, podmínky
 [x] 23. cykly
 [x] 24. IO programu do souboru, struktury, pole, pole struktur
-[ ] 25. práce s polem, řadící algoritmy, vícerozměrné pole
+[-] 25. práce s polem, řadící algoritmy, vícerozměrné pole
