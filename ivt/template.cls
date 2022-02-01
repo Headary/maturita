@@ -91,5 +91,11 @@
 	numberbychapter
 }
 
-\newcommand\inlistc[1]{\lstinline[language=C]{#1}}
+\lstdefinestyle{c}{
+	language=C,
+	float=htbp,
+	morekeywords={printf, puts, putchar, fwrite, getchar, gets, scanf, size_t, FILE}
+}
+
+\newcommand\inlistc[1]{\lstinline[style=c]{#1}}
 \newcommand\inlisth[1]{\lstinline[language=HTML]{#1}}

@@ -23,7 +23,7 @@
 ### Procházení pole
 - využití \inlistc{for} smyčky
 
-\lstinputlisting[language=C, float, caption=Příklad procházení pole]{../source_codes/25-array-traversing.c}
+\lstinputlisting[style=c, caption=Příklad procházení pole]{../source_codes/25-array-traversing.c}
 
 ## Vícerozměrná pole
 - pole o více rozměrech, pole polí
@@ -31,7 +31,7 @@
 - \inlistc{int matrix[height][width];}
 - stejné čtení a zápis dat jako při jedné dimenzi
 
-\lstinputlisting[language=C, float, caption=Inicializace vícerozměrného pole]{../source_codes/25-matrix-init.c}
+\lstinputlisting[style=c, caption=Inicializace vícerozměrného pole]{../source_codes/25-matrix-init.c}
 
 \begin{table}[htbp]
 \renewcommand{\arraystretch}{1.25}
@@ -89,4 +89,4 @@ Bubble sort 	& bublinkové řazení & $n$   & $n^2$ & $n^2$ & $1$ & Ano & zámě
 \caption{Porovnání řadících algoritmů}
 \end{table}
 
- \lstinputlisting[language=C, float, caption=Implementace bubble sortu v C]{../source_codes/25-sort-bubble.c}
+\lstinputlisting[style=c, caption=Implementace bubble sortu v C]{../source_codes/25-sort-bubble.c}
