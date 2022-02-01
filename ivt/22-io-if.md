@@ -18,7 +18,7 @@
 		- unsafe, chybí ochrana před buffer overflow
 	- \inlistc{scanf} -- načtení vstupu v zadaném formátu, konec inputu mezerou, \texttt{\textbackslash n} nebo EOF
 
-\lstinputlisting[language=C, caption=Načtení vstupu od uživatele]{../source_codes/22-inputs.c}
+\lstinputlisting[style=c, caption=Načtení vstupu od uživatele]{../source_codes/22-inputs.c}
 
 ### Výstup programu
 - výpis textu do \inlistc{stdout} nebo \inlistc{stderr}
@@ -43,7 +43,7 @@
 - zápis do stringu
 - formátovací značky různé pro každý data typ (viz otázka~21)
 
-\lstinputlisting[language=C, caption=Použíti printf a scanf]{../source_codes/22-sums.c}
+\lstinputlisting[style=c, caption=Použíti printf a scanf]{../source_codes/22-sums.c}
 
 ## Podmínky
 - způsob spouštění kódu za pomocí podmínek
@@ -54,7 +54,7 @@
 
 ### Booleovské výrazy
 - v~C použit \inlistc{int}, případně \inlistc{bool} ze \inlistc{stdbool.h}
-- \inlistc{True} -- nenulová hodnota (nejčastěji 1), \inlistc{False} -- 0
+- \inlistc{true} -- nenulová hodnota (nejčastěji 1), \inlistc{false} -- 0
 
 \begin{table}[htbp]
 \centering
@@ -76,9 +76,7 @@
 \caption{Logické operátory v~C}
 \end{table}
 
-\begin{minipage}{\linewidth}
-\lstinputlisting[language=C, caption=Příklad programu s podmínkou a if]{../source_codes/22-odd-even.c}
-\end{minipage}
+\lstinputlisting[style=c, caption=Příklad programu s podmínkou a if]{../source_codes/22-odd-even.c}
 
 \begin{table}[htbp]
 \centering
@@ -109,4 +107,4 @@
 - logické výrazy možno skládat, závorky pro přednost\dots
 - pokud v AND je první argument 0, další hodnoty již nejsou vyhodnoceny
 
-\lstinputlisting[language=C, caption=Příklady boolenových operací]{../source_codes/22-comparision.c}
+\lstinputlisting[style=c, caption=Příklady boolenových operací]{../source_codes/22-comparision.c}

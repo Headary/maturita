@@ -63,7 +63,7 @@
 	- tělo dokumentu
 	- obsah prezentován uživateli
 
-\lstinputlisting[language=HTML]{../source_codes/18-hello-world.html}
+\lstinputlisting[style=html]{../source_codes/18-hello-world.html}
 
 ### Tagy v \htmlpair{head}
 - \htmlpair{title} -- Titulek stránky zobrazený v liště
@@ -75,7 +75,7 @@
 	- \inlisth{content} -- specifikace hodnoty v name atributu
 	- \inlisth{http-equiv} -- HTTP header pro informace/hodnotu v content atributu
 
-\lstinputlisting[language=HTML]{../source_codes/18-head.html}
+\lstinputlisting[style=html]{../source_codes/18-head.html}
 
 ### Tagy v \htmlpair{body}
 #### Sekce
@@ -100,10 +100,10 @@
 - \htmlpair{q} -- text s uvozovkami
 - \htmlpair{em} -- kurzíva
 - \htmlpair{a} -- odkaz
-	- \inlisth{src} -- cesta odkazu
+	- \inlisth{href} -- cesta odkazu
 	- \inlisth{target} -- místo otevření odkazu
 
-\lstinputlisting[language=HTML]{../source_codes/18-body.html}
+\lstinputlisting[style=html]{../source_codes/18-body.html}
 
 #### Obrázky
 - \htmlsingle{img} -- tag pro vložení obrázku
@@ -121,7 +121,7 @@
 	\inlisth{colspan} -- šířka buňky ve sloupcích
 	\inlisth{align} -- zarovnání
 
-\lstinputlisting[language=HTML]{../source_codes/18-table.html}
+\lstinputlisting[style=html]{../source_codes/18-table.html}
 
 #### Seznamy
 - \htmlpair{ul} -- block seznamu

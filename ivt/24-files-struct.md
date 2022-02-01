@@ -42,7 +42,7 @@
 - \inlistc{fwrite(&variable, dataSize, dataCount, fptr)} -- zápis binárních dat
 - připsání/zapsání/přepsání dat do souboru
 
-\lstinputlisting[language=C, caption=Načítání a zapisování do souboru]{../source_codes/24-files.c}
+\lstinputlisting[style=c, caption=Načítání a zapisování do souboru]{../source_codes/24-files.c}
 
 ## Struktury
 - keyword \inlistc{struct}
@@ -54,7 +54,7 @@
 	- žánr
 	- rok vydání
 
-\lstinputlisting[language=C, caption=Příklad struktury]{../source_codes/24-struct-book.c}
+\lstinputlisting[style=c, caption=Příklad struktury]{../source_codes/24-struct-book.c}
 
 - různé metody definovaní
 	- \inlistc{struct StructName \\{...\\};} 
@@ -71,7 +71,7 @@
 - inicializace proměnné s hodnotami -- \inlistc{struct StructName structVar = {insideVar1, insideVar2};}
 - přístup k hodnotám -- \inlistc{structVar.insideVar1 = value;}
 
-\lstinputlisting[language=C, caption=Různé způsoby definování struktur]{../source_codes/24-struct-init.c}
+\lstinputlisting[style=c, caption=Různé způsoby definování struktur]{../source_codes/24-struct-init.c}
 
 ## Pole
 - jeden dlouhý list podobných hodnot o stejném data typu
@@ -102,4 +102,4 @@ name[0] & name[1] & name[2] & name[3] & name[4]\\\\
 - pole složené ze struktur
 - hodnota pole \inlistc{arrayName[index].insideVar}
 
-\lstinputlisting[language=C, caption=Vypsání pole struktur]{../source_codes/24-structs-array.c}
+\lstinputlisting[style=c, caption=Vypsání pole struktur]{../source_codes/24-structs-array.c}

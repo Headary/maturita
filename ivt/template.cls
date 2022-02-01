@@ -59,7 +59,7 @@
 \renewcommand\lstlistingname{Kód}
 
 \definecolor{editorGray}{rgb}{0.95, 0.95, 0.95}
-\definecolor{editorOcher}{rgb}{1, 0.5, 0} % #FF7F00 -> rgb(239, 169, 0)
+\definecolor{editorOcher}{rgb}{1, 0.4, 0} % #FF7F00 -> rgb(239, 169, 0)
 \definecolor{editorGreen}{rgb}{0, 0.5, 0} % #007C00 -> rgb(0, 124, 0)
 
 \lstset{%
@@ -94,8 +94,18 @@
 \lstdefinestyle{c}{
 	language=C,
 	float=htbp,
-	morekeywords={printf, puts, putchar, fwrite, getchar, gets, scanf, size_t, FILE}
+	morekeywords={
+		printf, puts, putchar, fwrite,
+		getchar, gets, scanf, size_t,
+		FILE, fopen, fclose, fprintf, fscanf,
+		fread
+	}
+}
+
+\lstdefinestyle{html}{
+	language=HTML,
+	float=htbp
 }
 
 \newcommand\inlistc[1]{\lstinline[style=c]{#1}}
-\newcommand\inlisth[1]{\lstinline[language=HTML]{#1}}
+\newcommand\inlisth[1]{\lstinline[style=html]{#1}}

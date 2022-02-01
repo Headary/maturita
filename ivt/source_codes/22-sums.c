@@ -3,7 +3,7 @@
 int main() {
 	int a,b,c;
 
-	printf("Zadejte 3 čísla: ");
+	printf("Zadejte 3 cisla: ");
 	scanf("%i %i %i", &a, &b, &c);
 
 	printf("Sumy kazde dvojice: %i %i %i", a+b, b+c, a+c);
