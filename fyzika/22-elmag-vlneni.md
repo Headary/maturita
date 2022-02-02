@@ -169,5 +169,37 @@
 	- volné elektrony a ionty -- vodivá pro elmag.~vlny
 	- odražení některých krátkých vln
 	- proměnlivé vlastnosti
-- radiolokace -- systémy sledující přímočaré šíření 
+- radiolokace -- systémy sledující přímočaré šíření
 	- radar -- určování poloha rádiem ($"0.01 m"$ -- $"0.5 m"$)
+
+### Typy elektrických vln
+- gamma záření -- $\gamma$
+- rentgenové záření
+	- HX = Hard X-rays
+	- SX = Soft X-Rays
+- ultrafialové
+	- EUV = Extreme-ultraviolet
+	- NUV = Near-ultraviolet
+- viditelné světlo
+- infračervené
+	- NIR = Near-infrared
+	- MIR = Mid-infrared
+	- FIR = Far-infrared
+- mikrovlny
+	- EHF = Extremely high frequency (microwaves)
+	- SHF = Super-high frequency (microwaves)
+- rádiové vlny
+	- UHF = Ultrahigh frequency (radio waves)
+	- VHF = Very high frequency (radio)
+	- HF = High frequency (radio)
+	- MF = Medium frequency (radio)
+	- LF = Low frequency (radio)
+	- VLF = Very low frequency (radio)
+	- VF = Voice frequency
+	- ULF = Ultra-low frequency (radio)
+	- SLF = Super-low frequency (radio)
+	- ELF = Extremely low frequency (radio)
+
+\fullfig[width=0.5\textwidth]{22-spectrum-frequency}[Frekvence, vlnové délky a energie jednotlivých záření]
+\fullfig[width=0.95\textwidth]{22-spectrum-light}[Elektromagnetické spektrum]
+\fullfig[width=0.9\textwidth]{22-spectrum-scale}[Porovnání velikostí elektromagnetických vln]
