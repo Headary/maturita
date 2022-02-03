@@ -107,5 +107,14 @@
 	float=htbp
 }
 
+\lstdefinestyle{sql}{
+	language=SQL,
+	float=htbp,
+	morekeywords={
+		DATABASE
+	}
+}
+
 \newcommand\inlistc[1]{\lstinline[style=c]{#1}}
 \newcommand\inlisth[1]{\lstinline[style=html]{#1}}
+\newcommand\inlists[1]{\lstinline[style=sql]{#1}}
