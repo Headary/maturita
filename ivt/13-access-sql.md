@@ -55,3 +55,19 @@
 - \inlists{DROP TABLE <tableName>} -- smazání tablu
 - \inlists{CREATE INDEX <indexName> ON <tableName> (column1, column2...)} -- vytvoření indexu tablu (sloupce tablu)
 - \inlists{DROP INDEX <indexName>} -- smazání indexování tablu (sloupce tablu)
+
+### \inlists{SELECT}
+- použito pro čtení dat z tabulky
+- syntax
+	- \inlists{SELECT column1, column2, ... FROM tableName;} -- export specified columns
+	- \inlists{SELECT * FROM tableName} -- select all columns
+
+#### \inlists{WHERE}
+- specifikace podmínky, pro které se má příkaz aplikovat
+- \inlists{SELECT * FROM persons WHERE firstName = 'Karel'}
+- možno pomocí \inlists{AND} a \inlists{OR} použít více podmínek
+- používáno i při \inlists{UPDATE} a \inlists{DELETE}
+
+#### \inlists{ORDER BY}
+- řazení dat
+- \inlists{SELECT * FROM persons ORDER BY firstName}
