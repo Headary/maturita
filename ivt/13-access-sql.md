@@ -29,7 +29,7 @@
 - databáze -- systém uchovávající všechna data a tables
 - table
 	- objekt databáze
-	- uchovává samotná data ve specifikovaných sloupcích
+	- uchovává samotná data ve specifikovaných sloupcích (fields)
 	- každý řádek jeden záznam (entry)
 	- primary key
 		- sloupec udávající primární klíč / id záznamu
@@ -47,6 +47,15 @@
 	- výsledek \inlists{SELECT} příkazu na reálných datech
 
 \lstinputlisting[style=sql, caption=Vytvoření tablu]{../source_codes/13-create-table.sql}
+
+### Formáty dat/datatypy
+- pro každé field potřeba specifikovat data typ
+- typy textu, čísel, binárních dat, času a dat\dots
+- SQL (MySQL) data typy -- \inlists{CHAR(size), VARCHAR(size), BINARY(size), TEXT(size), BLOB(size), MEDIUMTEXT, MEDIUMBLOB, LONGTEXT, ENUM(val1, val2...), BIT, BOOL, SMALLINT(size), INT(size), FLOAT(p), DATE, TIMESTAMP}\dots
+- MS Access data typy -- text (MySQL -- \inlists{TINYTEXT}), memo (MySQL -- \inlists{TEXT}), byte, integer (MySQL -- \inlists{TINYINT}), long, single, double, currency, date/time, yes/no, ole object (obrázky, audio, binární data\dots), hyperlink, lookup wizard (MySQL -- \inlists{ENUM})\dots
+- computed column/field -- sloupec počítán z jiných sloupců
+	- SQL -- \inlists{ALTER TABLE orders ADD final_price AS item_count * item_prize}
+	- MS Access -- vytvoření vzorce pomocí expression builderu
 
 ## SQL
 - standardizovaný programovací jazyk pro používání (hlavně relačních) databází
@@ -82,3 +91,21 @@
 #### \inlists{ORDER BY}
 - řazení dat
 - \inlists{SELECT * FROM persons ORDER BY firstName}
+
+## Práce s MS Access
+### Návrh databáze
+- vytvoření tables s příslušným obsahem dat a fields
+- vytvoření příslušných relací mezi tables
+	- Database Tools $\rightarrow$ Relationships
+
+### Formuláře
+- způsob vnější integrace s daty
+- více user-friendly způsob zapisování/aktualizace/mazání dat
+- Create $\rightarrow$ Form
+- změna vzhledu ve form designeru
+
+### Třídění a vyhledávání dat
+- řešeno pomocí querries
+- možnost zobrazit data, listovat různá data z více tabulek
+- specifikace zobrazených sloupců, jejich podmínek a řazení
+- možno vytvářet přímo SQL query
