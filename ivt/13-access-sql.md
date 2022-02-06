@@ -25,23 +25,34 @@
 - uložení databáze ve vlastním formátu
 - podpora VBA
 
-## SQL
-- standardizovaný programovací jazyk pro používání (hlavně relačních) databází
-- původně vytvořeno roku 1970
-- vytváření databází, zápis dat, čtení (query) dat, mazání dat, vytváření souvislostí\dots
-- specifikace úkonu pomocí speciálních klíčových slov, pevná syntaxe
-
-### Struktura
+## Struktura
 - databáze -- systém uchovávající všechna data a tables
 - table
 	- objekt databáze
 	- uchovává samotná data ve specifikovaných sloupcích
-	- každý řádek jeden záznam
+	- každý řádek jeden záznam (entry)
+	- primary key
+		- sloupec udávající primární klíč / id záznamu
+		- unikátní pro každý záznam
+		- specifikován v jiných tables při propojování dat
+	- foreign key
+		- klíč ukazující na entry dat v jiném tablu
+		- např.: objednávka 1 patří zákazníkovy 2
+- relace
+	- specifikace souvislostí mezi tably
+	- foreign key v table1 ukazuje na primary key v table2
+	- použití slučování -- \inlists{INNER JOIN}, \inlists{LEFT JOIN}, \inlists{RIGHT JOIN}, \inlists{FULL JOIN}
 - view
 	- virtuální table
 	- výsledek \inlists{SELECT} příkazu na reálných datech
 
 \lstinputlisting[style=sql, caption=Vytvoření tablu]{../source_codes/13-create-table.sql}
+
+## SQL
+- standardizovaný programovací jazyk pro používání (hlavně relačních) databází
+- původně vytvořeno roku 1970
+- vytváření databází, zápis dat, čtení (query) dat, mazání dat, vytváření souvislostí\dots
+- specifikace úkonu pomocí speciálních klíčových slov, pevná syntaxe
 
 ### Příkazy
 - \inlists{SELECT} -- čtení dat z tablu
