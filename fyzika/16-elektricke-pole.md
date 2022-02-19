@@ -37,7 +37,7 @@
 \fullfig[width=0.4\textwidth]{16-coulombs-law}[Coulombův zákon u nábojů]
 
 ## Intenzita el.~pole
-- značka~$E$, $[E]=N.C^{-1}=V.m^{-1}$
+- značka~$E$, $[E]=\jd{N.C^{-1}}=\jd{V.m^{-1}}$
 - vektorová veličina popisující elektrické pole
 - síla vztažena na jednotku náboje
 - v klasické mechanice lze přirovnat ke gravitačnímu zrychlení

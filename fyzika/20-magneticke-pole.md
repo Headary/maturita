@@ -212,13 +212,13 @@
 	}
 
 ## Foucaltovy proudy
-- tzv. *výřivé proudy*
+- tzv. *vířivé proudy*
 - vznik v plošných nebo objemových vodičích při změně mag.~toku
 - vznik opačné reakce -- zeslabení mag.~toku; největší zeslabení uprostřed průřezu
 - využití
 	- stabilizace ručiček tachometru
 	- indukční brzda
 	- indukční vařiče, metalurgie -- využití tepelných účinků
-	- indukční pece pece
+	- indukční pece
 
 % TODO hystereze, energie mag. pole, rovnoběžné vodiče
