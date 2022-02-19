@@ -104,4 +104,25 @@
 	- specifikace MIME typu, čas, permissions, creator, ...
 - konverze dat -- převod mezi formáty
 	- komprese dat -- konverze s cílem zmenšit velikost souborů, lossy/lossless compression
-- ukládání -- RAM, disky (HDD, SSD, USB disky, paměťové karty), disk array (RAID), cloud
+
+### Ukládání dat
+- dnes používané -- RAM, disky (HDD, SSD, USB disky, paměťové karty), disk array (RAID), cloud
+
+#### Magnetické
+- uchování dat pomocí změny vzoru a orientace magnetizace
+- HDD, floppy disky, magnetické pásky, magnetické proužky
+
+#### Optické
+- využití laseru pro zápis a čtení dat
+- zaostřený laser na optický disk
+- ekologický způsob uchování
+- CD, DVD, Blu-ray
+
+#### Mechanické
+- uchování dat mechanickou změnou systému
+- přehození páky, vytvoření díry\dots
+- děrné pásky
+
+#### Elektrické
+- uchování dat za pomoci logických bran
+- flash memory (USB, SSD\dots)
