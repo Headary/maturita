@@ -1,4 +1,6 @@
-# Počítače, přehled historie, generace. Reprezentace dat v PC.
+% Počítače, přehled historie, generace. Reprezentace dat v PC.
+
+# Historie počítačů
 
 ## Počítač
 - zařízení a stroje zpracovávající data pomocí vytvořeného programu

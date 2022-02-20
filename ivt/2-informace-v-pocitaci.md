@@ -1,5 +1,8 @@
+% Informace v počítači, číselné soustavy, jednotky informace, záznamová média
+
 \setcounter{section}{1}
-# Informace v počítači, číselné soustavy, jednotky informace, záznamová média
+
+# Informace v počítači
 ## Data v počítači
 - reprezentace pomocí 1 a 0 (zapnuto/vypnuto) -- bity [b] (kb, Mb, Gb,...)
 - seskupovány po 8 -- byty [B] (kB, MB, GB,...)

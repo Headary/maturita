@@ -1,5 +1,7 @@
+% Sekvenční logický systém a jeho návrh, synchronní klopní obvody SR, JK, D a T, konečný automat
+
 \setcounter{section}{3}
-# Sekvenční logický systém a jeho návrh, synchronní klopní obvody SR, JK, D a T, konečný automat
+# Sekvenční logický systém
 
 % https://www.youtube.com/watch?v=DwKKly9M1cE
 % https://www.youtube.com/watch?v=LRaCh6AvTlM

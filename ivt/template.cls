@@ -49,6 +49,8 @@
 \author{Adam Krška}
 \title{Maturitní otázky z informatiky}
 
+\setcounter{tocdepth}{2}
+
 \renewcommand*{\fps@table}{htbp}
 
 \renewcommand\thefigure{\thesection.\arabic{figure}}

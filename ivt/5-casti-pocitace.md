@@ -1,5 +1,7 @@
+% Základní části počítače, jejich funkce a parametry, záznamová média, programové vybavení počítačů, operační systémy, typy operačních systémů a jejich rozšíření
+
 \setcounter{section}{4}
-# Základní části počítače, jejich funkce a parametry, záznamová média, programové vybavení počítačů, operační systémy, typy operačních systémů a jejich rozšíření
+# Základní části počítače, operační systémy
 
 ## Základní části počítače
 - hardware -- fyzické části počítače
