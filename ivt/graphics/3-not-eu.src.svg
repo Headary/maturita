@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="170"
+   height="75"
+   id="svg8190">
+  <defs
+     id="defs8203" />
+  <rect
+     width="72.02272"
+     height="72.02272"
+     x="48.095554"
+     y="1.5310699"
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.97728026;stroke-miterlimit:4;stroke-dasharray:none"
+     id="rect8192" />
+  <text
+     x="3.2414465"
+     y="44.45932"
+     style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+     id="text8207"
+     xml:space="preserve"><tspan
+       x="3.2414465"
+       y="44.45932"
+       style="font-family:Arial"
+       id="tspan8209">A</tspan></text>
+  <text
+     x="151.9659"
+     y="44.545452"
+     style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+     id="text8215"
+     xml:space="preserve"><tspan
+       x="151.9659"
+       y="44.545452"
+       style="font-family:Arial"
+       id="tspan8217">Y</tspan></text>
+  <path
+     d="M 21.536783,37.25441 L 48.010502,37.25441"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path2215" />
+  <text
+     x="78.885597"
+     y="24.883976"
+     style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+     id="text2223"
+     xml:space="preserve"><tspan
+       x="78.885597"
+       y="24.883976"
+       id="tspan2225">1</tspan></text>
+  <path
+     d="M 133.61155,37.517465 L 147.82246,37.517465"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path3395" />
+  <path
+     d="M 133.41494,37.434952 C 133.41654,41.088799 130.45495,44.051673 126.80111,44.051673 C 123.14726,44.051673 120.18568,41.088799 120.18727,37.434952 C 120.18568,33.781105 123.14726,30.818231 126.80111,30.818231 C 130.45495,30.818231 133.41654,33.781105 133.41494,37.434952 L 133.41494,37.434952 z "
+     style="opacity:0.95999995;color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="path3203" />
+</svg>

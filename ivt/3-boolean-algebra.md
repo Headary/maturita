@@ -1,5 +1,37 @@
 % Booleova algebra - zákony a pravidla, základní logické operace a členy, zápis
 % logické funkce, minimalizace funkce. Kombinační logický systém a jeho návrh.
+
+\newcommand\logicgates[2]{
+	\begin{figure}[htp]
+		\centering
+		\subfloat[Člen #1 - EU/IEC]{\includegraphics[height=1.5cm]{3-#2-eu}}
+		\qquad
+		\subfloat[Člen #1 - US]{\includegraphics[height=1.5cm]{3-#2-us}}
+	\end{figure}
+}
+
+\newcommand\logicgatestable[6]{
+	\begin{figure}[htp]
+		\centering
+		\subfloat[Člen #1 - EU/IEC]{\includegraphics[height=1.5cm]{3-#2-eu}}
+		\qquad
+		\subfloat[Člen #1 - US]{\includegraphics[height=1.5cm]{3-#2-us}}
+		\qquad
+		\subfloat{
+			\begin{tabular}{ccc}
+			\toprule
+				$x$ & $y$ & #1\\\\
+			\midrule
+				0&0&#3\\\\
+				0&1&#4\\\\
+				1&0&#5\\\\
+				1&1&#6\\\\
+			\bottomrule
+			\end{tabular}
+		}
+	\end{figure}
+}
+
 \setcounter{section}{2}
 # Booleova algebra
 - algebraická struktura se dvěma binárními a jednou unární operací
@@ -22,21 +54,28 @@
 	- pro $\land$: $x\land 0 = 0$
 	- pro $\lor$: $x\lor 1 = 1$
 - distributivita
-	- $\land$ přes $\lor$: $x\land(y\lor z)=(x\land y)\lor (x\land z)$
-	- $\lor$ přes $\land$: $x\lor(y\land z)=(x\lor y)\land (x\lor z)$
+	- $\land$ přes $\lor$ (dva zápisy):
+		- $x\land(y\lor z)=(x\land y)\lor (x\land z)$
+		- $x\*(y+z)=(x \* y)+(x \* z)$
+	- $\lor$ přes $\land$ (dva zápisy):
+		- $x\lor(y\land z)=(x\lor y)\land (x\lor z)$
+		- $x+(y\*z)=(x+y)\*(x+z)$
 - absorpce
 	- $x\land (x\lor y) = x$
 	- $x\lor (x\land y) = x$
 - idempotence
 	- $x\land x = x$
 	- $x\lor x = x$
+- De Morganovo pravidlo (pravidla o vytvoření negace)
+	- $\neg(x\lor y\lor z) = \neg x \land \neg y \land \neg z$
+	- $\neg(x\land y\land z) = \neg x \lor \neg y \lor \neg z$
 
 ## Základní logické operace
 - výsledkem opět výrok
 - hodnota výsledku závislá na hodnotách vstupu a druhu operace
 
 ### Konjunkce / AND
-- značka~$\land$
+- značka~$\land$, nebo taky $\cdot$
 - operace pravdivá, pokud oba výroky pravdivé
 
 |$x$|$y$|$x\land y$|
@@ -48,7 +87,7 @@
 : Implikace
 
 ### Disjunkce / OR
-- značka~$\lor$
+- značka~$\lor$, nebo taky $+$
 - operace pravdivá, pokud alespoň jeden výrok pravdivý
 
 |$x$|$y$|$x\lor y$|
@@ -102,70 +141,41 @@
 ### NOT
 - realizace negace
 - stejné hodnoty jako negace
-\fullfig[width=0.25\textwidth]{3-not}[Člen NOT]
+
+\logicgates{NOT}{not}
 
 ### AND
 - realizace konjunkce
 - stejné hodnoty jako konjunkce
-\fullfig[width=0.25\textwidth]{3-and}[Člen AND]
+
+\logicgates{AND}{and}
 
 ### OR
 - realizace disjunkce
 - stejné hodnoty jako disjunkce
-\fullfig[width=0.25\textwidth]{3-or}[Člen OR]
+
+\logicgates{OR}{or}
 
 ### NAND
 - převrácené (znegované) AND
 
-|$x$|$y$|NAND|
-|:--:|:--:|:--:|
-|0|0|1|
-|0|1|1|
-|1|0|1|
-|1|1|0|
-: NAND
-
-\fullfig[width=0.25\textwidth]{3-nand}[Člen NAND]
+\logicgatestable{NAND}{nand}{1}{1}{1}{0}
 
 ### NOR
 - převrácené (znegované) OR
 
-|$x$|$y$|NOR|
-|:--:|:--:|:--:|
-|0|0|1|
-|0|1|0|
-|1|0|0|
-|1|1|0|
-: NOR
-
-\fullfig[width=0.25\textwidth]{3-nor}[Člen NOR]
+\logicgatestable{NOR}{nor}{1}{0}{0}{0}
 
 ### XOR
 - \uv{exklusive OR}
 - platné, pokud pouze jeden ze členů platný
 
-|$x$|$y$|XOR|
-|:--:|:--:|:--:|
-|0|0|0|
-|0|1|1|
-|1|0|1|
-|1|1|0|
-: XOR
-
-\fullfig[width=0.25\textwidth]{3-xor}[Člen XOR]
+\logicgatestable{XOR}{xor}{0}{1}{1}{0}
 
 ### XNOR
 - negace XOR
 
-|$x$|$y$|XNOR|
-|:--:|:--:|:--:|
-|0|0|1|
-|0|1|0|
-|1|0|0|
-|1|1|1|
-: XNOR
-
-\fullfig[width=0.25\textwidth]{3-xnor}[Člen XNOR]
+\logicgatestable{XNOR}{xnor}{1}{0}{0}{1}
 
 % TODO: Logické funkce
 ## Logická funkce
