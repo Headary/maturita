@@ -20,7 +20,7 @@
 	- další -- ASERTY, Dvorak\dots
 - připojení -- PS/2, USB, bluetooth, bezdrátové 2,4GHz
 - kódování jazyků -- ASCII, UNICODE (UTF-8, UTF-16, UTF-32) -- univerzální sada
-- typy -- membránové, mechanické (red, brown, blue\dots switches), optické
+- typy -- membránové, mechanické (red, brown, blue\dots{} switches), optické
 
 ### Myš
 - vstup polohy na obrazovce + 2 tlačítka a kolečko (+ macro klávesy)
@@ -114,9 +114,46 @@
 
 ### Tiskárna
 - vynesení obrazu na papír
-- jehličková, inkoustová, laserová
 - plotr -- velkoformátová tiskárna, pero / inkoustová hlava, i řezací hlava
 - 3D tiskárny
+
+#### Typy tisku
+- jehličková
+	- otisknutí jehliček přes barvicí pásku na papír
+	- klady -- spolehlivé, malé náklady, použití traktorového papíru
+	- zápory -- pomalé při tisku grafiky, grafika s omezenou paletou barev, malá kvalita tisku, hluk,
+- inkoustová
+	- vymršťování kapek ($\pm "35 pl"="35e-12 l"$) vysokou rychlostí na papír
+	- systém CMYK
+	- typy
+		- termální -- zahřátí inkoustu, vznik bubliny, vymrštění inkoustu
+		- piezoelektrický -- piezoelektrické krystaly (mění objem vlivem el.~napětí) -- stažení komor, výstřik inkoustu
+		- voskové -- princip termální tiskárny, místo inkoustu vosk, kvalitnější a pestřejší tisk,
+	- klady -- klidnější provoz, kvalitnější tisk, barevný tisk, relativně nízká pořizovací cena
+	- zápory -- drahý inkoust, ucpávání trysek, pomalý proti laseru/LED, rozpustný ve vodě, omezena životnost inkoustu
+- laserová
+	- toner -- jemný prášek 
+	- vykreslení obrázku laserem na světlocitlivý válec, nanesení toneru -- uchycení na osvětlených místech, obtisk na papír, tepelná fixace
+	- vybití náboje válce na místech ozářené laserem -- přilnutí toneru pouze na tyto místa; na jiných místech odpuzován (stejná polarita, jako válec)
+	- možnost nahradit laser LED diodami
+	- klady -- vysoká kvalita tisku, rychlý tisk, nízké provozní náklady, nízká hlučnost
+	- zápory -- vyšší pořizovací cena, potřeba zahřát, nevhodné pro kvalitní fotografie
+
+\begin{figure}[htbp]
+	\centering
+	\subfloat[Schéma]{\includegraphics[height=0.28\textwidth]{6-tiskarna-laser-schema}}
+	\qquad
+	\subfloat[Vybíjení válce]{\includegraphics[height=0.28\textwidth]{6-tiskarna-laser-valec}}
+	\caption{Funkce laserové tiskárny}
+\end{figure}
+
+#### Parametry
+- rozlišení -- DPI (dots per inch) -- $"150 dpi"$ -- $"1~200 dpi"$
+- připojení -- USB, Ethernet, WiFi
+- rychlost tisku
+	- ppm (pages per minute) -- tisk stránek textu
+	- ipm (images per minute) -- tisk komplexních stránek s obrázky a grafikou
+	- většinou rychlost okolo~$"15 ppm"$ pro černobílý tisk
 
 ### Zvukový výstup
 - sluchátka, reproduktory
