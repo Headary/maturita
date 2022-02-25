@@ -70,6 +70,11 @@
 - kondenzační
 	- uvnitř kondenzátor, změna vzdálenosti mezi pláty
 
+#### Parametry
+- směrové charakteristiky -- všesměrová, kardioidní, superkardioidní, hyperkardioidní, osmičková/bidirekcionální, úzce směrová
+- frekvenční rozsah
+- napájení -- tonaderspeisung, fantomové napájení, 5V přes konektor
+
 ### Fotoaparát / Kamery
 - záznam fotografií / videí / vstup videa
 - světlocitlivý detektor, objektiv, uzávěrka
@@ -79,6 +84,12 @@
 		- kvalitnější, dražší
 	- CMOS
 		- menší, levnější, horší citlivost
+
+#### Parametry
+- rozlišení
+- velikost senzoru
+- poměr stran senzoru
+- typ kamery -- DSLR, Mirrorless
 
 ## Výstupní zařízení
 - výstup informace z počítače

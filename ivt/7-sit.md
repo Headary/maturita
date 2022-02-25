@@ -162,10 +162,12 @@ Síťová vrstva & Síťová vrstva\\\\
 - dneska často spojení všech funkcí v jednom zařízení -- modem, switch, AP, router a NAT v jednom
 - vytváření podsítí
 - routing tables pro směřování příchozích dat ke správným zařízením
+- směrování packetů na základě síťové adresy v hlavičce
 
 ### Modem
 - převod analogového a digitálního signálu
 - přenos digitálních dat po analogových trasách (telefon, koaxial, rádiový přenos)
+- point-to-point packet routing na základě IP hlavičky packetu
 
 ### Switch
 - síťový přepínač
