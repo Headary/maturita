@@ -1,0 +1,45 @@
+\begin{titlepage}
+%	\begin{center}
+%		\hspace*{0cm}
+%		\vfill
+%		\fontsize{\titlesize}{\titlesize}\selectfont
+%		\fontfamily{qag}\selectfont
+%		Literární díla k ústní maturitní zkoušce
+%		
+%		\vspace*{20pt}
+%%		\fontsize{\authorsize}{\authorsize}\selectfont
+%		\fontfamily{cmss}\selectfont
+%		Adam Krška
+%		\vfill
+%	\end{center}
+	
+	\raggedleft % Right align the title page
+	
+	\rule{1pt}{\textheight} % Vertical line
+	\hspace{0.05\textwidth} % Whitespace between the vertical line and title page text
+	\parbox[b]{0.75\textwidth}{ % Paragraph box for holding the title page text, adjust the width to move the title page left or right on the page
+	
+	{
+	\fontfamily{qag}\selectfont\Huge 
+	Literární díla \\[0.5\baselineskip] 
+	k maturitní zkoušce \\[0.5\baselineskip] 
+	z českého jazyka
+	}\\[2\baselineskip] % Title
+	{\fontfamily{cmss}\selectfont\huge Adam Krška} % Author name, lower case for consistent small caps
+		
+	\vspace{0.5\textheight} % Whitespace between the title block and the publisher	
+}
+\end{titlepage}
+
+\newpage
+\thispagestyle{empty}
+\tableofcontents
+
+\newpage
+\def\blankpage{%
+	\clearpage%
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\null%
+	\clearpage}
+\blankpage

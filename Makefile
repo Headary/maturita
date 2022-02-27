@@ -1,5 +1,5 @@
 
-SUBDIRS= fyzika ivt
+SUBDIRS= fyzika ivt cj
 
 .PHONY: all $(SUBDIRS)
 
