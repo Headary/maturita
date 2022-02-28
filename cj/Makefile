@@ -1,6 +1,6 @@
 SOURCE=sources
 OUT=out
-LIST=booklist.tex
+LIST=bookincludelist.tex
 
 SOURCEFILES=$(wildcard $(SOURCE)/*.tex)
 OBJS = $(patsubst $(SOURCE)/%.tex,$(OUT)/%.pdf,$(SOURCEFILES))
@@ -14,6 +14,9 @@ include ../Makefile.inc
 
 $(OUT)/all.pdf: $(SOURCEFILES) books.cls titlepage.tex $(OUT)/$(LIST)
 	cd $(@D); $(call XELATEX,'\documentclass{../books}\begin{document}\input{../titlepage.tex}\input{$(LIST)}\end{document}')
+
+$(OUT)/booklist.pdf: booklist.tex $(OUT)/all.pdf
+	cd $(@D); $(call XELATEX,../booklist.tex)
 
 $(OUT)/%.pdf: $(SOURCE)/%.tex books.cls
 	cd $(@D); $(call XELATEX,'\documentclass{../books}\begin{document}\input{../$<}\end{document}')
