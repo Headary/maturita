@@ -8,7 +8,6 @@ OBJS = $(patsubst $(SOURCE)/%.tex,$(OUT)/%.pdf,$(SOURCEFILES))
 
 .PHONY: all clean
 all: $(OBJS) $(OUT)/all.pdf
-	@echo -e "\e[32;1mMake complete\e[0m"
 
 include ../Makefile.inc
 
