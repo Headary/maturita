@@ -1,5 +1,5 @@
 # Druhy energie a jejich vzájemní přeměny. Zákony zachování
- 
+
 ## Mechanická práce
 - značka~$W$, $[W]=\jd{J}=\jd{Nm}=\jd{kg.m^2.s^{-2}}$
 - skalární veličina
@@ -27,12 +27,81 @@
 
 ### Kinetická energie
 - energie uchována v pohybu tělesa
-- odvození
-	\eq{
-		E &= W = Fs\\\\
-		E &= ma * \frac{2}at^2\\\\
-		E &= \frac{2} ma^2t^2\\\\
-		E &= \frac{2} mv^2\\\\
-	}
 - nezávislá na směru rychlosti, pouze na velikosti
 - rychlost relativní k ostatním tělesům $\rightarrow$ kinetická energie relativní ke vztažné soustavě
+
+#### Odvození
+\begin{minipage}{0.45\textwidth}
+	\eq[m]{
+		E\\_k &= W = Fs\\\\
+		E\\_k &= ma * \frac{2}at^2\\\\
+		E\\_k &= \frac{2} ma^2t^2\\\\
+		E\\_k &= \frac{2} mv^2\\\\
+	}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	\eq[m]{
+		E\\_k &= W = \int_0 F\d s\\\\
+		E\\_k &= \int_0 ma\d s\\\\
+		E\\_k &= m \int_0 \der{v}{t}\d s = m \int_0 \der{s}{t}\d v\\\\
+		E\\_k &= m \int_0 v\d v\\\\
+		E\\_k &= \frac{2} m v^2\\\\
+	}
+\end{minipage}
+
+### Potenciální energie
+- energie, kterou má těleso v potenciálovém poli
+- gravitační/tíhová potenciální energie, PE pružnosti, tlaková PE\dots
+- změna PE -- práce vykonána proti silovému poli
+	\eq{
+		\Delta E\_p = -W
+	}
+
+#### Tíhová potenciální energie
+- potenciální energie blízko povrchu země způsobená tíhou těles
+- změna potenciální energie
+	\eq{
+		\Delta E\_p = -W = -\vect F s = -(-F)*s = mgs = mg\Delta h
+	}
+- celková potenciální energie
+	\eq{
+		E\_p = mgh
+	}
+
+#### Potenciální energie pružnosti
+- energie uložena v natažení/zkrácení pružiny
+	\eq[m]{
+		\Delta E\_p &= W = \vect Fs = \int_0^t \vect F\vect v\d t\\\\
+		\Delta E\_p &= \int_0^t ky v_y\d t\\\\
+		\Delta E\_p &= \int_0^t ky \der{y}{t}\d t = \int_{x(0)}^{x(t)} ky \d y\\\\
+		\Delta E\_p &= \frac{2}ky^2
+	}
+
+## Zákony zachování
+### Zákon zachování mechanické energie
+- jestliže těleso nepodléhá účinkům okolí, pak mechanická energie (součet mechanické a potenciální) je konstantní
+	\eq{
+		E\_p + E\_k = \const
+	}
+
+### Zákon zachování energie
+- \emph{\uv{Celková energie izolované soustavy zůstává konstantní při všech dějích, které v ní probíhají.}}
+- energie nevzniká ani nezaniká, vždy se pouze přeměňuje na jinou formu
+- celková energie izolované soustavy zůstává konstantní
+- obecná formulace -- první termodynamická věta
+- příklad: přeměna kinetické energie na teplo z důvodu tření
+
+## Perpetuum mobile
+- stroj konající práci bez vnější energie
+- účinnost dosáhne nebo přesáhne $"100 \%"$
+- nerealistické, porušuje termodynamické zákony a zákony zachování
+
+### První typ
+- produkuje nejméně tolik energie, kolik samo spotřebuje
+- může pracovat neomezeně dlouho
+- porušuje první termodynamický zákon
+
+### Druhý typ
+- generuje mechanickou energii z tepla
+- neporušuje I.~TZ, ale porušuje II.~termodynamický zákon (teplo se přesouvá z teplejšího do studenějšího)
+- obvykle pouze jeden zásobník tepla, samovolně chlazen bez přesunu tepla
