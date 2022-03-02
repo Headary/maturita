@@ -144,8 +144,11 @@
 - Eulerova síla, odstředivá síla, Coriolisova síla
 
 ### Třecí síla
-- síla působící proti pohybu mezi dvěma styčnými plochami těles
+- smyková třecí síla -- síla působící proti pohybu mezi dvěma styčnými plochami těles
 - nezáleží na styčné ploše, pouze na normálové síle~$F\_N$ a činiteli smykového tření~$f$
+	\eq{
+		F\_t = fF\_N
+	}
 - koeficient tření závislý na druzích povrchů, zjišťován experimentálně
 - typy
 	- tření v klidu / statické tření -- tření vyvinuto na těleso v klidu
@@ -153,3 +156,11 @@
 - další typy
 	- turbulentní tření -- u kapalin
 	- valivý odpor
+
+#### Valivý odpor / valivé tření
+- tření způsobeno valením po povrchu
+	\eq{
+		F\_t = \xi \frac{F\_N}{r}
+	}
+	- $\xi$ -- koeficient valivého odporu
+	- $r$ -- poloměr valení
