@@ -1,3 +1,4 @@
+\setcounter{section}{2}
 # Druhy energie a jejich vzájemní přeměny. Zákony zachování
 
 ## Mechanická práce
@@ -31,23 +32,12 @@
 - rychlost relativní k ostatním tělesům $\rightarrow$ kinetická energie relativní ke vztažné soustavě
 
 #### Odvození
-\begin{minipage}{0.45\textwidth}
-	\eq[m]{
-		E\\_k &= W = Fs\\\\
-		E\\_k &= ma * \frac{2}at^2\\\\
-		E\\_k &= \frac{2} ma^2t^2\\\\
-		E\\_k &= \frac{2} mv^2\\\\
-	}
-\end{minipage}
-\begin{minipage}{0.5\textwidth}
-	\eq[m]{
-		E\\_k &= W = \int_0 F\d s\\\\
-		E\\_k &= \int_0 ma\d s\\\\
-		E\\_k &= m \int_0 \der{v}{t}\d s = m \int_0 \der{s}{t}\d v\\\\
-		E\\_k &= m \int_0 v\d v\\\\
-		E\\_k &= \frac{2} m v^2\\\\
-	}
-\end{minipage}
+\eq[m]{
+	E\_k &= W = Fs 				& E\_k &= W = \int_0 F\d s\\\\
+	E\_k &= ma * \frac{2}at^2 	& E\_k &= \int_0 ma\d s = m \int_0 \der{v}{t}\d s\\\\
+	E\_k &= \frac{2} ma^2t^2 	& E\_k &= m \int_0 \der{s}{t}\d v = m \int_0 v\d v\\\\
+	E\_k &= \frac{2} mv^2 		& E\_k &= \frac{2} m v^2\\\\
+}
 
 ### Potenciální energie
 - energie, kterou má těleso v potenciálovém poli
@@ -105,3 +95,10 @@
 - generuje mechanickou energii z tepla
 - neporušuje I.~TZ, ale porušuje II.~termodynamický zákon (teplo se přesouvá z teplejšího do studenějšího)
 - obvykle pouze jeden zásobník tepla, samovolně chlazen bez přesunu tepla
+
+## Využití přeměny energie
+- energetika
+	- výroba elektrické energie z mechanické, tepelné nebo jaderné
+	- uložení energie -- přečerpávání vody ($E\_k \leftrightarrow E\_p$), setrvačník
+- průmysl -- motory -- spalování paliva pro mechanickou energii
+- hospodářství, obyčejný život\dots
