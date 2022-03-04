@@ -173,6 +173,7 @@ Síťová vrstva & Síťová vrstva\\\\
 - síťový přepínač
 - propojení několika části sítě či zařízení k sobě
 - přeposílání signálu do cílového směru
+- směrování packetů na základě síťové adresy v hlavičce packetu
 
 #### Hub
 - předchůdce switch, posílá data do všech připojených směrů
