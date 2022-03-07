@@ -11,8 +11,8 @@ $(DEPS_FOLDERS):
 	mkdir -p $@
 
 # -- Metapost figures --
-METAPOST_EPS = mpost -jobname=$(subst .src.mp,,$(<F)) -s 'outputtemplate="%j.%o"' $(<F)
-METAPOST_SVG = mpost -jobname=$(subst .src.mp,,$(<F)) -s 'outputtemplate="%j.%o"' -s 'outputformat="svg"' $(<F)
+METAPOST_EPS = mpost -jobname=$(subst .src.mp,,$(<F)) -s 'outputtemplate="%j.%o"' ../$(<F)
+METAPOST_SVG = mpost -jobname=$(subst .src.mp,,$(<F)) -s 'outputtemplate="%j.%o"' -s 'outputformat="svg"' ../$(<F)
 
 $(GRAPHICS_OUT)/%.eps: $(GRAPHICS)/%.src.mp
 	cd $(@D); $(METAPOST_EPS)
@@ -116,7 +116,7 @@ endef
 # - rules: preferably export everything to pdf (for tex), svg and png (both for web)
 # 		exceptions: export gnuplot to tex+eps; keep raster img format
 graphics-deps = \
-	$(call find-graphics-deps,$(1),$(2),mp, pdf,$(OUT)/)\
+	$(call find-graphics-deps,$(1),$(2),mp,eps,$(OUT)/)\
 	$(call find-graphics-deps,$(1),$(2),plt,pdf,$(OUT)/)\
 	$(call find-graphics-deps,$(1),$(2),ipe,pdf,$(OUT)/)\
 	$(call find-graphics-deps,$(1),$(2),svg,pdf,$(OUT)/)\
