@@ -63,7 +63,8 @@
 - numericky
 	- sinova v cosinova věta
 		\eq[m]{
-			F &= \sqrt{F_1^2+F_2^2-2F_1F_2\cos(180\dg-\alpha)} = \sqrt{F_1^2+F_2^2+2F_1F_2\cos(\alpha)}\\\\
+			F &= \sqrt{F_1^2+F_2^2-2F_1F_2\cos(180\dg-\alpha)}=\\\\
+			&= \sqrt{F_1^2+F_2^2+2F_1F_2\cos(\alpha)}\\\\
 			\sin a_F &= \frac{F_2}{F_1}\sin\alpha
 		}
 	- rozložení na $x$ a $y$ složku
@@ -80,9 +81,23 @@
 - skládání podobné jako při stejném působišti
 - nutno nejdříve převést síly do společného působiště
 
-\fullfig[width=0.7\textwidth]{4-f-ruznobezne2}[Skládání sil v různých působištích]
+\fullfig[width=0.6\textwidth]{4-f-ruznobezne2}[Skládání sil v různých působištích]
 
 ### Rovnoběžné síly ležící na různých vektorových přímkách
+- fyzikální postup
+	- ke každé síle přidáme kolmou složku, stejně velké, navzájem opačné $\rightarrow$ celková působící síla je stále nulová
+	- pomocí těchto sil ($\vect u_{1_x}$ a $\vect v_{1_x}$) rozložíme původní síly (na $u_1$ a $v_1$)
+	- dále postup stejný jako při různoběžných silách
+- geometrická finta
+	- vektory sil prohodíme
+	- jeden vektor převrátíme
+	- protnutí spojnice konců vektorů sil a základny -- působiště konečné síly
+- velikost konečné síly rovna součtu velikostí jednotlivých sil
+
+\fullfig[width=0.7\textwidth]{4-f-rovnobezne2}[Skládání rovnoběžných sil v různých působištích]
+\fullfig[width=0.7\textwidth]{4-f-rovnobezne3}[Skládání opačných rovnoběžných sil v různých působištích]
+\fullfig[width=0.35\textwidth]{4-f-rovnobezne4}[Skládání rovnoběžných sil v různých působištích pomocí geometrické finty]
+
 ## Otáčivý pohyb
 - typ pohybu tuhého tělesa
 - otáčení všech bodů okolo společné osy otáčení stejnou úhlovou rychlostí
@@ -98,7 +113,7 @@
 - úhlové zrychlení vyvoláno momentem síly -- druhá impulzová věta
 	\eq[m]{
 		J\epsilon &= \sum M\\\\
-		\epsilon &= \frac{\sum M}{J}
+		\epsilon &= \frac{J} \sum M
 	}
 
 ### Moment setrvačnosti

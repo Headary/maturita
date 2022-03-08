@@ -16,6 +16,7 @@ METAPOST_SVG = mpost -jobname=$(subst .src.mp,,$(<F)) -s 'outputtemplate="%j.%o"
 
 $(GRAPHICS_OUT)/%.eps: $(GRAPHICS)/%.src.mp
 	cd $(@D); $(METAPOST_EPS)
+	rm -f "$(basename $<).mpx"
 $(GRAPHICS_OUT)/%.svg: $(GRAPHICS)/%.src.mp
 	cd $(@D); $(METAPOST_SVG)
 

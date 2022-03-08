@@ -29,6 +29,8 @@ label.top(btex $\vect u + \vect v$ etex, .5[(0,0),A+B]) rotatedaround(.5[(0,0),A
 
 uhel(B,(0,0),A,v);
 label(btex $\alpha$ etex, unitvector(.3[A,B])*v*1.4);
+uhel(B,(0,0),A+B,1.2v);
+label(btex $\alpha_{\vect u +\vect v}$ etex, unitvector(.8[A,B])*v*2.1);
 uhel(A+B,B,(0,0),v);
 %%label(btex $180\dg-\alpha$ etex, Bunitvector(.5[(0,0),A+B])*v);
 label(btex $180\dg-\alpha$ etex, B+unitvector(.5[(0,0),A+B]-B)*v*1.7);
