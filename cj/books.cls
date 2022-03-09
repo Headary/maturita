@@ -37,23 +37,44 @@
 %\titleformat*{\subparagraph}{\bfseries\sffamily}
 \renewcommand{\bottomtitlespace}{0.05\textheight}
 
-\newcommand\@book{0}
-\newcommand\book[1]{
-\renewcommand\@book{#1}}
+% define parameters
+\newcommand\book@name{0}
+\newcommand\bookname[1]{
+\renewcommand\book@name{#1}}
 
+\newcommand\book@subname{0}
+\newcommand\booksubname[1]{
+\renewcommand\book@subname{#1}}
+
+\newcommand\book@author{0}
+\newcommand\bookauthor[1]{
+\renewcommand\book@author{#1}}
+
+\newcommand\book@content{0}
+\newcommand\bookcontent[1]{
+\renewcommand\book@content{#1}}
+
+% header
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead{}
-\fancyhead[L]{\textbf{\@author}}
-\fancyhead[R]{\textbf{\@book}}
+\fancyhead[L]{\textbf{\book@author}}
+\fancyhead[R]{\textbf{\book@name}}
 \fancyfoot{}
 \fancyfoot[C]{}
 
-\newcounter{parts}
-\newcommand{\newpart}{\stepcounter{parts}\section*{\Roman{parts}.~část}}
+\newcommand{\loadbook}[1]{
+	\bookname{N/A} \booksubname{N/A}
+	\bookauthor{N/A} \bookcontent{N/A}
+	\input{#1}
+}
 
-\newcommand{\timeperiod}[1]{
-	\addcontentsline{toc}{section}{#1}
+\newcommand\printbook[1]{
+	\setcounter{parts}{0}
+	\loadbook{#1}
+	\clearpage
+	\printbooktitle{\book@name}{\book@subname}{\book@author}
+	\book@content
 }
 
 \newlength{\titlesize}
@@ -61,26 +82,39 @@
 \setlength{\titlesize}{32pt}
 \setlength{\authorsize}{18pt}
 
-\newcommand{\bookname}[3][N/A]{
+\newcommand{\printbooktitle}[3]{
 	\begin{center}
 	\thispagestyle{empty}
-		
+	
+	\ifthenelse{\equal{#1}{N/A}}{
+		\GenericError{Book class}{Book name not defined!}{}{}
+	}{}
+
+	\ifthenelse{\equal{#3}{N/A}}{
+		\GenericWarning{Book class}{Book author not defined!}
+	}{}
+
 	\fontsize{\titlesize}{1.2\titlesize}\selectfont
 	\fontfamily{qag}\selectfont
-	#2
+	#1
 
-	\ifthenelse{\equal{#1}{N/A}}{}{
-		\fontsize{\authorsize}{1.2\authorsize}\selectfont #1
+	\ifthenelse{\equal{#2}{N/A}}{}{
+		\fontsize{\authorsize}{1.2\authorsize}\selectfont #2
 	}
 
 	\vspace*{12pt}
 	\fontsize{\authorsize}{1.2\authorsize}\selectfont
 	\fontfamily{cmss}\selectfont \textsl{#3}
 	\end{center}
-	\book{#2}
-	\author{#3}
 
-	\addcontentsline{toc}{subsection}{\textbf{#2} -- #3}
+	\addcontentsline{toc}{subsection}{\textbf{#1} -- #3}
+}
+
+\newcounter{parts}
+\newcommand{\newpart}{\stepcounter{parts}\section*{\Roman{parts}.~část}}
+
+\newcommand{\timeperiod}[1]{
+	\addcontentsline{toc}{section}{#1}
 }
 
 %\newcommand{\parag}[2]{\paragraph{#1}#2}
@@ -117,8 +151,3 @@
 }
 
 
-\newcommand{\includebook}[1]{
-	\input{#1}
-	\setcounter{parts}{0}
-	\newpage
-}
