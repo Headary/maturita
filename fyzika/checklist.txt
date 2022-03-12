@@ -1,8 +1,8 @@
 [x] 1. Kinematika hmotného bodu
 [x] 2. Dynamika přímočarých a křivočarých pohybů
 [x] 3. Druhy energie a jejich vzájemné přeměny, zákony zachování
-[ ] 4. Mechanika tuhého tělesa
-[ ] 5. Mechanika kapali a plynů
+[x] 4. Mechanika tuhého tělesa
+[x] 5. Mechanika kapali a plynů
 [ ] 6. Gravitační pole a pohyb těles v tomto poli
 [ ] 7. Sluneční soustava, Keplerovy zákony
 [ ] 8. Základní poznatky molekulové fyziky a termodynamiky
