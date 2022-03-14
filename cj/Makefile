@@ -7,7 +7,7 @@ OBJS = $(patsubst $(SOURCE)/%.tex,$(OUT)/%.pdf,$(SOURCEFILES))
 
 
 .PHONY: all clean
-all: $(OBJS) $(OUT)/all.pdf
+all: $(OBJS) $(OUT)/all.pdf $(OUT)/booklist.pdf
 
 include ../Makefile.inc
 
