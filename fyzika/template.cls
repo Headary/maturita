@@ -14,7 +14,7 @@
 \RequirePackage{fkssugar}
 
 \RequirePackage{booktabs}
-\RequirePackage{mhchem}
+\RequirePackage[version=4]{mhchem}
 \RequirePackage{color}
 \RequirePackage{subfig}
 \RequirePackage{tabularx}
