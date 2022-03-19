@@ -186,6 +186,8 @@
 		h\\_{max} &= \frac{v_0^2\sin\alpha}{2g}
 	}
 
+\fullfig[width=16cm]{6-vrhy}[Trajektorie vrhů]
+
 ## V radiálním poli
 - nutno uvažovat proměnnou intenzitu~$\vect K$ a gravitační zrychlení~$a\\_g$
 
