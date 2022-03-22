@@ -3,7 +3,7 @@
 [x] 3. Druhy energie a jejich vzájemné přeměny, zákony zachování
 [x] 4. Mechanika tuhého tělesa
 [x] 5. Mechanika kapali a plynů
-[ ] 6. Gravitační pole a pohyb těles v tomto poli
+[x] 6. Gravitační pole a pohyb těles v tomto poli
 [ ] 7. Sluneční soustava, Keplerovy zákony
 [ ] 8. Základní poznatky molekulové fyziky a termodynamiky
 [ ] 9. Vnitřní energie, práce a teplo

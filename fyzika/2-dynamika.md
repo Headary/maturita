@@ -1,4 +1,4 @@
-\setcounter{enumi}{1}
+\setcounter{section}{1}
 # Dynamika
 - část mechaniky, zabývající se příčinami pohybu těles
 
