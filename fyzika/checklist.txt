@@ -4,7 +4,7 @@
 [x] 4. Mechanika tuhého tělesa
 [x] 5. Mechanika kapali a plynů
 [x] 6. Gravitační pole a pohyb těles v tomto poli
-[ ] 7. Sluneční soustava, Keplerovy zákony
+[x] 7. Sluneční soustava, Keplerovy zákony
 [ ] 8. Základní poznatky molekulové fyziky a termodynamiky
 [ ] 9. Vnitřní energie, práce a teplo
 [ ] 10. Struktura a vlastnosti plynného skupenství
