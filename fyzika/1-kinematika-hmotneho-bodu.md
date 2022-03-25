@@ -47,7 +47,7 @@
 	\eq{
 		T = \frac{2\pi}{\omega} = \frac{2\pi r}{v}
 	}
-- frekvence~$f, [f]=\jd{s^-1}$ -- počet zopakování periody za jednotku času; převrácená hodnota periody
+- frekvence~$f, [f]=\jd{s^{-1}}$ -- počet zopakování periody za jednotku času; převrácená hodnota periody
 	\eq{
 		f = \frac{T} = \frac{\omega}{2\pi} = \frac{v}{2\pi r}
 	}
