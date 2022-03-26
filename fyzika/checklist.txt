@@ -5,7 +5,7 @@
 [x] 5. Mechanika kapali a plynů
 [x] 6. Gravitační pole a pohyb těles v tomto poli
 [x] 7. Sluneční soustava, Keplerovy zákony
-[ ] 8. Základní poznatky molekulové fyziky a termodynamiky
+[x] 8. Základní poznatky molekulové fyziky a termodynamiky
 [ ] 9. Vnitřní energie, práce a teplo
 [ ] 10. Struktura a vlastnosti plynného skupenství
 [ ] 11. Struktura a vlastnosti pevných látek

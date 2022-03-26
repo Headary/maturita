@@ -18,7 +18,11 @@
 \RequirePackage{color}
 \RequirePackage{subfig}
 \RequirePackage{tabularx}
-\RequirePackage{hyperref}
+
+\hypersetup{
+	xetex,
+	bookmarksnumbered
+}
 
 \renewcommand{\bottomtitlespace}{0.05\textheight}
 
