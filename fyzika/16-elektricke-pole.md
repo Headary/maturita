@@ -13,7 +13,7 @@
 	}
 	- $i(t)$ -- okamžitý proud v čase
 - platí zákon zachování elektrického náboje
-- kvantovaný -- hodnota vždy násobek elementárního náboje~$e="1,602~176~634e−19 C"$
+- kvantovaný -- hodnota vždy násobek elementárního náboje~$e="1,602~176~634e-19 C"$
 - možnost používat analogii s hmotností v klasické mechanice
 - přitahování těles s různým nábojem, odpuzování těles se stejným nábojem
 
