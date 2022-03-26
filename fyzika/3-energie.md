@@ -63,8 +63,26 @@
 	\eq[m]{
 		\Delta E\_p &= W = \vect Fs = \int_0^t \vect F\vect v\d t\\\\
 		\Delta E\_p &= \int_0^t ky v_y\d t\\\\
-		\Delta E\_p &= \int_0^t ky \der{y}{t}\d t = \int_{x(0)}^{x(t)} ky \d y\\\\
+		\Delta E\_p &= \int_0^t ky \der{y}{t}\d t = \int_{y(0)}^{y(t)} ky \d y\\\\
 		\Delta E\_p &= \frac{2}ky^2
+	}
+
+#### Gravitační potenciální energie
+- energie tělesa v radiálním gravitačním poli tělesa
+- změna gravitační potenciální energie (kladný směr od tělesa)
+	\eq[m]{
+		\Delta E\_p &= -W = -\int_{r_1}^{r_2} -F\_g \d r\\\\
+		\Delta E\_p &= \int_{r_1}^{r_2} G\frac{mM}{r^2} \d r\\\\
+		\Delta E\_p &= GmM\int_{r_1}^{r_2} \frac{r^2} \d r\\\\
+		\Delta E\_p &= GmM\left[-\frac{r}\right]_{r_1}^{r_2}\\\\
+		\Delta E\_p &= -GmM\left(\frac{r_2}-\frac{r_1}\right)\\\\
+	}
+- celková potenciální energie -- záporná práce přenesení tělesa z nekonečna do vzdálenosti~$R$
+	\eq[m]{
+		E\_p &= -\int_{\infty}^{r} -F\_g \d r\\\\
+		E\_p &= GmM\left[-\frac{r}\right]_{\infty}^{r}\\\\
+		E\_p &= GmM\left(-\frac{R}+\lim_{r\to\infty}\frac{r}\right)\\\\
+		E\_p &= -\frac{GmM}{R}
 	}
 
 ## Zákony zachování
