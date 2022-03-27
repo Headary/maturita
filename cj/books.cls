@@ -49,6 +49,7 @@
 \newcommand\book@author{0}
 \newcommand\bookauthor[1]{
 \renewcommand\book@author{#1}}
+\newcommand\getauthor{\book@author}
 
 \newcommand\book@content{0}
 \newcommand\bookcontent[1]{
