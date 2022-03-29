@@ -73,6 +73,8 @@
 - proudění tekutiny z místa vyššího tlaku do místa nižšího tlaku
 - vzorce -- předpoklad ideální tekutiny
 - hydrodynamika, aerodynamika
+-
+% TODO proudnice
 
 ### Rovnice spojitosti
 - také rovnice kontinuity
@@ -127,6 +129,8 @@
 	- $h = h_1-h_2$
 
 \fullfig[width=0.3\textwidth]{5-torricelli}[Vytékání kapaliny z nádoby dle torricelliho vzorce]
+
+% TODO spojené nádoby
 
 ### Skutečné proudění
 - neplatí dokonale předchozí vzorce
