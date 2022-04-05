@@ -125,6 +125,8 @@
 	- válec $mr^2/2$
 	- tenká obruč $mr^2$
 
+% TODO rovnovážné polohy
+
 ## Jednoduché stroje
 - využití otáčivých účinků
 - přenášení síly a mechanického pohybu z jednoho tělesa na druhé
