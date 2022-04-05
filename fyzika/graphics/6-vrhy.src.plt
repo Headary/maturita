@@ -18,6 +18,8 @@ set ylabel '\popi{y}{m}'
 set tmargin 1.5
 set bmargin 4
 
+set samples 2000
+
 plot vx1*t,vy1*t-g*t**2/2 title "svislý vrh" lw 4,\
 	vx2*t,h0+vy2*t-g*t**2/2 title "vodorovný vrh" lw 3,\
 	vx3*t,vy3*t-g*t**2/2 title "šikmý vrh" lw 3
