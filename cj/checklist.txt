@@ -1,0 +1,26 @@
+	[Přečteno] [Zpracováno] Název díla
+
+Světová a česká literatura do konce 18. století
+	[x] [x] hamlet -- projít
+	[ ] [ ] zkroceni_zle_zeny
+Světová a česká literatura 19. století
+	[x] [ ] kral_lavra
+	[x] [ ] tyrolske_elegie
+	[ ] [ ] podivny_pripad
+Světová literatura 20. a 21. století
+	[ ] [ ] 451_fahrenheita
+	[ ] [ ] velky_gatsby
+	[x] [ ] 1984
+	[x] [x] farma_zvirat
+	[?] [x] maly_princ -- lépe
+	[ ] [ ] petr_a_lucie
+	[x] [x] spolecenstvo_prstenu
+	[x] [x] hobit
+Česká literatura 20. a 21. století
+	[ ] [ ] bila_nemoc
+	[ ] [ ] rur
+	[x] [x] petrolejove_lampy
+	[ ] [ ] smrt_krasnych_srncu
+	[x] [x] dlouhy,siroky_a_kratkozraky
+	[x] [x] tridni_kniha
+	[x] [x] fimfarum
