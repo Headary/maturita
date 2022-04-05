@@ -46,10 +46,13 @@
 
 \graphicspath{{../graphics/out/}}
 
+\hypersetup{
+	xetex,
+	bookmarksnumbered
+}
+
 \author{Adam Krška}
 \title{Maturitní otázky z informatiky}
-
-\setcounter{tocdepth}{2}
 
 \renewcommand*{\fps@table}{htbp}
 
@@ -100,7 +103,7 @@
 		printf, puts, putchar, fwrite,
 		getchar, gets, scanf, size_t,
 		FILE, fopen, fclose, fprintf, fscanf,
-		fread
+		fread, bool
 	}
 }
 

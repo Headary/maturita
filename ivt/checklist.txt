@@ -23,3 +23,22 @@
 [x] 23. cykly
 [x] 24. IO programu do souboru, struktury, pole, pole struktur
 [-] 25. práce s polem, řadící algoritmy, vícerozměrné pole
+
+
+TODO:
+[x] 1.4 doplnit zpusob ukladani magnetcky/elektricky/opticky/mechanicky/eletromagneticky.
+[x] Kapitola 2 se ti spatne cisluji podkapitoly. 
+[x] K dvojkové doplnit desetina cisla.
+[x] Doplnit osmickovou soustavu, tim padem dokazat vysvetlit popsat prevest libovolnou soustavu ku prikaldu jak by vypadala 5tkova, 9tkova atd.
+[x] 3.1 doplnit DeMorganovo pravidlo.
+[x] 3.4 pouzivat schematicke znacky clenu EU ne US normu.
+[ ] EU forma i dal.
+[ ] 4.1.2 nejaky priklad. Ku prikladu navrhni elektronicky zamek, ktery ma 4
+vstupy a 1 vystup. Z clenu NAND. Odemkne se jenom pokud je na vstupu 0110 tak
+na vystupu bude 1. Udelat z toho Karnaughovu mapu, z ni minimlizace funkce,
+funkci deMorganem upravit aby se dal pouzit pouze NAND a nakresli z clenu NAND
+jak bude obvod vypadat.
+[x] 6.2.2 parametry. Plati i o jinych I/O zarizeni, co sledujes kdyz jsi jdes
+koupit. DPI, zpusob pripojeni, Rychlost tisku, vyhody/nevyhody inkoust vs.
+laser. Pridat ploter.
+[x] 7.3.1 a 7.3.3. co z vpaketu ho zajima, na zaklade ceho prepina

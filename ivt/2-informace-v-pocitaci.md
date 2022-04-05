@@ -72,6 +72,15 @@ zbytky dělení | 1 | 1 | 0 | 1 | 0 | 1 | 1 | 0
 	= 1~00000111\_{2} =  7\_{10} \\text{(po odříznutí přeteklého devátého bitu)}
 }
 
+#### Desetinná čísla
+- tvořeny pomocí zlomků
+- mocniny za desetinnou čárkou mají zápornou hodnotu $\rightarrow$ součet zlomků
+	\eq[m]{
+		("0.1011")_2 &= 0\*2^0 + 1\*2^{-1} + 0\*2^{-2}+ 2\*2^{-3}+ 1\*2^{-4}=\\\\
+		&= 0\*1 + 1\*\frac{2} + 0\*\frac{4} + 1\*\frac{8} + 1\*\frac{16}=\\\\
+		&= "0.5" + "0.125" + "0.062~5" = "0.687~5"
+	}
+
 ### Šestnáctková (hexadecimální) soustava
 - báze 16 -- čísla 1, 2, 3, 4, 5, 6, 7, 8, 9, A(10), B(11), C(12), D(13), E(14), F(15)
 - jednoduchý převod mezi binární a hexadecimální soustavou
@@ -99,6 +108,36 @@ zbytky dělení | 1 | 1 | 0 | 1 | 0 | 1 | 1 | 0
 ##### Dvojková $\rightarrow$ Šestnáctková 
 - opačný způsob -- z každých 4 bitů určíme odpovídající cifru hex
 - příklad: $1011~0101 = \mathrm{0xB5}$
+
+### Osmičková (oktalová) soustava
+- číselná soustava o základu~8 -- čísla 1, 2, 3, 4, 5, 6, 7
+- mocnina 2 -- jednoduchý převod do binární soustavy
+- použití v informatice -- Linux permissions
+
+#### Převody
+##### Osmičková $\rightarrow$ Desítková
+- stejné jako u dvojkové soustavy, pouze násobíme mocninou~$8$
+
+##### Desítková $\rightarrow$ Osmičková
+- stejné jako u dvojkové soustavy, pouze dělíme~$8$
+
+##### Osmičková $\rightarrow$ Dvojková
+- každé 3 bity ($2^3 = 8$) odpovídají jedné číslici osmičkové soustavy
+	- 1 = 001
+	- 2 = 010
+	- 3 = 011
+	- \dots
+	- 6 = 110
+	- 7 = 111
+- z každé cifry určíme 3 cifry binárního čísla a zapíšeme za sebe
+
+##### Dvojková $\rightarrow$ Osmičková
+- opačný způsob -- převod každých 3~bitů na odpovídající cifru osmičkové soustavy
+- příklad: $(101001)_2 = (51)_8$
+
+#### Osmičková $\leftrightarrow$ Šestnáctková
+- 2 kroky -- převod do binární (případně desítkové) soustavy a následné zakódování do dané soustavy
+- převod přes desítkovou soustavu univerzální pro všechny soustavy
 
 ## Jednotky informace
 - základní jednotka -- bit -- $"1 b"$

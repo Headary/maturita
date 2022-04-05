@@ -46,9 +46,11 @@
 - tablet a pero
 - malování, retuše, manipulace obrázků
 - manipulace jak s tužkou, citlivost na tlak, absolutní polohování
+- parametry -- DPI, odezva, kvalita, citlivost, příjemnost psaní
 
 ### Skener
 - převod 2D nebo 3D snímku do počítače -- 2D a 3D skenery
+- parametry -- DPI, rozlišení, barevná kvalita, rychlost
 
 #### 2D skenery
 - převod obrázku do počítače, skenování dokumentů
@@ -74,6 +76,8 @@
 - směrové charakteristiky -- všesměrová, kardioidní, superkardioidní, hyperkardioidní, osmičková/bidirekcionální, úzce směrová
 - frekvenční rozsah
 - napájení -- tonaderspeisung, fantomové napájení, 5V přes konektor
+- citlivost; impedance
+- poměr signál a šumu
 
 ### Fotoaparát / Kamery
 - záznam fotografií / videí / vstup videa
@@ -125,8 +129,13 @@
 
 ### Tiskárna
 - vynesení obrazu na papír
-- plotr -- velkoformátová tiskárna, pero / inkoustová hlava, i řezací hlava
+- plotr
+	- velkoformátová tiskárna
+	- pero / inkoustová hlava, i řezací hlava
+	- převážně vektorová grafika -- definice cest pro hlavu
 - 3D tiskárny
+	- tisk 3D modelů
+	- možnost mnoha filamentů
 
 #### Typy tisku
 - jehličková
@@ -149,7 +158,7 @@
 	- možnost nahradit laser LED diodami
 	- klady -- vysoká kvalita tisku, rychlý tisk, nízké provozní náklady, nízká hlučnost
 	- zápory -- vyšší pořizovací cena, potřeba zahřát, nevhodné pro kvalitní fotografie
-
+	
 \begin{figure}[htbp]
 	\centering
 	\subfloat[Schéma]{\includegraphics[height=0.28\textwidth]{6-tiskarna-laser-schema}}
@@ -173,3 +182,4 @@
 - připojení
 	- analog -- $"3.5 mm"$ jack, $"6.35 mm"$ jack
 	- digitální -- bluetooth
+- parametry -- hlasitost, přesnost, frekvenční rozsah, impedance, napětí\dots

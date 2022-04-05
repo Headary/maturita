@@ -4,18 +4,18 @@
 \newcommand\logicgates[2]{
 	\begin{figure}[htp]
 		\centering
-		\subfloat[Člen #1 - EU/IEC]{\includegraphics[height=1.5cm]{3-#2-eu}}
+		\subfloat[Člen #1 -- EU/IEC]{\includegraphics[height=1.5cm]{3-#2-eu}}
 		\qquad
-		\subfloat[Člen #1 - US]{\includegraphics[height=1.5cm]{3-#2-us}}
+		\subfloat[Člen #1 -- US]{\includegraphics[height=1.5cm]{3-#2-us}}
 	\end{figure}
 }
 
 \newcommand\logicgatestable[6]{
 	\begin{figure}[htp]
 		\centering
-		\subfloat[Člen #1 - EU/IEC]{\includegraphics[height=1.5cm]{3-#2-eu}}
+		\subfloat[Člen #1 -- EU/IEC]{\includegraphics[height=1.5cm]{3-#2-eu}}
 		\qquad
-		\subfloat[Člen #1 - US]{\includegraphics[height=1.5cm]{3-#2-us}}
+		\subfloat[Člen #1 -- US]{\includegraphics[height=1.5cm]{3-#2-us}}
 		\qquad
 		\subfloat{
 			\begin{tabular}{ccc}
