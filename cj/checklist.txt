@@ -6,7 +6,7 @@ Světová a česká literatura do konce 18. století
 Světová a česká literatura 19. století
 	[x] [ ] kral_lavra
 	[x] [ ] tyrolske_elegie
-	[ ] [ ] podivny_pripad
+	[x] [ ] podivny_pripad
 Světová literatura 20. a 21. století
 	[ ] [ ] 451_fahrenheita
 	[ ] [ ] velky_gatsby
