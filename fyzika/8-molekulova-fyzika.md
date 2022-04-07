@@ -78,7 +78,7 @@
 - vodíková -- vodíkové můstky, např. mezi krystaly ledu
 - kovová -- způsobeno uvolněnými valenčními elektrony
 - kovalentní -- sdílení valenčních elektronů
-- var der Waalsova
+- van der Waalsova
 	- slabá vazba elektrické povahy
 	- převážně při nízkých teplotách
 	- I, Cl, O, H, organické sloučeniny, krystaly s velkou relativní hmotností

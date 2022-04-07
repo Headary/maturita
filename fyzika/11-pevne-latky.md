@@ -90,7 +90,44 @@
 - měkké, nízká teplota tání
 
 ## Deformace
+- změna rozměrů, tvaru a objemu tělesa z důvodu vnějších vlivů (síla, teplota\dots)
+- pružná (elastická)
+	- dočasná/vratná deformace
+	- přestanou působit vnější vlivy, deformace zmizí
+	- prodloužení pružiny, prohnutí desky
+- tvárná (plastická)
+	- stálá
+	- přetrvává i po skončení vnějšího vlivu
+	- kování, válcování, přílišné natáhnutí pružiny\dots
+### Deformace působením sil
+- tahem
+	- působení dvou stejně velkých sil v jedné přímce ven z tělesa
+	- roztahování tělesa
+	- lano jeřábu, kladky\dots
+- tlakem
+	- působení dvou stejně velkých sil dovnitř tělesa
+	- smrštění tělesa
+	- pilíře mostu, nosníky domu, nosné sloupy\dots
+- ohybem
+	- působení síly kolmo k podélné ose
+	- dolní vrstvy deformovány tahem, vrchní tlakem, zachování střední vrstvy
+	- prohnutí tělesa
+	- tyč mezi dvěma podpěrnými body, most mezi sloupy, polička\dots
+- smykem
+	- působení dvou sil na spodní a horní podstavu tělesa
+	- síly v rozdílných rovinách
+	- vzájemné posunutí vrstev
+	- šroub, nýt
+- krutem
+	- dvě dvojce sil na podstavách, stejné momenty sil opačného směru
+	- vzájemné otáčení vrstev
+	- hřídele, šrouby při utahování, vrtání\dots
+
 ### Hookův zákon
+- zákon pro pružnou deformaci
+- prodloužení tělesa při deformaci tahem a tlakem
+
+
 ### Teplotní roztažnost
 ### Objemová roztažnost
 ### Využití
