@@ -45,7 +45,7 @@
 - set nastaví hodnotu~$Q$ na~1, reset na~0; opakované spouštění stejného vstupu nic nedělá
 - oba vstupy zapnuté -- nedefinovaný stav, latch se rychle přehazuje, konečný stav neurčitelný
 
-\fullfig[width=0.3\textwidth]{4-SR-latch}[SR latch za použití NOR gate.]
+\fullfig[width=0.4\textwidth]{4-SR-latch-eu}[SR latch za použití NOR gate.]
 
 |$S$|$R$|$Q$|$\overline{Q}$|
 |:--:|:--:|:--:|:--:|

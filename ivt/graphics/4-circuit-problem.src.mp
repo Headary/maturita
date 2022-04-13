@@ -30,11 +30,11 @@ connections := image(
 	draw (-u,-1u)--(0.5u,-1u)--(0.5u,-0.15u)--(2u,-0.15u);
 	draw (2u,0) -- (3u,0);
 
-	label.lft(btex A etex,(-u,2u));
-	label.lft(btex B etex,(-u,1u));
-	label.lft(btex C etex,(-u,-1u));
-	label.lft(btex D etex,(-u,-2u));
-	label.rt(btex Y etex, (3u,0));
+	dotlabel.lft(btex A etex,(-u,2u));
+	dotlabel.lft(btex B etex,(-u,1u));
+	dotlabel.lft(btex C etex,(-u,-1u));
+	dotlabel.lft(btex D etex,(-u,-2u));
+	dotlabel.rt(btex Y etex, (3u,0));
 );
 
 gates1 := image(
@@ -67,11 +67,11 @@ gates4 := image(
 	draw (-u,-2u)--(u,-2u)--(u,-0.4u)--(2u,-0.4u);
 	draw (2u,0) -- (3u,0);
 
-	label.lft(btex A etex,(-u,2u));
-	label.lft(btex B etex,(-1.5u,1u));
-	label.lft(btex C etex,(-1.5u,-1u));
-	label.lft(btex D etex,(-u,-2u));
-	label.rt(btex Y etex, (3u,0));
+	dotlabel.lft(btex A etex,(-u,2u));
+	dotlabel.lft(btex B etex,(-1.5u,1u));
+	dotlabel.lft(btex C etex,(-1.5u,-1u));
+	dotlabel.lft(btex D etex,(-u,-2u));
+	dotlabel.rt(btex Y etex, (3u,0));
 
 	nandgate((2u,0),u);
 	nandasnot((-0.5u,1u),u);
