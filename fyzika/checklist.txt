@@ -8,8 +8,8 @@
 [x] 8. Základní poznatky molekulové fyziky a termodynamiky
 [x] 9. Vnitřní energie, práce a teplo
 [x] 10. Struktura a vlastnosti plynného skupenství
-[ ] 11. Struktura a vlastnosti pevných látek
-[ ] 12. Struktura a vlastnosti kapalin
+[x] 11. Struktura a vlastnosti pevných látek
+[x] 12. Struktura a vlastnosti kapalin
 [ ] 13. Změny skupenství látek
 [ ] 14. Mechanické kmitání
 [ ] 15. Mechanické vlnění

@@ -3,7 +3,7 @@
 # Vnitřní energie, práce, teplo
 ## Vnitřní energie
 - značka~$U$, $[U]=\jd{J}=\jd{kg.m^2.s^{-2}}$
-- souhrn energií všech částic tělesa
+- souhrn energií všech vnitřních částic tělesa
 	- hlavní složky -- kinetická (pohybu a kmitání) a potenciální energie částic
 		\eq{
 			U = E\\_k + E\\_p
