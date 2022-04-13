@@ -20,7 +20,7 @@ Světová literatura 20. a 21. století
 	[ ] [ ] bila_nemoc
 	[ ] [ ] rur
 	[x] [x] petrolejove_lampy
-	[ ] [ ] smrt_krasnych_srncu
+	[x] [ ] smrt_krasnych_srncu
 	[x] [x] dlouhy,siroky_a_kratkozraky
 	[x] [x] tridni_kniha
 	[x] [x] fimfarum
