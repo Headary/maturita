@@ -18,7 +18,7 @@ Světová literatura 20. a 21. století
 	[x] [x] hobit
 Česká literatura 20. a 21. století
 	[ ] [ ] bila_nemoc
-	[ ] [ ] rur
+	[x] [ ] rur
 	[x] [x] petrolejove_lampy
 	[x] [ ] smrt_krasnych_srncu
 	[x] [x] dlouhy,siroky_a_kratkozraky

@@ -37,7 +37,7 @@
 - síla tvarující kapky do koule
 
 ### Povrchové napětí
-- značka~$\sigma$, $[\sigma] = N.m^{-1}$
+- značka~$\sigma$, $[\sigma] = \jd{N.m^{-1}}$
 - vlastnost povrchu kapaliny držet při sobě a zmenšovat povrch
 - míra síly na jednotku délky obvodu
 	\eq[m]{
