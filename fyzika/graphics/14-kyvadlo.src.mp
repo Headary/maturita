@@ -13,7 +13,6 @@ u:=1cm;
 pair FG;
 FG:=(0,-u);
 
-
 def uhellabel(expr bi, bm, be, d, lbl)=
     z1=unitvector(bi-bm);
     z2=unitvector(be-bm);

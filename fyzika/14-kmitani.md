@@ -76,8 +76,16 @@
 
 ### Skládání kmitů
 - možno skládat několik kmitů do jednoho
-- výsledný fázor vektorových součtem všech fázorů
+- obecný případ ($\omega_1 \neq \omega_2$)
+	- nejedná se o harmonické vlnění
+	- výsledné kmitání získáno jako součet jednotlivých kmitání~$y=y_1+y_2$
+- speciální případ -- kmitání o stejné rychlost ($\omega_1=\omega_2$)
+	- výsledný fázor vektorových součtem všech fázorů
 	- v souladu s principem superpozice (výslednice sil je rovna vektorovému součtu všech působící sil)
+	- obecný případ -- amplituda a fáze závisí na amplitudách, fázovém rozdílu a fázích jednotlivých kmitání
+	- $\Delta \phi = 0$ -- vlny přesně na sobě -- $y\\_m=y_{\text{m}_1}+y_{\text{m}_2}$
+	- $\Delta \phi = "180\dg"$ -- vlny přesně od sebe -- $y\\_m=y_{\text{m}_1}-y_{\text{m}_2}$
+\fullfig[width=0.95\textwidth]{14-superpozice}[Skládání vln stejné úhlové frekvence]
 
 ## Dynamika kmitavého pohybu
 - příčinou kmitavého pohybu sílu
