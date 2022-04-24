@@ -17,7 +17,7 @@ Světová literatura 20. a 21. století
 	[x] [x] spolecenstvo_prstenu
 	[x] [x] hobit
 Česká literatura 20. a 21. století
-	[ ] [ ] bila_nemoc
+	[x] [ ] bila_nemoc
 	[x] [ ] rur
 	[x] [x] petrolejove_lampy
 	[x] [ ] smrt_krasnych_srncu

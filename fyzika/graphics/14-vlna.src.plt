@@ -24,6 +24,11 @@ b = 0.5 #moving arrow from left to right
 set arrow from b,0 to b,3*sin(b*pi) heads filled lw 2
 set label '$y_m$' at b,1.5*sin(b*pi) offset char 1, char 0
 
+#ym
+b = 1.5 #moving arrow from left to right
+set arrow from b,0 to b,3*sin(b*pi) heads filled lw 2
+set label '$-y_m$' at b,1.5*sin(b*pi) offset char 1, char 0
+
 # T
 a = -3.0 #moving arrow up and down
 set arrow from 0,a to 2,a heads filled lw 2

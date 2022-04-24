@@ -80,5 +80,70 @@
 	- v souladu s principem superpozice (výslednice sil je rovna vektorovému součtu všech působící sil)
 
 ## Dynamika kmitavého pohybu
+- příčinou kmitavého pohybu sílu
+	- kyvadlo -- tíhová síla
+	- pružina -- síla pružnosti
+- z II.~Newtonova zákona -- pohybová rovnice harmonického oscilátoru
+	\eq{
+		F = ma = -m\omega^2 y = -m\omega^2 y\\_m \sin\(\omega t\)
+	}
+
+### Pružina
+- síla pružnosti 
+	\eq{
+		F\\_p = k\Delta l
+	}
+	- $k$ -- tuhost pružiny
+- rovnovážná poloha -- vyrovnání tíhové síly a síly pružnosti
+	\eq[m]{
+		F\\_G &= F\\_p\\\\
+		mg &= k\Delta l
+	}
+- pohyb oscilátoru -- výsledná síla rovna součtu tíhové a pružné síly (kladný směr vzhůru)
+	\eq[m]{
+		F &= F\\_G - F\\_p\\\\
+		F &= -mg + k(\Delta l - y)\\\\
+		F &= -mg + k\Delta l - ky \\\\
+		F &= -ky
+	}
+	- směr síly opačný směru protažení -- směr vždy k rovnovážné poloze
+- perioda a frekvence -- z pohybové rovnice harmonického oscilátoru
+	\eq[m]{
+		-ky &= -m\omega^2 y\\\\
+		\omega &= \sqrt{\frac{k}{m}}\\\\
+		T &= \frac{2\pi}{\omega}\\\\
+		T &= 2\pi \sqrt{\frac{m}{k}}\\\\
+		f &= \frac{2\pi}\sqrt{\frac{k}{m}}
+	}
+
+\fullfig[width=0.65\textwidth]{14-pruzina}[Zavěšení závaží na pružinu]
+
+### Kyvadlo
+- několik typů kyvadel
+	- matematické kyvadlo -- hmotných bod na dlouhém závěsu, malá výchylka ($\alpha \approx \sin\alpha$)
+	- fyzické kyvadlo -- nutno započítat moment setrvačnosti, nelze aproximovat úhel
+	- kónické kyvadlo -- při pohybu opisuje tvar kužele, trajektorií kružnice
+	- torzní kyvadlo -- kmitání deformací kroucením vlákna nebo tyče 
+	- \hspace{0cm}\vdots
+- dále aproximace matematického kyvadla -- horizontální výchylka rovna délce oblouku
+	\eq{
+		\sin\alpha = \frac{y'}{l} \approx \frac{y}{l}
+	}
+- zrychlení způsobeno složkou tíhové síly kolmé k závěsu
+	\eq{
+		F = -F\\_G\sin\alpha = -mg\frac{y}{l}
+	}
+	- záporný směr -- síla orientována opačným směrem než vektor polohy~$y$ (či hodnota sinu)
+- perioda a frekvence -- z pohybové rovnice harmonického oscilátoru
+	\eq[m]{
+		-mg\frac{y}{l} &= -m\omega^2 y\\\\
+		\frac{g}{l} &= \omega^2\\\\
+		\omega &= \sqrt{\frac{g}{l}}\\\\
+		T &= \frac{2\pi}{\omega} = 2\pi\sqrt{\frac{l}{g}}\\\\
+		f &= \frac{2\pi}\sqrt{\frac{g}{l}}
+	}
+
+\fullfig[width=0.65\textwidth]{14-kyvadlo}[Působení sil na kyvadlo]
+
 ## Rezonance
 ## Energie kmitání
