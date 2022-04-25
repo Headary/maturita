@@ -154,4 +154,42 @@
 \fullfig[width=0.65\textwidth]{14-kyvadlo}[Působení sil na kyvadlo]
 
 ## Rezonance
+- systému kmitat na větší amplitudě – více při určitých frekvencích než při ostatních frekvencích -- rezonanční frekvence
+- i malé síly mohou způsobovat velké amplitudy kmitů -- uchovávání energie kmitání
+- systém schopen jednoduše převádět energii mezi jejími podobami
+- ztráty mezi cykly -- útlum
+	- malý útlum -- rezonanční frekvence blíž k vlastní frekvenci
+- několik typů -- mechanická, akustická, elektrická, elektromagnetická\dots
+- příklady
+	- akustická rezonance hudebních nástrojů
+	- rezonance skla při tření prstu po povrchu
+	- rezonance antén (rádio, WiFi\dots) -- selektivní příjem rádiových frekvencí
+
 ## Energie kmitání
+- periodická přeměna potenciální a kinetické energie
+- celková energie kmitání vždy zachována
+- bod v maximální výchylce -- maximální potenciální energie
+- průchod rovnovážnou polohou -- maximální kinetická energie
+
+### Pružina
+- nulová hladina v rovnovážné poloze, těleso v klidu -- $E=0$
+- potenciální energie -- energie kmitání způsobené vychýlením z rovnovážné polohy
+	\eq{
+		E\\_p = \frac{2}ky^2
+	}
+- kinetická energie -- energie pohybu závaží
+	\eq{
+		E\\_k = \frac{2}mv^2
+	}
+- celková energie rovna maximální potenciální energie (kdy $E\\_k=0$) a maximální kinetické energii~($E\\_p = 0$)
+	\eq{
+		E\\_c = \frac{2}ky\\_m^2 = \frac{2}mv\\_m^2
+	}
+
+### Kyvadlo
+- potenciální energie zastoupena tíhovou potenciální energií
+	\eq{
+		E\\_p = mgh = mg(l-l\cos\alpha) = mgl(1-\cos\alpha)
+	}
+	- $h=0$ v rovnovážné poloze
+- ostatní analogicky shodné s energií pružiny
