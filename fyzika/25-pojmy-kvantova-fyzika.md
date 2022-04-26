@@ -65,15 +65,17 @@ Vnější fotoefekt
 *de Broglieovy vlny (hmotnostní vlny)*
 \eq{\lambda=\frac{h}{p}=\frac{h}{mv}}
 
-## Huygensův princip
+## Huygensův princip \label{25-huygens}
 - *\uv{Každý bod vlnoplochy, do něhož dospělo vlnění v určitém okamžiku, můžeme
 	pokládat za zdroj elementárního vlnění, které se z něho šíří
 	v~elementárních vlnoplochách. Vlnoplocha v dalším časovém okamžiku je
 	vnější obalová plocha všech elementárních vlnoploch}*
+- vlnoplocha -- plocha kmitajících bodů se stejnou fází
 - jednotlivé vlnoplochy spolu interferují a vytvářejí vnější vlnoplochu
 - jestliže vlna narazí na štěrbinu, bude se štěrbina chovat jako nový zdroj vlny
+- viz~otázka~\ref{15-huygens}
 
-\fullfig{25-heygens}[Heygensův jev u štěrbiny]
+\fullfig{25-huygens}[Heygensův jev u štěrbiny]
 
 ### Dvouštěrbinový experiment
 - důkaz dualismu vlna a částic a Huygensova principu

@@ -47,6 +47,10 @@
 	\eq{
 		y = y\\_m \sin \(\omega t\)
 	}
+- počáteční fázový posun~$\phi_0$
+	\eq{
+		y = y\\_m \sin \(\omega t+\phi_0\)
+	}
 - 1~kmit -- úhel~$\phi = 2\pi$ a čas~$T$
 	\eq{
 		\omega = \frac{2\pi}{T} = 2\pi f \ztoho y = y\\_m \sin \\(\frac{2\pi}{T}t\\) = y\\_m \sin \\(2\pi ft\\)
