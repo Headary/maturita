@@ -162,7 +162,7 @@
 \fullfig[width=0.4\textwidth]{26-stepeni}[Štěpení jádra; a,b -- částice; X,Y -- jádra atomů][26-stepeni]
 - příklady:
 	\eq[m]{
-		\ce{^4\_2He + ^14\_7N &-> ^17\_8O + ^1\_1H}\\\\
-		\ce{^4\_2He + ^9\_4Be &-> ^13\_6C + ^1\_0n}\\\\
-		\ce{^1\_0n + ^14\_7N &-> ^14\_6C + ^1\_1H}
+		\ce{^4_2He + ^14_7N &-> ^17_8O + ^1_1H}\\\\
+		\ce{^4_2He + ^9_4Be &-> ^13_6C + ^1_0n}\\\\
+		\ce{^1_0n + ^14_7N &-> ^14_6C + ^1_1H}
 	}

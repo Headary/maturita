@@ -21,7 +21,7 @@
 	délce, která se s rostoucí termodynamickou teplotou snižuje}
 - čím teplejší těleso, tím více vyzařuje záření o vyšších frekvencích / kratších
 	vlnových délkách
-- \eq{\lambda\\\_{max}=\frac{b}{T}}
+- \eq{\lambda\\_{max}=\frac{b}{T}}
 	kde $b="2.898 mm.K"$ je Wienova konstanta
 
 \fullfig{25-Wiens_law}[Nákres Wienova posunovacího zákona]
@@ -33,7 +33,7 @@
 	- kinetickou energie elektronu~$E_k$
 - mezní frekvence~$f_0$ - nejmenší frekvence potřebná pro uvolnění elektronu
 	- $\Rightarrow W = hf_0$
-- \eq{hf=W+E\\\_k \ztoho hf=hf\_0+E\\\_k}
+- \eq{hf=W+E\\_k \ztoho hf=hf_0+E\\_k}
 
 ### Druhy fotoefektu
 Vnitřní fotoefekt
@@ -86,12 +86,12 @@ Vnější fotoefekt
 ### Heinsenbergův princip neurčitosti
 - čím přesněji znám jednu vlastnost, s tím menší přesností určím druhou
 	\eq[m]{
-		\Delta x\Delta p\_x &\geq \frac{\hbar}{2}\\\\
-		\Delta y\Delta p\_y &\geq \frac{\hbar}{2}\\\\
-		\Delta z\Delta p\_z &\geq \frac{\hbar}{2}
+		\Delta x\Delta p_x &\geq \frac{\hbar}{2}\\\\
+		\Delta y\Delta p_y &\geq \frac{\hbar}{2}\\\\
+		\Delta z\Delta p_z &\geq \frac{\hbar}{2}
 	}
 	- $\Delta x$ -- neurčitost polohy
-	- $\Delta p\_x$ -- neurčitost hybnosti
+	- $\Delta p_x$ -- neurčitost hybnosti
 	- $\hbar = h/2\pi$ -- redukovaná Planckova konstanta
 
 ### Vlnová funkce

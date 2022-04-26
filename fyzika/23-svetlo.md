@@ -41,11 +41,11 @@
 - popis šíření světla při přechodu přes rozhraní dvou různých prostředí
 - poměr sinů úhlů je poměr rychlostí záření v jednotlivých prostředí
 	\eq{
-		\frac{\sin\alpha}{\sin\beta}=\frac{v\_1}{v\_2}
+		\frac{\sin\alpha}{\sin\beta}=\frac{v_1}{v_2}
 	}
 - dva druhy
-	- lom ke kolmici -- $\alpha > \beta$, $n\_2 > n\_1$
-	- lom od kolmice -- $\beta > \alpha$, $n\_1 > n\_2$
+	- lom ke kolmici -- $\alpha > \beta$, $n_2 > n_1$
+	- lom od kolmice -- $\beta > \alpha$, $n_1 > n_2$
 
 #### Index lomu
 - bezrozměrná fyzikální veličina
@@ -56,8 +56,8 @@
 	}
 - využití při výpočtu úhlů při lomu světla
 	\eq{
-		\frac{\sin\alpha}{\sin\beta} = \frac{v\_1}{v\_2} = 
-		\frac{\frac{n\_1}}{\frac{n\_2}} = \frac{n\_2}{n\_1}
+		\frac{\sin\alpha}{\sin\beta} = \frac{v_1}{v_2} = 
+		\frac{\frac{n_1}}{\frac{n_2}} = \frac{n_2}{n_1}
 	}
 - různá hodnota pro každé prostředí, měřena experimentálně
 
@@ -71,10 +71,10 @@
 | sklo 	| 1,5 až 1,9 |
 : Příklady hodnot~$n$ pro různé materiály
 
-#### Mezní úhel -- $\alpha\_m$
+#### Mezní úhel~$\alpha\\_m$
 - jev při lomu od kolmice
 - výsledný úhel lomu~$\beta$ roven~$90\dg$
-- jestliže $\alpha > \alpha\_m$, poté dochází k **úplnému odrazu**
+- jestliže $\alpha > \alpha\\_m$, poté dochází k **úplnému odrazu**
 
 \fullfig[width=0.9\textwidth]{24-lom}[Vyobrazení lomu světla, mezního úhlu a úplného odrazu]
 

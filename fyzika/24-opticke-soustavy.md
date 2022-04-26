@@ -208,12 +208,12 @@ v~závislosti na násobku~$f_0=1$][graph:dute]
 - obraz zvětšený, převrácený, skutečný
 - příčné zvětšení~$Z = \Delta/f$
 	- optický interval mikroskopu~$\Delta = \abs{\bod{F'}\bod{F_0}}$ -- vzdálenost mezi ohnisky objektivu a okuláru
-- úhlové zvětšení~$\gamma\_2=d/f\_0$
-- celkové zvětšení~$\gamma=Z\gamma_2=\Delta d/(ff\_0)$ 
+- úhlové zvětšení~$\gamma_2=d/f_0$
+- celkové zvětšení~$\gamma=Z\gamma_2=\Delta d/(ff_0)$ 
 
 \fullfig[width=0.6\textwidth]{24-mikroskop-soustava}[Zobrazení předmětu
-mikroskopem, kde $f$ a $f\\_0$ jsou ohniskové vzdálenosti, delta je optický
-interval mikroskopu; $F$, $F'$, $F\\_0$, $F'\\_0$ značí ohniska, $y$ je objekt
+mikroskopem, kde $f$ a $f_0$ jsou ohniskové vzdálenosti, delta je optický
+interval mikroskopu; $F$, $F'$, $F_0$, $F'_0$ značí ohniska, $y$ je objekt
 a~$y'$ je skutečný obraz. Optická soustava mikroskopu se skládá ze dvou čoček.
 Objektiv funguje jako běžná spojná čočka, okulár jako lupa.][][Zobrazení
 předmětu mikroskopem]
@@ -222,6 +222,6 @@ předmětu mikroskopem]
 - zvětšování velice vzdálených předmětů
 - soustava čoček a v mnohdy i zrcadel
 - mnoho různých typů
-- úhlové zvětšení~$\gamma=f/f\_0$
+- úhlové zvětšení~$\gamma=f/f_0$
 
 \fullfig{24-dalekohled}[Nákres jednoduchého dalekohledu]

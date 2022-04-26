@@ -18,20 +18,20 @@
 - přitahování těles s různým nábojem, odpuzování těles se stejným nábojem
 
 ## Coulombův zákon
-- zákon kvantitativně určující elektrickou sílu~$F\_{el}$ mezi elektricky nabitými tělesy
+- zákon kvantitativně určující elektrickou sílu~$F\\_{el}$ mezi elektricky nabitými tělesy
 - elektrická síla je přímo závislá na nábojích obou těles a nepřímo úměrná kvadrátu jejich vzdálenosti
 	\eq{
-		\abs{\vect F\\\_{el}} = k\\\_e\frac{\abs{q\_1q\_2}}{r^2} \ztoho \abs{\vect F\\\_{el}} = \frac{4\pi\epsilon\_0\epsilon\\\_r}\frac{\abs{q\_1q\_2}}{r^2}
+		\abs{\vect F\\_{el}} = k\\_e\frac{\abs{q_1q_2}}{r^2} \ztoho \abs{\vect F\\_{el}} = \frac{4\pi\epsilon_0\epsilon\\_r}\frac{\abs{q_1q_2}}{r^2}
 	}
-	- $k\\_e = "8.988e9 N.m^2.C^{-2}"$ -- Coulombova konstanta -- pro vakuum ($\epsilon\\\_r=1$)
-	- $q\_1$ a $q\_2$ -- hodnoty nábojů
+	- $k\\_e = "8.988e9 N.m^2.C^{-2}"$ -- Coulombova konstanta -- pro vakuum ($\epsilon\\_r=1$)
+	- $q_1$ a $q_2$ -- hodnoty nábojů
 		- souhlasné znaménko -- síla působí směrem od druhého tělesa
 		- opačné znaménko -- síla působí k druhému tělesu
-	- $\epsilon\_0="8.854e-12 F.m^{-1}"$ -- permitivita vakua
-	- $\epsilon\\\_r$ -- relativní permitivita prostředí, bezrozměrná veličina
+	- $\epsilon_0="8.854e-12 F.m^{-1}"$ -- permitivita vakua
+	- $\epsilon\\_r$ -- relativní permitivita prostředí, bezrozměrná veličina
 - vektorová forma
 	\eq{
-		\vect F\\\_{el} = k\\\_e\frac{q\_1q\_2\vect r}{\vect r^3}
+		\vect F\\_{el} = k\\_e\frac{q_1q_2\vect r}{\vect r^3}
 	}
 
 \fullfig[width=0.4\textwidth]{16-coulombs-law}[Coulombův zákon u nábojů]
@@ -66,10 +66,10 @@
 ## Elektrický potenciál
 - potenciální energie jednotkového náboje v el.~poli
 	\eq{
-		\phi = \frac{E\\\_p}{Q} = \frac{W}{Q}
+		\phi = \frac{E\\_p}{Q} = \frac{W}{Q}
 	}
 - značka~$\phi$, $[\phi]=V$ (volt)
-- zvětšování~$E\\\_p$ v protisměru~$F\\\_{el}$
+- zvětšování~$E\\_p$ v protisměru~$F\\_{el}$
 - možno přirovnat ke gravitačnímu potenciálu
 - místa vodivě spojitá mají stejný potenciál
 
@@ -100,8 +100,8 @@
 ### Kondenzátor
 - elektrická součástka uchovávající náboj
 - tvořen dvěma vodivými nabitými deskami
-	- 1.~deska -- $\phi\_1$, 2.~deska -- $\phi\_2$
-	- napětí -- $\phi\_2-\phi\_1=U$
+	- 1.~deska -- $\phi_1$, 2.~deska -- $\phi_2$
+	- napětí -- $\phi_2-\phi_1=U$
 	- průměrný potenciál v poli -- $\phi=\frac{U}{2}$
 - desky odděleny dielektrikem (izolantem)
 - energie kondenzátoru
@@ -115,18 +115,18 @@
 - nabíjení a vybíjení stejným proudem
 - celková kapacity
 	\eq{
-		\frac{C} = \frac{C\_1} + \frac{C\_2} + \dots + \frac{C\_n}
+		\frac{C} = \frac{C_1} + \frac{C_2} + \dots + \frac{C_n}
 	}
 
 ##### Paralelní
 - zvětšení plochy desek
 - sčítání kapacit
 	\eq{
-		C = C\_1 + C\_2 + ... + C\_n
+		C = C_1 + C_2 + ... + C_n
 	}
 - potenciály na obou stranách stejné $\rightarrow U=\const$ 
 - na kondenzátorech dílčí proudy
-- dílčí proudy se sčítají -- $I = I\_1 + I\_2 + ... + I\_n$
+- dílčí proudy se sčítají -- $I = I_1 + I_2 + ... + I_n$
 
 \fullfig{16-capacitors}[Sériové a paralelní zapojení kondenzátorů]
 

@@ -101,7 +101,7 @@
 ### První Kirchhoffův zákon
 - \uv{Algebraický součet proudů v uzlu je roven nule.}
 	\eq{
-		\sum\_{k=1}^n I\_k = 0
+		\sum_{k=1}^n I_k = 0
 	}
 - dohodnutý směr proudu
 	- proud proudí do uzlu -- kladný směr
@@ -112,12 +112,12 @@
 ### Druhý Kirchhoffův zákon
 - \uv{Algebraický součet napětí ve smyčce je roven nule.} / \uv{Součet elektromotorických napětí zdrojů ve smyčce je roven součtu úbytků napětí na spotřebičích}
 	\eq[m]{
-		\sum\_{k=1}^n U\_k &= 0\\\\
-		\sum\_{k=1}^n U\_{\text{e}\_n} &= \sum\_{k=1}^m \\Delta U\_k
+		\sum_{k=1}^n U_k &= 0\\\\
+		\sum_{k=1}^n U_{\text{e}_n} &= \sum_{k=1}^m \\Delta U_k
 	}
 - běžný případ -- obvod se zdroji a rezistory
 	\eq{
-		\sum\_{k=1}^n U\_{\text{e}\_n} = \sum\_{k=1}^m R\_kI\_k
+		\sum_{k=1}^n U_{\text{e}_n} = \sum_{k=1}^m R_kI_k
 	}
 
 \fullfig[width=0.35\textwidth]{17-kirchhoff-2}[Aplikace 2. KZ na část obvodu (na smyčku)]
@@ -144,7 +144,7 @@
 - podíl skutečně využité energie z dodané energie
 - zbytek ztráty -- teplo, zvuk, světlo\dots
 - \eq{
-		\eta = \frac{P}{P\_0} = \frac{W}{W\_0}
+		\eta = \frac{P}{P_0} = \frac{W}{W_0}
 	}
 	- $P, W$ -- vykonaná práce, výkon
-	- $P\_0, W\_0$ -- dodána práce, příkon
+	- $P_0, W_0$ -- dodána práce, příkon

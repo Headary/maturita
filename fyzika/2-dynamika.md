@@ -145,9 +145,9 @@
 
 ### Třecí síla
 - smyková třecí síla -- síla působící proti pohybu mezi dvěma styčnými plochami těles
-- nezáleží na styčné ploše, pouze na normálové síle~$F\_N$ a činiteli smykového tření~$f$
+- nezáleží na styčné ploše, pouze na normálové síle~$F\\_N$ a činiteli smykového tření~$f$
 	\eq{
-		F\_t = fF\_N
+		F\\_t = fF\\_N
 	}
 - koeficient tření závislý na druzích povrchů, zjišťován experimentálně
 - typy
@@ -160,7 +160,7 @@
 #### Valivý odpor / valivé tření
 - tření způsobeno valením po povrchu
 	\eq{
-		F\_t = \xi \frac{F\_N}{r}
+		F\\_t = \xi \frac{F\\_N}{r}
 	}
 	- $\xi$ -- koeficient valivého odporu
 	- $r$ -- poloměr valení

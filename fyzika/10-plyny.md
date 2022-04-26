@@ -143,7 +143,7 @@
 \centering
 \begin{tabularx}{0.9\textwidth}{cccX}
 \toprule
-Tepelný motor &$\eta\_{max}$&$\eta$&Poznámka\\\\
+Tepelný motor &$\eta\\_{max}$&$\eta$&Poznámka\\\\
 \midrule
 parní stroj lokomotivy &0,35 &0,09 - 0,15 &účinnost parních motorů lze zvýšit užitím přehřáté páry\\\\
 parní turbína &0,60 &0,25 - 0,35 &\\\\

@@ -35,10 +35,10 @@
 
 #### Odvození
 \eq[m]{
-	E\_k &= W = Fs 				& E\_k &= W = \int_0 F\d s\\\\
-	E\_k &= ma * \frac{2}at^2 	& E\_k &= \int_0 ma\d s = m \int_0 \der{v}{t}\d s\\\\
-	E\_k &= \frac{2} ma^2t^2 	& E\_k &= m \int_0 \der{s}{t}\d v = m \int_0 v\d v\\\\
-	E\_k &= \frac{2} mv^2 		& E\_k &= \frac{2} m v^2\\\\
+	E\\_k &= W = Fs 				& E\\_k &= W = \int_0 F\d s\\\\
+	E\\_k &= ma * \frac{2}at^2 	& E\\_k &= \int_0 ma\d s = m \int_0 \der{v}{t}\d s\\\\
+	E\\_k &= \frac{2} ma^2t^2 	& E\\_k &= m \int_0 \der{s}{t}\d v = m \int_0 v\d v\\\\
+	E\\_k &= \frac{2} mv^2 		& E\\_k &= \frac{2} m v^2\\\\
 }
 
 ### Potenciální energie
@@ -46,52 +46,52 @@
 - gravitační/tíhová potenciální energie, PE pružnosti, tlaková PE\dots
 - změna PE -- práce vykonána proti silovému poli
 	\eq{
-		\Delta E\_p = -W
+		\Delta E\\_p = -W
 	}
 
 #### Tíhová potenciální energie
 - potenciální energie blízko povrchu země způsobená tíhou těles
 - změna potenciální energie
 	\eq{
-		\Delta E\_p = -W = -\vect F s = -(-F)*s = mgs = mg\Delta h
+		\Delta E\\_p = -W = -\vect F s = -(-F)*s = mgs = mg\Delta h
 	}
 - celková potenciální energie
 	\eq{
-		E\_p = mgh
+		E\\_p = mgh
 	}
 
 #### Potenciální energie pružnosti
 - energie uložena v natažení/zkrácení pružiny
 	\eq[m]{
-		\Delta E\_p &= W = \vect Fs = \int_0^t \vect F\vect v\d t\\\\
-		\Delta E\_p &= \int_0^t ky v_y\d t\\\\
-		\Delta E\_p &= \int_0^t ky \der{y}{t}\d t = \int_{y(0)}^{y(t)} ky \d y\\\\
-		\Delta E\_p &= \frac{2}ky^2
+		\Delta E\\_p &= W = \vect Fs = \int_0^t \vect F\vect v\d t\\\\
+		\Delta E\\_p &= \int_0^t ky v_y\d t\\\\
+		\Delta E\\_p &= \int_0^t ky \der{y}{t}\d t = \int_{y(0)}^{y(t)} ky \d y\\\\
+		\Delta E\\_p &= \frac{2}ky^2
 	}
 
 #### Gravitační potenciální energie
 - energie tělesa v radiálním gravitačním poli tělesa
 - změna gravitační potenciální energie (kladný směr od tělesa)
 	\eq[m]{
-		\Delta E\_p &= -W = -\int_{r_1}^{r_2} -F\_g \d r\\\\
-		\Delta E\_p &= \int_{r_1}^{r_2} G\frac{mM}{r^2} \d r\\\\
-		\Delta E\_p &= GmM\int_{r_1}^{r_2} \frac{r^2} \d r\\\\
-		\Delta E\_p &= GmM\left[-\frac{r}\right]_{r_1}^{r_2}\\\\
-		\Delta E\_p &= -GmM\left(\frac{r_2}-\frac{r_1}\right)\\\\
+		\Delta E\\_p &= -W = -\int_{r_1}^{r_2} -F\\_g \d r\\\\
+		\Delta E\\_p &= \int_{r_1}^{r_2} G\frac{mM}{r^2} \d r\\\\
+		\Delta E\\_p &= GmM\int_{r_1}^{r_2} \frac{r^2} \d r\\\\
+		\Delta E\\_p &= GmM\left[-\frac{r}\right]_{r_1}^{r_2}\\\\
+		\Delta E\\_p &= -GmM\left(\frac{r_2}-\frac{r_1}\right)\\\\
 	}
 - celková potenciální energie -- záporná práce přenesení tělesa z nekonečna do vzdálenosti~$R$
 	\eq[m]{
-		E\_p &= -\int_{\infty}^{r} -F\_g \d r\\\\
-		E\_p &= GmM\left[-\frac{r}\right]_{\infty}^{r}\\\\
-		E\_p &= GmM\left(-\frac{R}+\lim_{r\to\infty}\frac{r}\right)\\\\
-		E\_p &= -\frac{GmM}{R}
+		E\\_p &= -\int_{\infty}^{r} -F\\_g \d r\\\\
+		E\\_p &= GmM\left[-\frac{r}\right]_{\infty}^{r}\\\\
+		E\\_p &= GmM\left(-\frac{R}+\lim_{r\to\infty}\frac{r}\right)\\\\
+		E\\_p &= -\frac{GmM}{R}
 	}
 
 ## Zákony zachování
 ### Zákon zachování mechanické energie
 - jestliže těleso nepodléhá účinkům okolí, pak mechanická energie (součet mechanické a potenciální) je konstantní
 	\eq{
-		E\_p + E\_k = \const
+		E\\_p + E\\_k = \const
 	}
 
 ### Zákon zachování energie
@@ -119,6 +119,6 @@
 ## Využití přeměny energie
 - energetika
 	- výroba elektrické energie z mechanické, tepelné nebo jaderné
-	- uložení energie -- přečerpávání vody ($E\_k \leftrightarrow E\_p$), setrvačník
+	- uložení energie -- přečerpávání vody ($E\\_k \leftrightarrow E\\_p$), setrvačník
 - průmysl -- motory -- spalování paliva pro mechanickou energii
 - hospodářství, obyčejný život\dots

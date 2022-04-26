@@ -39,8 +39,8 @@
 ### Momentová věta
 - \emph{\uv{Algebraický součet statických momentů všech sil v soustavě k libovolně zvolenému momentovému středu je roven statickému momentu výslednice této soustavy a k témuž středu.}}
 	\eq[m]{
-		\sum_{i=1}^n M_i &= M\_R\\\\
-		\sum_{i=1}^n F_ir_i &= F\_Rr\_R
+		\sum_{i=1}^n M_i &= M\\_R\\\\
+		\sum_{i=1}^n F_ir_i &= F\\_Rr\\_R
 	}
 - specifikace skládání sil a jejich momentů
 
@@ -104,7 +104,7 @@
 - trajektoriemi kružnice
 - kinetická energie otáčení
 	\eq{
-		E\_k = \sum_{i=1}^n\frac{2}m_iv_i^2
+		E\\_k = \sum_{i=1}^n\frac{2}m_iv_i^2
 		= \sum_{i=1}^n\frac{2}m_ir_i^2\omega^2
 		= \frac{2}\omega^2\sum_{i=1}^nm_ir_i^2
 		= \frac{2}J\omega^2
@@ -157,6 +157,6 @@
 - více kladek -- kladkostroj
 
 ### Nakloněná rovina
-- rozklad tíhové síly~$F\_G$ na normálovou~$F\_n$ a tečnou složku~$F\_t$
-- zrychlování tělesa směrem po nakloněné rovině silou~$F\_t$
+- rozklad tíhové síly~$F\\_G$ na normálovou~$F\\_n$ a tečnou složku~$F\\_t$
+- zrychlování tělesa směrem po nakloněné rovině silou~$F\\_t$
 - zmenšení potřebné síly pro vykonání práce

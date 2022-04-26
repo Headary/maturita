@@ -44,7 +44,7 @@
 - typy
 	- primární články -- jednorázové, reakce nevratná
 	- sekundární články / akumulátory -- znovupoužitelné, reakce vratná
-- svorkové napětí nižší než celkové kvůli vnitřnímu odporu: $U = U\\_e-R_iI$
+- svorkové napětí nižší než celkové kvůli vnitřnímu odporu: $U = U\\_e-R\\_iI$
 	- $U\\_e$ -- elektromotorické napětí
 
 #### Stavba

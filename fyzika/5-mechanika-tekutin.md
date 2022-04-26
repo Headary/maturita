@@ -24,15 +24,15 @@
 - značka~$p$, $[p]=Pa=N.m^{-2}$
 - normálová síla působící na jednotku plochy
 	\eq{
-		p = \frac{F}{S} \ztoho p = \der{\vect F\_N}{\vect S}
+		p = \frac{F}{S} \ztoho p = \der{\vect F\\_N}{\vect S}
 	}
 - tlaková síla~$F=pS$
 - v kapalinách způsoben tíhovou nebo vnější sílou
 
 ### Tlak tíhové síly
-- tíhová síla kapaliny $\rightarrow$ hydrostatická tlaková síla~$F\_h$ $\rightarrow$ hydrostatický tlak~$p\_h$
+- tíhová síla kapaliny $\rightarrow$ hydrostatická tlaková síla~$F\\_h$ $\rightarrow$ hydrostatický tlak~$p\\_h$
 	\eq{
-		p = \frac{F\_G}{S} = \frac{V\rho g}{S} = \frac{hS\rho g}{S} = h\rho g
+		p = \frac{F\\_G}{S} = \frac{V\rho g}{S} = \frac{hS\rho g}{S} = h\rho g
 	}
 - nezávisí na objemu nebo tvaru kapaliny -- \emph{hydrostatický paradoxon}
 
@@ -55,14 +55,14 @@
 - síla nadnášející těleso v tekutině
 - způsobena rozdílem hydrostatického tlaku nad a pod tělesem
 	\eq[m]{
-		F\_{vz} &= F'' - F'\\\\
-		F\_{vz} &= Sp'' - Sp'\\\\
-		F\_{vz} &= S\rho gh'' - S\rho gh'\\\\
-		F\_{vz} &= S\rho g(h'' - h')\\\\
-		F\_{vz} &= S\rho gh\\\\
-		F\_{vz} &= V\rho g
+		F\\_{vz} &= F'' - F'\\\\
+		F\\_{vz} &= Sp'' - Sp'\\\\
+		F\\_{vz} &= S\rho gh'' - S\rho gh'\\\\
+		F\\_{vz} &= S\rho g(h'' - h')\\\\
+		F\\_{vz} &= S\rho gh\\\\
+		F\\_{vz} &= V\rho g
 	}
-- působení síly proti tíhové síle směrem nahoru -- $F = F\_G - F\_{vz}$
+- působení síly proti tíhové síle směrem nahoru -- $F = F\\_G - F\\_{vz}$
 - formulováno Archimédovým zákonem -- \uv{\emph{Těleso ponořené do tekutiny, které je v klidu, je nadlehčováno silou rovnající se tíze tekutiny stejného objemu, jako je ponořená část tělesa.}}
 
 \fullfig[width=0.4\textwidth]{5-vztlak}[Síly působící na těleso v tekutině]
@@ -162,8 +162,8 @@
 	- z Bernoulliho rovnice $\rightarrow$ nad křídlem podtlak vzhledem k atmosférickému tlaku, pod křídlem přetlak
 - vytváření vztlakové aerodynamické síly
 	\eq{
-		F\_{vz} = \frac{2}C\_{vz}S\rho v^2(\text{pro rychlosti menší rychlosti zvuku})
+		F\\_{vz} = \frac{2}C\\_{vz}S\rho v^2(\text{pro rychlosti menší rychlosti zvuku})
 	}
-	- $C\_{vz}$ -- součinitel vztlaku
+	- $C\\_{vz}$ -- součinitel vztlaku
 
 \fullfig[width=0.4\textwidth]{5-wing}[Působení sil na křídlo letadla]

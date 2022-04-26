@@ -21,7 +21,7 @@
 - teplo využito pro skupenskou přeměnu $\rightarrow$ při ději teplota konstantní
 - přijímání tepla při změně pevná látka $\rightarrow$ kapalina $\rightarrow$ plyn; odevzdání tepla při opačném procesu
 - pro opačné procesy (např.~tání--tuhnutí) hodnota skupenského tepla stejná
-- skupenské teplo tání a~tuhnutí~$L\_t$, vypařování a~kondenzace~$L\_v$, sublimace a desublimace~$L\_s$
+- skupenské teplo tání a~tuhnutí~$L\\_t$, vypařování a~kondenzace~$L\\_v$, sublimace a desublimace~$L\\_s$
 
 ### Měrné skupenské teplo
 - značka~$l$, $[l] = \jd{J.kg^{-1}}$
