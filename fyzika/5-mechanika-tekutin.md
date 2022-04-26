@@ -73,8 +73,7 @@
 - proudění tekutiny z místa vyššího tlaku do místa nižšího tlaku
 - vzorce -- předpoklad ideální tekutiny
 - hydrodynamika, aerodynamika
-
-% TODO proudnice
+- znázorněno pomyslnými čarami -- proudnice
 
 ### Rovnice spojitosti
 - také rovnice kontinuity

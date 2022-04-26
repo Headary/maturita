@@ -125,7 +125,26 @@
 	- válec $mr^2/2$
 	- tenká obruč $mr^2$
 
-% TODO rovnovážné polohy
+## Rovnovážné polohy
+- snaha tělesa mít co nejmenší energii
+
+### Stabilní poloha
+- zvýšení energie vychýlením
+- po vychýlení se těleso vrátí do původní polohy
+- kulička v důlku, kyvadlo
+
+### Labilní poloha
+- \uv{vratká poloha}
+- po vychýlení z polohy se odchylka stále zvyšuje -- snižování energie
+- těleso se nevrátí do této polohy
+- kulička na kopečku
+
+### Indiferentní poloha
+- \uv{volná poloha}
+- vychýlením se výslednice sil ani výsledný moment síly nemění
+- potenciální energie zůstává konstantní
+- těleso si najde novou polohu, kterou již nemění
+- kulička na na rovné desce
 
 ## Jednoduché stroje
 - využití otáčivých účinků

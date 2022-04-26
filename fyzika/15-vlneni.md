@@ -114,7 +114,6 @@
 - jestliže vlna narazí na štěrbinu, bude se štěrbina chovat jako nový zdroj vlny
 - viz~otázka~\ref{25-huygens}
 
-% TODO nakreslit viz http://fyzika.jreichl.com/data/MKV_vlneni_soubory/image054.png
 \fullfig[width=0.6\textwidth]{15-huygens}[Nákres Huygensova principu]
 
 ## Zvuk

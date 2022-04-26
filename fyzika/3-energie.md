@@ -25,8 +25,10 @@
 		- tíhová potenciální energie -- silové pole Země
 	- potenciální energie pružnosti -- natažení/stlačení
 - (při nulových ztrátách) $\Delta E = W$
-- pracovní diagram -- graf závislosti síly na dráze % TODO obrázek
+- pracovní diagram -- graf závislosti síly na dráze
 	- integrálem práce
+
+\fullfig[width=16cm]{3-prace}[Pracovní diagram]
 
 ### Kinetická energie
 - energie uchována v pohybu tělesa
