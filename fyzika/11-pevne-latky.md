@@ -99,6 +99,7 @@
 	- stálá
 	- přetrvává i po skončení vnějšího vlivu
 	- kování, válcování, přílišné natáhnutí pružiny\dots
+
 ### Deformace působením sil
 - tahem
 	- působení dvou stejně velkých sil v jedné přímce ven z tělesa

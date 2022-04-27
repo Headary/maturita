@@ -6,7 +6,7 @@
 	- neperiodický -- okamžité hodnoty jsou náhodné, nelze určit následující hodnotu (např.~šum)
 - rovnice střídavého el.~proudu
 	\eq[m]{
-		i(t) = I\\_m \sin(\omega t + \phi_0) 
+		i(t) = I\\_m \sin(\omega t + \phi_0)\\\\
 		u(t) = U\\_m \sin(\omega t + \phi_0 + \phi) 
 	}
 	- $i, u$ -- okamžitá hodnota proudu a napětí

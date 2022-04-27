@@ -17,7 +17,7 @@ dr:=0.5u;
 draw halfcircle rotated 180 scaled 2r;
 draw halfcircle rotated 180 scaled 2(r+dr);
 
-for i=180+45 step 5 until 360-45:
+for i=180+35 step 5 until 360-35:
 	draw fullcircle scaled 2dr shifted (r*cosd(i),r*sind(i));
 endfor
 
@@ -29,8 +29,8 @@ kota((-r-dr,0),(-r,0),btex $\Delta r$ etex);
 draw (-u/10,0)--(u/10,0);
 draw (0,-u/10)--(0,u/10);
 label.urt(btex $Z$ etex, (0,0));
-label.urt(btex $V_1$ etex, (r*cosd(180+35),r*sind(180+35)));
-label.llft(btex $V_2$ etex, ((dr+r)*cosd(180+45),(dr+r)*sind(180+45)));
+label.urt(btex $V_1$ etex, (r*cosd(180+15),r*sind(180+15)));
+label.llft(btex $V_2$ etex, ((dr+r)*cosd(180+20),(dr+r)*sind(180+20)));
 
 endfig;
 verbatimtex
