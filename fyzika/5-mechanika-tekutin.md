@@ -34,7 +34,18 @@
 	\eq{
 		p = \frac{F\\_G}{S} = \frac{V\rho g}{S} = \frac{hS\rho g}{S} = h\rho g
 	}
-- nezávisí na objemu nebo tvaru kapaliny -- \emph{hydrostatický paradoxon}
+- nezávisí na objemu nebo tvaru kapaliny, ale pouze na výšce sloupce tekutiny -- \emph{hydrostatický paradoxon}
+
+#### Spojené nádoby
+- při spojení dvou nádob naplněných kapalinou
+- stejná kapaliny -- jednotlivé hladiny ve stejných výškách
+- rozdílné kapaliny -- vyrovnání hydrostatických tlaků
+	\eq[m]{
+		h_1\rho_1g=h_2\rho_2g\\\\
+		\frac{h_1}{h_2} = \frac{\rho_2}{\rho_1}
+	}
+
+\fullfig{5-paradoxon}[Nákres spojených nádob a hydrostatického paradoxonu]
 
 ### Vnější síla -- Pascalův zákon
 - \emph{\uv{Jestliže na kapalinu v uzavřené nádobě působí vnější tlaková síla, pak tlak v každém místě kapaliny vzroste o stejnou hodnotu.}}
@@ -128,8 +139,6 @@
 	- $h = h_1-h_2$
 
 \fullfig[width=0.3\textwidth]{5-torricelli}[Vytékání kapaliny z nádoby dle torricelliho vzorce]
-
-% TODO spojené nádoby
 
 ### Skutečné proudění
 - neplatí dokonale předchozí vzorce
