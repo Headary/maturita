@@ -18,6 +18,7 @@
 \RequirePackage{color}
 \RequirePackage{subfig}
 \RequirePackage{tabularx}
+\RequirePackage{calc}
 
 \hypersetup{
 	xetex,
@@ -25,9 +26,41 @@
 }
 
 \renewcommand{\bottomtitlespace}{0.05\textheight}
+\titleformat{\paragraph}[hang]{\bfseries\sffamily}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 \newcolumntype{C}{>{\centering\arraybackslash}X}
 \renewcommand\tabularxcolumn[1]{m{#1}}% for vertical centering text in X column
+
+\RequirePackage{fancytabs}
+
+\fancytabsTop{2cm}
+%\fancytabsGap{}
+%Define the maximum amount of tabs on a page. After \tabcount tabs are displayed, the next tab is displayed on top of the page again.
+\fancytabsCount{15}
+\fancytabsHeight{(\paperheight-2\tab@top-\tab@count\tab@gap+\tab@gap)/\tab@count}
+\fancytabsStyle{\Large\scshape\bfseries}
+\fancytabsLeftColor{gray!50}
+\fancytabsRightColor{gray!50}
+\fancytabsRotate{0}
+\fancytabsFloor{0}
+
+\newcommand\pagethumb[1]{
+	\ifthenelse{\thesection>0}{
+		\fancytab[#1]{\thesection}{\thesection}
+	}{}
+}
+
+\fancyhf{}
+\if@twoside
+	\fancyhead[RO]{\pagethumb{RIGHT}\bfseries\@author}
+	\fancyhead[LE]{\@title\pagethumb{LEFT}}
+	\fancyfoot[RO,LE]{\thepage/\pageref{LastPage}}
+\else
+	\fancyhead[R]{\bfseries\@author}
+	\fancyhead[L]{\@title}
+	\fancyfoot[C]{\thepage/\pageref{LastPage}}
+\fi
 
 \RequirePackage[
   cacheDir=/tmp/latexmarkdown,
