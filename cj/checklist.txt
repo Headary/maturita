@@ -13,7 +13,7 @@ Světová literatura 20. a 21. století
 	[x] [ ] 1984
 	[x] [x] farma_zvirat
 	[?] [x] maly_princ -- lépe
-	[ ] [ ] petr_a_lucie
+	[x] [ ] petr_a_lucie
 	[x] [x] spolecenstvo_prstenu
 	[x] [x] hobit
 Česká literatura 20. a 21. století
