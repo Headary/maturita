@@ -1,26 +1,26 @@
 	[Přečteno] [Zpracováno] Název díla
 
 Světová a česká literatura do konce 18. století
-	[x] [x] hamlet -- projít
-	[ ] [ ] zkroceni_zle_zeny
+	[x] [x] Hamlet -- projít
+	[ ] [ ] Zkrocení zlé ženy
 Světová a česká literatura 19. století
-	[x] [ ] kral_lavra
-	[x] [ ] tyrolske_elegie
-	[x] [ ] podivny_pripad
+	[x] [x] Král Lávra
+	[x] [ ] Tyrolské elegie
+	[x] [ ] Podivný příběh dr. Jekylla a pana Hyda
 Světová literatura 20. a 21. století
-	[ ] [ ] 451_fahrenheita
-	[ ] [ ] velky_gatsby
+	[ ] [ ] 451° Fahrenheita
+	[ ] [ ] Velký Gatsby
 	[x] [ ] 1984
-	[x] [x] farma_zvirat
-	[?] [x] maly_princ -- lépe
-	[x] [ ] petr_a_lucie
-	[x] [x] spolecenstvo_prstenu
-	[x] [x] hobit
+	[x] [x] Farma zvířat
+	[?] [x] Malý princ -- lépe
+	[x] [ ] Petr a Lucie
+	[x] [x] Společenstvo prstenu
+	[x] [x] Hobit
 Česká literatura 20. a 21. století
-	[x] [ ] bila_nemoc
-	[x] [ ] rur
-	[x] [x] petrolejove_lampy
-	[x] [ ] smrt_krasnych_srncu
-	[x] [x] dlouhy,siroky_a_kratkozraky
-	[x] [x] tridni_kniha
-	[x] [x] fimfarum
+	[x] [ ] Bílá nemoc
+	[x] [ ] RUR
+	[x] [x] Petrolejové lampy
+	[x] [ ] Smrt krásných srnců
+	[x] [x] Dlouhý, Široký a Kratkozraký
+	[x] [x] Vyčetřování ztráty třídní knihy
+	[x] [x] Fimfarum

@@ -96,8 +96,7 @@
 	}{}
 
 	\fontsize{\titlesize}{1.2\titlesize}\selectfont
-	\fontfamily{qag}\selectfont
-	#1
+	{\bfseries#1}
 
 	\ifthenelse{\equal{#2}{N/A}}{}{
 		\fontsize{\authorsize}{1.2\authorsize}\selectfont #2
