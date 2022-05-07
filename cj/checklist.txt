@@ -5,7 +5,7 @@ Světová a česká literatura do konce 18. století
 	[ ] [ ] Zkrocení zlé ženy
 Světová a česká literatura 19. století
 	[x] [x] Král Lávra
-	[x] [ ] Tyrolské elegie
+	[x] [x] Tyrolské elegie
 	[x] [x] Podivný příběh dr. Jekylla a pana Hyda
 Světová literatura 20. a 21. století
 	[ ] [ ] 451° Fahrenheita
@@ -13,7 +13,7 @@ Světová literatura 20. a 21. století
 	[x] [x] 1984
 	[x] [x] Farma zvířat
 	[?] [x] Malý princ -- lépe
-	[x] [ ] Petr a Lucie
+	[x] [x] Petr a Lucie
 	[x] [x] Společenstvo prstenu
 	[x] [x] Hobit
 Česká literatura 20. a 21. století
