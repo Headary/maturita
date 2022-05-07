@@ -20,7 +20,7 @@ Světová literatura 20. a 21. století
 	[x] [ ] Bílá nemoc
 	[x] [ ] RUR
 	[x] [x] Petrolejové lampy
-	[x] [ ] Smrt krásných srnců
+	[x] [x] Smrt krásných srnců
 	[x] [x] Dlouhý, Široký a Kratkozraký
 	[x] [x] Vyčetřování ztráty třídní knihy
 	[x] [x] Fimfarum
