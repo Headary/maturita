@@ -149,5 +149,3 @@
 	\end{center}
 	\vspace*{-4em}
 }
-
-

@@ -6,11 +6,11 @@ Světová a česká literatura do konce 18. století
 Světová a česká literatura 19. století
 	[x] [x] Král Lávra
 	[x] [ ] Tyrolské elegie
-	[x] [ ] Podivný příběh dr. Jekylla a pana Hyda
+	[x] [x] Podivný příběh dr. Jekylla a pana Hyda
 Světová literatura 20. a 21. století
 	[ ] [ ] 451° Fahrenheita
 	[ ] [ ] Velký Gatsby
-	[x] [ ] 1984
+	[x] [x] 1984
 	[x] [x] Farma zvířat
 	[?] [x] Malý princ -- lépe
 	[x] [ ] Petr a Lucie
