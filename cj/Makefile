@@ -11,7 +11,7 @@ all: $(OBJS) $(OUT)/all.pdf $(OUT)/booklist.pdf
 include ../Makefile.inc
 
 $(OUT)/all.pdf: $(SOURCEFILES) books.cls titlepage.tex $(LIST)
-	cd $(@D); $(call XELATEX,'\documentclass{../books}\begin{document}\input{../titlepage.tex}\input{../$(LIST)}\end{document}')
+	cd $(@D); $(call XELATEX,'\documentclass[twoside]{../books}\begin{document}\input{../titlepage.tex}\input{../$(LIST)}\end{document}')
 
 $(OUT)/booklist.pdf: booklist.tex #$(OUT)/all.pdf
 	cd $(@D); $(call XELATEX,../booklist.tex)

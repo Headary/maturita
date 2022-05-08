@@ -40,8 +40,10 @@
 \titleformat*{\section}{\Large\bfseries\sffamily}
 \titleformat*{\subsection}{\large\bfseries\sffamily}
 \titleformat*{\subsubsection}{\bfseries\sffamily}
-%\titleformat*{\paragraph}{\bfseries\sffamily}
-%\titleformat*{\subparagraph}{\bfseries\sffamily}
+\titleformat*{\paragraph}{\bfseries\sffamily}
+\titleformat*{\subparagraph}{\bfseries\sffamily}
+\titlespacing*{\paragraph} {0pt}{1.75ex plus 0.75ex minus .2ex}{1em}
+\titlespacing*{\subparagraph} {\parindent}{1.25ex plus 0.5ex minus .1ex}{0.75em}
 \renewcommand{\bottomtitlespace}{0.05\textheight}
 
 % define parameters
@@ -81,7 +83,7 @@
 	\setcounter{parts}{0}
 	\newpage
 	\loadbook{#1}
-	\clearpage
+	\clearpage{\thispagestyle{empty}\cleardoublepage}
 	\printbooktitle{\book@name}{\book@subname}{\book@author}
 	\book@content
 }
@@ -125,35 +127,4 @@
 	\addcontentsline{toc}{section}{#1}
 }
 
-%\newcommand{\parag}[2]{\paragraph{#1}#2}
 \newcommand{\parag}[1]{\paragraph{#1}}
-
-
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-
-\newcommand{\paragtable}[2]{
-	\paragraph{#1}\par\hspace*{1cm}
-
-	\vspace*{-1.5em}
-	\begin{center}
-	\begin{longtable}{lL{13cm}}
-		#2
-	\end{longtable}
-	\end{center}
-	\vspace*{-4em}
-}
-
-\newcommand{\paragtabletext}[3]{
-	\paragraph{#1}\par\hspace*{1cm}
-	#2
-
-	\vspace*{-1.5em}
-	\begin{center}
-	\begin{longtable}{lL{13cm}}
-		#3
-	\end{longtable}
-	\end{center}
-	\vspace*{-4em}
-}
