@@ -9,7 +9,7 @@ Světová a česká literatura 19. století
 	[x] [x] Podivný příběh dr. Jekylla a pana Hyda
 Světová literatura 20. a 21. století
 	[ ] [ ] 451° Fahrenheita
-	[ ] [ ] Velký Gatsby
+	[x] [x] Velký Gatsby
 	[x] [x] 1984
 	[x] [x] Farma zvířat
 	[?] [x] Malý princ -- lépe
@@ -17,8 +17,8 @@ Světová literatura 20. a 21. století
 	[x] [x] Společenstvo prstenu
 	[x] [x] Hobit
 Česká literatura 20. a 21. století
-	[x] [ ] Bílá nemoc
-	[x] [ ] RUR
+	[x] [x] Bílá nemoc
+	[x] [x] RUR
 	[x] [x] Petrolejové lampy
 	[x] [x] Smrt krásných srnců
 	[x] [x] Dlouhý, Široký a Kratkozraký
