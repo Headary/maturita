@@ -91,7 +91,7 @@
 	\setcounter{parts}{0}
 	\newpage
 	\clearpage
-	\ifodd\value{page}\null\clearpage\fi
+	\if@twoside\ifodd\value{page}\null\clearpage\fi\fi
 	\loadbook{#1}
 	\printbooktitle{\book@name}{\book@subname}{\book@author}
 	\book@content
