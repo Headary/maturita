@@ -29,6 +29,13 @@
     itemindent=2pt
 }
 
+\RequirePackage[
+	pdfusetitle,
+	pdfproducer={Latex, or other tool},
+	pdfcreator={pdflatex, or other tool},
+	bookmarksnumbered
+]{hyperref} % create links in file
+
 \RequirePackage[nobottomtitles]{titlesec} % change heains style
 \titleformat*{\section}{\Large\bfseries\sffamily}
 \titleformat*{\subsection}{\large\bfseries\sffamily}
@@ -72,6 +79,7 @@
 
 \newcommand\printbook[1]{
 	\setcounter{parts}{0}
+	\newpage
 	\loadbook{#1}
 	\clearpage
 	\printbooktitle{\book@name}{\book@subname}{\book@author}
@@ -104,7 +112,7 @@
 
 	\vspace*{12pt}
 	\fontsize{\authorsize}{1.2\authorsize}\selectfont
-	\fontfamily{cmss}\selectfont \textsl{#3}
+	\textsl{#3}
 	\end{center}
 
 	\addcontentsline{toc}{subsection}{\textbf{#1} -- #3}
