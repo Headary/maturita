@@ -66,12 +66,20 @@
 
 % header
 \RequirePackage{fancyhdr}
+\RequirePackage{lastpage}
 \pagestyle{fancy}
-\fancyhead{}
-\fancyhead[L]{\textbf{\book@author}}
-\fancyhead[R]{\textbf{\book@name}}
-\fancyfoot{}
-\fancyfoot[C]{}
+\fancyhf{}
+
+\if@twoside
+	\fancyhead[RO]{\textbf{\book@name}}
+	\fancyhead[LE]{\textbf{\book@author}}
+	\fancyfoot[RO,LE]{\thepage/\pageref{LastPage}}
+\else
+	\fancyhead[L]{\textbf{\book@author}}
+	\fancyhead[R]{\textbf{\book@name}}
+	\fancyfoot[C]{\thepage/\pageref{LastPage}}
+\fi
+\pagestyle{fancy}
 
 \newcommand{\loadbook}[1]{
 	\bookname{N/A} \booksubname{N/A}
@@ -82,8 +90,9 @@
 \newcommand\printbook[1]{
 	\setcounter{parts}{0}
 	\newpage
+	\clearpage
+	\ifodd\value{page}\null\clearpage\fi
 	\loadbook{#1}
-	\clearpage{\thispagestyle{empty}\cleardoublepage}
 	\printbooktitle{\book@name}{\book@subname}{\book@author}
 	\book@content
 }
@@ -95,7 +104,7 @@
 
 \newcommand{\printbooktitle}[3]{
 	\begin{center}
-	\thispagestyle{empty}
+	%\thispagestyle{empty}
 	
 	\ifthenelse{\equal{#1}{N/A}}{
 		\GenericError{Book class}{Book name not defined!}{}{}
