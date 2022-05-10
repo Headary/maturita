@@ -2,13 +2,13 @@
 
 Světová a česká literatura do konce 18. století
 	[x] [x] Hamlet -- projít
-	[ ] [ ] Zkrocení zlé ženy
+	[ ] [x] Zkrocení zlé ženy
 Světová a česká literatura 19. století
 	[x] [x] Král Lávra
 	[x] [x] Tyrolské elegie
 	[x] [x] Podivný příběh dr. Jekylla a pana Hyda
 Světová literatura 20. a 21. století
-	[ ] [ ] 451° Fahrenheita
+	[ ] [x] 451° Fahrenheita
 	[x] [x] Velký Gatsby
 	[x] [x] 1984
 	[x] [x] Farma zvířat
