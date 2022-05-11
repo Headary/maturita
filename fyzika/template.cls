@@ -35,13 +35,13 @@
 \RequirePackage{fancytabs}
 
 \fancytabsTop{2cm}
-%\fancytabsGap{}
+\fancytabsGap{2.5mm}
 %Define the maximum amount of tabs on a page. After \tabcount tabs are displayed, the next tab is displayed on top of the page again.
 \fancytabsCount{15}
 \fancytabsHeight{(\paperheight-2\tab@top-\tab@count\tab@gap+\tab@gap)/\tab@count}
-\fancytabsStyle{\Large\scshape\bfseries}
-\fancytabsLeftColor{gray!50}
-\fancytabsRightColor{gray!50}
+\fancytabsStyle{\Large\sffamily\bfseries\color{white}}
+\fancytabsLeftColor{black!40}
+\fancytabsRightColor{black!40}
 \fancytabsRotate{0}
 \fancytabsFloor{0}
 
