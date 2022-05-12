@@ -42,16 +42,15 @@
 ### Kvantově mechanický model
 - zatím nejrealističtější popis atomu
 - založen na kombinaci řady předpokladů
-	- každá částice má vlnovou funkci (viz Korpuskulárně vlnový dualismus) ->
+	- každá částice má vlnovou funkci (viz Korpuskulárně vlnový dualismus) $\rightarrow$
 		uvažujeme o elektronu jako o vlně
 	- principu neurčitosti
-	- v atomu existuje více než jedna energetická hladina -> elektrony mají orbitaly
+	- v atomu existuje více než jedna energetická hladina $\rightarrow$ elektrony mají orbitaly
 	- elektrony mají spin; elektrony ve stejném orbitalu mají odlišný spin
 
 ## Kvantová čísla
 - elektrony se pohybují v trojrozměrném prostoru po orbitalech
-- nacházejí se zde s určitou pravděpodobností, jejich polohu a hybnost nelze s
-	určitostí říct
+- nacházejí se zde s určitou pravděpodobností, jejich polohu a hybnost nelze s~určitostí říct
 - elektrony popsány pomocí 4 kvantových čísel
 
 ### Hlavní kvantové číslo -- $n$

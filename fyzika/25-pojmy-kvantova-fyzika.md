@@ -31,7 +31,7 @@
 - energie kvanta (fotonu) předána elektronu, přeměna na:
 	- vykování výstupní práce~$W$
 	- kinetickou energie elektronu~$E_k$
-- mezní frekvence~$f_0$ - nejmenší frekvence potřebná pro uvolnění elektronu
+- mezní frekvence~$f_0$ -- nejmenší frekvence potřebná pro uvolnění elektronu
 	- $\Rightarrow W = hf_0$
 - \eq{hf=W+E\\_k \ztoho hf=hf_0+E\\_k}
 
@@ -44,7 +44,7 @@ Vnější fotoefekt
 ## Comptonův jev
 - Arthur Holly Compton, 1923
 - elektromagnetická vlna interaguje s atomem
-- foton předá atomu část své energie -> změna vlnové délky záření
+- foton předá atomu část své energie $\rightarrow$ změna vlnové délky záření
 
 \fullfig{25-compton}[Nákres Comptonova jevu]
 
@@ -52,7 +52,7 @@ Vnější fotoefekt
 - částice elektromagnetického záření
 - pohybují se rychlostí světla~$c\doteq "2.998e8 m.s^{-1}"$
 - energie:
-	\eq{E = hf=h\frac{c}{f}} 
+	\eq{E = hf=h\frac{c}{\lambda}}
 - hybnost:
 	- vztah platící díky relativistickému vztahu pro energii $E=mc^2$
 	\eq{p=mc=\frac{E}{c}=\frac{hf}{c}=\frac{h}{\lambda}}
@@ -61,7 +61,7 @@ Vnější fotoefekt
 
 ## Korpuskulárně vlnový dualismus
 - stejně jako vlna na vlastnosti částice, tak částice má vlastnosti vlny
-- De Broglie -- 1924 -- \uv{s každou částicí o hybnosti~$p$ je spjato vlnění} ->
+- De Broglie -- 1924 -- \uv{s každou částicí o hybnosti~$p$ je spjato vlnění} $\rightarrow$
 *de Broglieovy vlny (hmotnostní vlny)*
 \eq{\lambda=\frac{h}{p}=\frac{h}{mv}}
 
@@ -79,7 +79,7 @@ Vnější fotoefekt
 
 ### Dvouštěrbinový experiment
 - důkaz dualismu vlna a částic a Huygensova principu
-- proud elektronů po průchodu dvěma štěrbinami vykazují interferenci ->
+- proud elektronů po průchodu dvěma štěrbinami vykazují interferenci $\rightarrow$
 	elektrony se chovají jako vlna
 
 \fullfig{25-double-slit}[Dvouštěrbinový experiment]

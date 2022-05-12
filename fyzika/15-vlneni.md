@@ -80,15 +80,14 @@
 ## Odraz
 - odraz vlnění od konce řady bodů
 - pevný konec
-	- vlna se odrazí v opačném pořadí -- před odrazem první vlna nahoru, po odrazu první vlna dolů
-	- zrcadlově otočená opačná fáze
+	- opačná fáze
 - volný konec
-	- vlna se odrazí ve stejném pořadí -- před odrazem první vlna nahoru, po odrazu první vlna nahoru
-	- zrcadlově otočená stejná fáze
+	- stejná fáze
 
-% TODO vyměnit a opravit vyobrazení
-%\fullfig[width=16cm]{15-odraz-pevne}[Odraz vlny od pevného závěsu]
-%\fullfig[width=16cm]{15-odraz-volne}[Odraz vlny od volného závěsu]
+\fullfig[width=16cm]{15-odraz-pevne}[Odraz vlny od pevného závěsu]
+\fullfig[width=16cm]{15-odraz-volne}[Odraz vlny od volného závěsu]
+
+% source: https://www.walter-fendt.de/html5/phcz/standingwavereflection_cz.htm
 
 ## Stojaté vlnění
 - vlnění nepostupuje prostorem, \uv{stojí na místě}

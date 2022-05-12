@@ -12,6 +12,7 @@ unset tics
 #set ytics 1
 #set xtics pi
 #set format x '$%.0P\pi$'
+set zeroaxis
 
 set xrange [-3*pi:3*pi]
 set yrange [-2:2]
@@ -24,7 +25,7 @@ set lmargin 0.5
 set rmargin 0.5
 
 do for [i in "0.25 0.5 0.75 1 1.25 1.5"] {
-	plot sin(x-pi*i) lw 4 lc "red",\
-	sin(-x-(i+0.5)*pi) lw 4 lc "blue",\
-	sin(x-pi*i)+sin(-x-(i+0.5)*pi) lw 4 lc "black"
+	plot sin(x-pi*i) lw 3 lc "red",\
+	sin(-x-(i+0.5)*pi) lw 3 lc "blue",\
+	sin(x-pi*i)+sin(-x-(i+0.5)*pi) lw 3 lc "black"
 }
