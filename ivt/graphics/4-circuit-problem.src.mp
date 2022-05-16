@@ -84,10 +84,10 @@ draw gates1;
 draw connections shifted (6u,0);
 draw gates2 shifted (6u,0);
 
-draw connections shifted (0,-6u);
-draw gates3 shifted (0,-6u);
+draw gates4 shifted (0,-6u);
 
-draw gates4 shifted (6.25u,-6u);
+draw connections shifted (6.25u,-6u);
+draw gates3 shifted (6.25u,-6u);
 
 drawarrow (3.5u,0)--(4.5u,0);
 drawarrow (4.5u,-6u)--(3.5u,-6u);

@@ -155,7 +155,7 @@ zbytky dělení | 1 | 1 | 0 | 1 | 0 | 1 | 1 | 0
 		- gibibyte -- $"1 GiB" = "2^{10} MiB" = "2^{30} B"$
 		- tebibyte -- $"1 GiB" = "2^{10} GiB" = "2^{40} B"$
 
-## Záznamová média
+## Záznamová média \label{2-zaznamova-media}
 - historicky
 	- děrné pásky -- záznam dat pomocí děr
 	- diskety (floppy disk) -- magnetické úložiště

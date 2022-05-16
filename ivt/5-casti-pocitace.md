@@ -49,7 +49,7 @@
 
 
 ## Záznamová média
-- viz otázka 2
+- viz sekce~\ref{2-zaznamova-media}
 
 ## Programové vybavení počítače
 - software -- programová část počítače

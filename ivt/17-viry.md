@@ -6,7 +6,7 @@
 # Viry, WWW, FTP
 ## Viry
 - počítačové programy s cílem napadnout systém a dále se rozšířit
-- motivace -- profit, šíření zprávy, zábava, ukázání chyby, sabotáž systémů (DDOs) \dots
+- motivace -- profit, šíření zprávy, zábava, ukázání chyby, sabotáž systémů (DDoS)\dots
 - využití hostovacího programu
 	- computer worm nepotřebuje externí program
 - většina virů směřována na MS Windows
@@ -62,7 +62,7 @@
 #### Trojský kůň
 - přetvářka za užitečný software
 - práce v utajení
-- editace uživatelských souborů, blokace souborů, DDos tool, zpomalení počítače
+- editace uživatelských souborů, blokace souborů, DDoS tool, zpomalení počítače
 - řešení -- reinstalace systému
 
 #### DDoS attack

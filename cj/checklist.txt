@@ -2,7 +2,7 @@
 
 Světová a česká literatura do konce 18. století
 	[x] [x] Hamlet -- projít
-	[ ] [x] Zkrocení zlé ženy
+	[x] [x] Zkrocení zlé ženy
 Světová a česká literatura 19. století
 	[x] [x] Král Lávra
 	[x] [x] Tyrolské elegie
