@@ -68,7 +68,8 @@
 
 ### Nejjednodušší oscilátor
 - LC obvod ($L$ -- indukčnost -- cívka, $C$ -- kapacita -- kondenzátor)
-- dochází k rezonanci na rezonanční frekvenci \eq[m]{
+- dochází k rezonanci na rezonanční frekvenci
+	\eq[m]{
 		X\_L &= X\_C\\\\
 		\omega L &= \frac{\omega C}\\\\
 		\omega &= \frac{\sqrt{LC}}\\\\
@@ -121,7 +122,7 @@
 - úhlová frekvence~$\omega, [\omega]=\jd{rad.s^{-1}}$
 	- rychlost kmitání vlny vyjádřeno jako úhlová rychlost
 	- \eq{
-		\omega = 2\pi f = 2\pi/T
+		\omega = 2\pi f = \frac{2\pi}{T}
 	}
 - okamžité elektrické a magnetické pole
 	\eq[m]{
@@ -171,6 +172,7 @@
 	- proměnlivé vlastnosti
 - radiolokace -- systémy sledující přímočaré šíření
 	- radar -- určování poloha rádiem ($"0.01 m"$ -- $"0.5 m"$)
+- šíření vedením -- sériové zapojení LC obvodů
 
 ### Typy elektrických vln
 - gamma záření -- $\gamma$
