@@ -114,16 +114,16 @@
 ## Hodnoty střídavého proudu
 ### Efektivní hodnota proudu
 - hodnota střídavého proudu odpovídající stejnosměrnému proudu
-- *proud, který má v obvodu s rezistorem stejný výkon jako střídavý proud $i=I\\_m\sin\omega t$*
+- *proud, který má v obvodu s rezistorem stejný výkon jako střídavý proud~$i=I\\_m\sin\omega t$*
 	\eq{
 	I = \frac{I\\_m}{\sqrt{2}} = "0.707" I\\_m
 	}
 
 ### Efektivní hodnota napětí
-- hodnota střídavého proudu odpovídající stejnosměrnému napětí
-- *napětí, který má v obvodu s rezistorem stejný výkon jako střídavý proud $i=I\\_m\sin\omega t$*
+- hodnota střídavého napětí odpovídající stejnosměrnému napětí
+- *napětí, které má v obvodu s rezistorem stejný výkon jako střídavé napětí~$u=U\\_m\sin\omega t$*
 	\eq{
-		U = \frac{U\\_m}{\sqrt{2}} = "0.707" I\\_m
+		U = \frac{U\\_m}{\sqrt{2}} = "0.707" U\\_m
 	}
 
 ### Výkon
@@ -188,7 +188,7 @@
 	}
 	- $k>1$ -- zvýšení napětí
 	- $k=1$ -- napětí se nemění
-	- $k<1$ -- napětí se nemění %>
+	- $k<1$ -- snížení napětí %>
 
 \fullfig{21-transformator}[Nákres transformátoru]
 

@@ -7,13 +7,16 @@ GRAPH_DEPS=$(call graphics-deps,$(GRAPHICS))
 .PHONY: all graphics pdf complete test
 .SECONDARY: $(GRAPH_DEPS)
 
-all: graphics pdf complete
+all: graphics pdf complete clean
 
 include ../Makefile.inc
 
 graphics: $(GRAPH_DEPS) | $(GRAPHICS_OUT)
 pdf: $(PDF)
 complete: $(OUT)/complete.pdf
+
+clean:
+	find $(OUT) ! -name '*.pdf' -type f -delete
 
 allMarkdownInputs=$(addsuffix }, $(addprefix \markdownInput{../,$(shell ls -v *.md)))
 
