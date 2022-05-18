@@ -119,13 +119,13 @@
 	- dokonalá černá -- pixel vytváření vlastní světlo
 
 #### Parametry
-- velikost ($"20 ''"--"40 ''"$)
+- velikost (uhlopříčka $"15 ''"$ -- $"42 ''"$)
 - připojení
 	- analog -- analog, VGA
 	- digitální -- DVI, HDMI, DisplayPort
 - poměr stran -- $16:9, 16:10, 4:3, 21:9$
 - rozlišení -- Full HD ($1~920\times 1~080$), QHD ($2~560\times 1~440$), 4K
-- frekvence -- $"50 Hz" -- "320 Hz"$
+- frekvence -- $"50 Hz"$ -- $"320 Hz"$
 
 ### Tiskárna
 - vynesení obrazu na papír

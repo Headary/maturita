@@ -29,6 +29,38 @@
 \newcolumntype{C}{>{\centering\arraybackslash}X}
 \renewcommand\tabularxcolumn[1]{m{#1}}% for vertical centering text in X column
 
+% Create page tabs
+\RequirePackage{fancytabs}
+
+\fancytabsTop{2cm}
+\fancytabsGap{2.5mm}
+%Define the maximum amount of tabs on a page. After \tabcount tabs are displayed, the next tab is displayed on top of the page again.
+\fancytabsCount{15}
+\fancytabsHeight{(\paperheight-2\tab@top-\tab@count\tab@gap+\tab@gap)/\tab@count}
+\fancytabsStyle{\Large\sffamily\bfseries\color{white}}
+\fancytabsLeftColor{black!40}
+\fancytabsRightColor{black!40}
+\fancytabsRotate{0}
+\fancytabsFloor{0}
+
+\newcommand\pagethumb[1]{
+	\ifthenelse{\thesection>0}{
+		\fancytab[#1]{\thesection}{\thesection}
+	}{}
+}
+
+\fancyhf{}
+\if@twoside
+	\fancyhead[RO]{\pagethumb{RIGHT}\bfseries\@author}
+	\fancyhead[LE]{\@title\pagethumb{LEFT}}
+	\fancyfoot[RO,LE]{\thepage/\pageref{LastPage}}
+\else
+	\fancyhead[R]{\bfseries\@author}
+	\fancyhead[L]{\@title}
+	\fancyfoot[C]{\thepage/\pageref{LastPage}}
+\fi
+
+
 \RequirePackage[
   cacheDir=/tmp/latexmarkdown,
   hashEnumerators,

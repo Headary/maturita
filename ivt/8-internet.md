@@ -76,7 +76,7 @@
 - příklad
 	- Prefix sítě \texttt{192.168.88.0/24} -- host \texttt{192.168.88.1}--\texttt{192.168.88.254}
 		- broadcast na \texttt{192.168.88.255}
-	- Prefix sítě \texttt{10.5.24.+/24} -- host \texttt{192.168.88.1}--\texttt{192.168.88.254}
+	- Prefix sítě \texttt{10.5.24.128/25} -- host \texttt{10.5.24.129}--\texttt{10.5.24.254}
 
 \begin{table}
 \centering
