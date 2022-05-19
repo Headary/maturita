@@ -47,6 +47,8 @@ přebytek nebo nedostatek elektronů.][][Vlastní vodivost a příměsi v polovo
 
 \fullfig[width=0.5\textwidth]{18-prechod}[PN přechod a schématické zakreslení polovodičové diody]
 
+% TODO voltampérová charakteristika
+
 ### Závěrný směr
 - zapojení PN přechodu, kdy neprochází proud
 - typ~P připojen na záporný pól zdroje, typ N připojen ke kladnému pólu zdroje
