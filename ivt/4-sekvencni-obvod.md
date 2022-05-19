@@ -35,8 +35,6 @@
 - vstupní hodnoty se projeví až v následujícím stavu
 - výstup závislý pouze na vnitřním stavu
 
-\fullfig{4-circuit-problem}[Příklad kombinačního obvodu]
-
 ## SR Latch
 - základní paměťový obvod
 - sestaven z NAND nebo NOR gates

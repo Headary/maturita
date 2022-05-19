@@ -14,6 +14,6 @@ set ytics 1
 set style line 1 lw 5 lc rgb "#e02222"
 set style line 2 lw 5 lc rgb "#2222e0"
 
-set xlabel "$a$"
+set xlabel "$kf_0$"
 
 plot 1/(1-x) title "$Z$" ls 1, x/(x-1) title "$a'$" ls 2

@@ -84,8 +84,7 @@
 	\caption{Vektorově znázorněno gravitační pole}
 \end{figure}
 
-## Pohyb v gravitačním poli
-## V homogenní poli
+## Pohyb v homogenním gravitačním poli
 - působení konstantní tíhové síly na těleso $\rightarrow$ změna trajektorie tíhovým zrychlením
 
 ### Volný pád
@@ -188,7 +187,7 @@
 
 \fullfig[width=16cm]{6-vrhy}[Trajektorie vrhů]
 
-## V radiálním poli
+## Pohyb v radiálním gravitačním poli
 - nutno uvažovat proměnnou intenzitu~$\vect K$ a gravitační zrychlení~$a\\_g$
 
 ### Pohyb po kružnici
@@ -220,7 +219,7 @@
 	}
 - odvození ze zákona zachování energie $E_1 = E_2$
 	\begin{gather\*}
-		\frac{2}mv\\_p^2 + (-G\frac{mM}{r}) = 0\\\\
+		\frac{2}mv\\_p^2 + \(-G\frac{mM}{r}\) = 0\\\\
 		v\\_p^2 -2G\frac{M}{r} = 0\\\\
 		v\\_p = \sqrt{\frac{2GM}{r}}
 	\end{gather\*}
@@ -232,6 +231,6 @@
 - rychlost potřebná pro opuštění sluneční soustavy po hyberbolické trajektorii
 - stejný vzorec jako pro druhou kosmickou rychlost s hodnotami pro hmotnost Slunce a vzdálenost Země--Slunce
 	\eq{
-		v_3 = sqrt{\frac{2GM\\_S}{r\\_{ZS}}} = "42.1 km.s^{-1}"
+		v_3 = \sqrt{\frac{2GM\\_S}{r\\_{ZS}}} = "42.1 km.s^{-1}"
 	}
 - při využití rychlosti Země potřeba zrychlit pouze o~$v_3' = v_3-v\\_Z = "42.1" - "29.7"$

@@ -61,12 +61,12 @@ zbytky dělení | 1 | 1 | 0 | 1 | 0 | 1 | 1 | 0
 - záporné číslo zaznamenáno jako binární negace (výměna 0 a 1) + 1
 - podle úvodního bitu lze rozeznat kladná/záporná čísla
 - využití přetečení
-	- 00000000 - 00000001 = 11111111
+	- $00000000 - 00000001 = 11111111$
 - jediná reprezentace nuly
 - stejné algoritmy pro sčítání a odčítání
 - zachována komutativnost
 - používané v počítačích
-- příklad: pokud 00001101 je binární vyjádření čísla 13, pak −13 se vypočte jako NOT(00001101) + 1 = 11110010 + 1 = 11110011
+- příklad: pokud 00001101 je binární vyjádření čísla 13, pak $−13$ se vypočte jako $\mathrm{NOT}(00001101) + 1 = 11110010 + 1 = 11110011$
 \eq[m]{
 	20\_{10} - 13\_{10} = 20\_{10} + (-13)\_{10} = 00010100\_{2} + 11110011\_{2} =\\\\
 	= 1~00000111\_{2} =  7\_{10} \\text{(po odříznutí přeteklého devátého bitu)}

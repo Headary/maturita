@@ -82,8 +82,8 @@ původně rovnoběžné s optickou osou
 
 ### Vypuklé zrcadlo
 - odraz z vnějšku kulové plochy
-- ohnisko za zrcadlem -- záporná ohnisková vzdálenost 
-- obraz zmenšený, přímý, skutečný
+- ohnisko za zrcadlem -- záporná ohnisková vzdálenost
+- obraz zmenšený, přímý, zdánlivý
 
 \fullfig[width=0.6\textwidth]{24-vypukle}[Vypuklé zrcadlo]
 
@@ -93,12 +93,12 @@ původně rovnoběžné s optickou osou
 - obraz závislý na poloze objektu
 	- $0<a<f$ -- zvětšený, přímý, zdánlivý
 	- $a=f$ -- $\abs{Z}\rightarrow\infty$ -- obraz v nekonečnu
-	- $f<a<2f$ -- zvětšený, převrácený, skutečný %>
+	- $f<a<2f$ -- zvětšený, převrácený, skutečný
 	- $a=2f$ -- stejně velký, převrácený, skutečný
 	- $a>2f$ -- zmenšený, převrácený, skutečný
 
 \fullfig[width=16cm]{24-zobrazeni-dute}[Hodnoty $Z$ a $a'$
-v~závislosti na násobku~$f_0=1$][graph:dute]
+v~závislosti na $kf_0; k\in\mathtt{R}, f_0=1$][graph:dute]
 
 \fullfig[width=0.6\textwidth]{24-dute}[Nákres dutého zrcadla]
 
@@ -156,10 +156,12 @@ v~závislosti na násobku~$f_0=1$][graph:dute]
 
 ### Vady oka
 #### Krátkozrakost
+- špatná schopnost vidět do dálky
 - obraz před sítnicí
 - korekce pomocí rozptylky
 
 #### Dalekozrakost
+- špatná schopnost vidět na blízko
 - daleký bod v nekonečnu
 - obraz za sítnicí
 - korekce spojkou

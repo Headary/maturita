@@ -35,7 +35,7 @@
 		- následné proměnné specifikují hodnotu dat ve formátu
 		- nekončí automaticky novým řádkem
 	- \inlistc{fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream);}
-		- \inlistc{*ptr} -- buffer na vypsání, \inlistc{size, nmemb} -- délka a počet da
+		- \inlistc{*ptr} -- buffer na vypsání, \inlistc{size, nmemb} -- délka a počet dat
 		- zápis binárních dat do souboru nebo streamu
 
 ### Formát printf/scanf

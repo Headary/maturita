@@ -7,6 +7,7 @@
 		\subfloat[Člen #1 -- EU/IEC]{\includegraphics[height=1.5cm]{3-#2-eu}}
 		\qquad
 		\subfloat[Člen #1 -- US]{\includegraphics[height=1.5cm]{3-#2-us}}
+		\label{3-gate-#2}
 	\end{figure}
 }
 
@@ -29,6 +30,7 @@
 			\bottomrule
 			\end{tabular}
 		}
+		\label{3-gate-#2}
 	\end{figure}
 }
 
@@ -209,3 +211,6 @@ A \land(\lnot A \lor B) &= A \land B \\\\
 - v počítači provádí boolenovou algebru na vstupních signálech a uložených datech
 	- např. ALU (arithmetic logic unit)
 - stavba na základě matematické funkce z logických členů
+
+\fullfig{4-circuit-problem}[Příklad kombinačního obvodu]
+
