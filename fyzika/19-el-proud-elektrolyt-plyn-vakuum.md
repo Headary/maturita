@@ -118,7 +118,7 @@ lithiový článek&$+\ce{MnO2}, -\ce{Li}$&lithiová sůl v organickém rozpoušt
 - dosažené dostatečné energie $\rightarrow$ *elektrický průraz*
 	- z nesamostatného náboje se stává samostatný
 
-### Náboj podle doby trvání
+### Výboj podle doby trvání
 - jiskrový výboj
 	- krátké dosažení $U>U\\_z$, zdroj není schopen udržet, rychlé zhasnutí
 	- blesk, zážehový motor
@@ -128,8 +128,10 @@ lithiový článek&$+\ce{MnO2}, -\ce{Li}$&lithiová sůl v organickém rozpoušt
 - koróna
 	- trsovitý výboj v nehomogenním poli
 	- na hranách a hrotech
-
-% TODO doutnavý výboj
+- doutnavý výboj
+	- dlouhodobý výboj za sníženého tlaku plynu
+	- ve výbojkách či zářivkách
+	- barva výboje ovlivněna plynem vyplňujícím trubici
 
 ### Využití
 - sváření, řezání plazmou

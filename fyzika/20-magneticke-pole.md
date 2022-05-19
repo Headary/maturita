@@ -110,6 +110,16 @@
 
 \fullfig[width=0.25\textwidth]{20-left-hand-rule}[Flemingovo pravidlo levé ruky]
 
+### Magnetické pole paralelních vodičů
+- vzájemné působení důvodem magnetických polí -- působení magnetickou silou
+- magnetické pole prvního vodiče působí na druhý vodič
+	\eq[m]{
+		F &= BIl\cos\alpha \Rightarrow F = B_1I_2l\\\\
+		F &= \frac{\mu}{2\pi}\*\frac{I_1}{d}\*I_2l\\\\
+		F &= \frac{\mu}{2\pi}\frac{I_1I_2}{d}l
+	}
+- stejný směr proudu -- přitahování; rozdílný směr -- odpuzování
+
 ## Vytváření magnetického pole
 ### Přímý vodič
 - siločáry ve tvaru soustředných kružnic
@@ -141,6 +151,19 @@
 	- $S$ -- rovinná plocha
 	- $\alpha$ -- úhel mezi $\vec B$ a normálových vektorem plochy
 
+## Energie magnetického pole cívky
+- práce potřebná pro indukování proudu na cívce
+- nutno překonat elektromotorické napětí na cívce $U\\_i = -L\Delta I/\Delta t$
+	\eq[m]{
+		\Delta E\\_m = W = UQ &= \abs{U\\_i}I\Delta t = L\frac{\Delta I}{\Delta t}I\Delta t = \Phi\Delta I\\\\
+		\d E &= \Psi \d I
+	}
+- celková energie rovna ploše pod grafem závislosti magnetického indukčního toku na proudu
+	\eq[m]{
+		E &= \int_0^{I_0} \Psi \d I = \int_0^{I_0} LI \d I\\\\
+		E &= \frac{2} LI_0^2
+	}
+
 ## Magnetické vlastnosti látek
 - vytváření elementárního mag.~pole elektrony
 - součet polí $\rightarrow$ celkové pole
@@ -156,7 +179,6 @@
 		- na rozdíl od indukce nebere v potaz vliv vázaných magnetických proudů
 		- vliv pouze vnějších magnetických polí
 - permeabilita vakua~$\mu_0 = "4\pi e-7 N.A^{-2}"$
-
 
 ### Diamagnetické látky
 - $\mu\\_r$ < 1 %>
@@ -180,6 +202,17 @@
 - sloučeniny \ce{Fe2O3} a oxidy dalších kovů
 - mnohem větší odpor než feromagnetické magnety
 - v praxi široce používané
+
+### (Magnetické) hystereze
+- *hystereze*
+	- chování dynamického systému
+	- výstupní veličina závislá nejen na proměnné, ale i na předchozím stavu 
+- magnetická hystereze -- hysterezní křivka
+	- uzavřená křivka magnetování
+	- popis magnetizace materiálu v závislosti na intenzitě magnetického pole a předchozím stavu
+	- užší křivka $\rightarrow$ jednodušší magnetizace/odmagnetování
+
+\fullfig[width=0.5\textwidth]{20-hystereze}[Magnetická hysterezní křivka]
 
 ## Elektromagnetická indukce
 - vznik indukovaného elektrického pole vytvořeno nestacionárním mag.~polem
@@ -220,5 +253,3 @@
 	- indukční brzda
 	- indukční vařiče, metalurgie -- využití tepelných účinků
 	- indukční pece
-
-% TODO hystereze, energie mag. pole, rovnoběžné vodiče

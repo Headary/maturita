@@ -47,7 +47,7 @@ přebytek nebo nedostatek elektronů.][][Vlastní vodivost a příměsi v polovo
 
 \fullfig[width=0.5\textwidth]{18-prechod}[PN přechod a schématické zakreslení polovodičové diody]
 
-% TODO voltampérová charakteristika
+\fullfig[width=0.5\textwidth]{18-VA-dioda}[Voltampérová charakteristika lavinové diody]
 
 ### Závěrný směr
 - zapojení PN přechodu, kdy neprochází proud
