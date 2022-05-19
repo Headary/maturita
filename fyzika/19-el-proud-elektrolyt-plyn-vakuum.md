@@ -129,6 +129,8 @@ lithiový článek&$+\ce{MnO2}, -\ce{Li}$&lithiová sůl v organickém rozpoušt
 	- trsovitý výboj v nehomogenním poli
 	- na hranách a hrotech
 
+% TODO doutnavý výboj
+
 ### Využití
 - sváření, řezání plazmou
 - oblouková lampa v projektorech
