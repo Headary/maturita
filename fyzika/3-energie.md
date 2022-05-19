@@ -83,8 +83,8 @@
 	}
 - celková potenciální energie -- záporná práce přenesení tělesa z nekonečna do vzdálenosti~$R$
 	\eq[m]{
-		E\\_p &= -\int_{\infty}^{r} -F\\_g \d r\\\\
-		E\\_p &= GmM\left[-\frac{r}\right]_{\infty}^{r}\\\\
+		E\\_p &= -\int_{\infty}^{R} -F\\_g \d r\\\\
+		E\\_p &= GmM\left[-\frac{R}\right]_{\infty}^{r}\\\\
 		E\\_p &= GmM\left(-\frac{R}+\lim_{r\to\infty}\frac{r}\right)\\\\
 		E\\_p &= -\frac{GmM}{R}
 	}

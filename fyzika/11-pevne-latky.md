@@ -44,7 +44,7 @@
 - čárové poruchy -- porucha podél linie
 - objemové poruchy -- porucha ve větším objemu
 
-#### Borové poruchy
+#### Bodové poruchy
 - vakance -- prázdné místo v mřížce
 - intersticiální poloha -- částice navíc mimo mřížku
 - substituční porucha -- vyměnění částice za jinou (nečistoty)
