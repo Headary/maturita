@@ -6,14 +6,14 @@ SOURCEFILES=$(wildcard $(SOURCE)/*.tex)
 OBJS = $(patsubst $(SOURCE)/%.tex,$(OUT)/%.pdf,$(SOURCEFILES))
 
 .PHONY: all clean stats
-all: $(OBJS) $(OUT)/all.pdf $(OUT)/booklist.pdf
+all: $(OBJS) $(OUT)/complete.pdf $(OUT)/booklist.pdf
 
 include ../Makefile.inc
 
-$(OUT)/all.pdf: $(SOURCEFILES) books.cls titlepage.tex $(LIST)
+$(OUT)/complete.pdf: $(SOURCEFILES) books.cls titlepage.tex $(LIST)
 	cd $(@D); $(call XELATEX,'\documentclass[twoside]{../books}\begin{document}\input{../titlepage.tex}\input{../$(LIST)}\end{document}')
 
-$(OUT)/booklist.pdf: booklist.tex #$(OUT)/all.pdf
+$(OUT)/booklist.pdf: booklist.tex
 	cd $(@D); $(call XELATEX,../booklist.tex)
 
 $(OUT)/%.pdf: $(SOURCE)/%.tex books.cls
