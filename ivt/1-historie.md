@@ -68,7 +68,7 @@
 - inspirace ENIACem
 - matematické výpočty fyzikálních dějů, vývoj jaderné bomby
 
-### Druhý generace (1951 -- 1964)
+### Druhá generace (1951 -- 1964)
 - využití tranzistorů $\rightarrow$ vylepšení počítačů
 	- zmenšení, větší výkon, efektivita a spolehlivost
 - pronikání počítačů do běžného života

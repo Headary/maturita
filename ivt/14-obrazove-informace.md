@@ -44,7 +44,7 @@
 \caption{Porovnání RGB a CMYK modelu}
 \end{figure}
 
-### HSV
+#### HSV
 - Hue, Saturation, Value
 - reprezentace barvy jako odstínu, sytosti a světlosti / hodnoty
 - odstín
@@ -59,7 +59,7 @@
 	- minimum -- černá, maximum -- plná barva
 - použití -- grafické programy (jednodušší vybírání barev pro uživatele)
 
-### HSL
+#### HSL
 - Hue, Saturation, Lightness
 - podobná HSV, ale světlost značí polohu mezi černou a bílou, nejsytější barvy v~$L=1/2$
 

@@ -118,8 +118,8 @@
 - \htmlpair{tr} -- řádek tabulky
 - \htmlpair{th} -- buňka nadpisu
 - \htmlpair{td} -- buňka tabulky
-	\inlisth{colspan} -- šířka buňky ve sloupcích
-	\inlisth{align} -- zarovnání
+	- \inlisth{colspan} -- šířka buňky ve sloupcích
+	- \inlisth{align} -- zarovnání
 
 \lstinputlisting[style=html]{../source_codes/18-table.html}
 

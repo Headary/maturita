@@ -82,11 +82,12 @@
 - pole působí sílou na náboj -> náboj se pohybuje -> pole koná práci
 - výpočet
 	\eq{
-		\\d W = \vect F * \\d \vect s \rightarrow W=\vect F \vect s
+		\\d W = F * \\d s \rightarrow W= Fs
 	}
 - změna potenciální energie = práce
-	\eq{
-		W = \Delta E = \Delta\phi Q = UQ
+	\eq[m]{
+		W &= Fs = EQs = UQ
+		W &= \Delta E\_p = \Delta\phi Q = UQ
 	}
 
 ## Elektrická kapacita
