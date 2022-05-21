@@ -6,7 +6,7 @@ SOURCEFILES=$(wildcard $(SOURCE)/*.tex)
 OBJS = $(patsubst $(SOURCE)/%.tex,$(OUT)/%.pdf,$(SOURCEFILES))
 
 .PHONY: all clean stats
-all: $(OBJS) $(OUT)/all.pdf $(OUT)/booklist.pdf clean
+all: $(OBJS) $(OUT)/all.pdf $(OUT)/booklist.pdf
 
 include ../Makefile.inc
 

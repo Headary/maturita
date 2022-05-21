@@ -64,6 +64,9 @@
 \newcommand\bookcontent[1]{
 \renewcommand\book@content{#1}}
 
+\newcounter{booknumber}
+\setcounter{booknumber}{0}
+
 % header
 \RequirePackage{fancyhdr}
 \RequirePackage{lastpage}
@@ -126,7 +129,8 @@
 	\textsl{#3}
 	\end{center}
 
-	\addcontentsline{toc}{subsection}{\textbf{#1} -- #3}
+	\stepcounter{booknumber}
+	\addcontentsline{toc}{subsection}{\arabic{booknumber}. \textbf{#1} -- #3}
 }
 
 \newcounter{parts}
