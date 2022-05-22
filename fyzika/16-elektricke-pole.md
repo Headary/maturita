@@ -86,7 +86,7 @@
 	}
 - změna potenciální energie = práce
 	\eq[m]{
-		W &= Fs = EQs = UQ
+		W &= Fs = EQs = UQ\\\\
 		W &= \Delta E\_p = \Delta\phi Q = UQ
 	}
 

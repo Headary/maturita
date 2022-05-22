@@ -31,6 +31,8 @@
 - snaha minimalizovat povrch a maximalizovat objem -- minimalizace povrchové energie
 	- nejlepší tvar koule $\rightarrow$ kapky mlhy, rosy\dots
 
+\fullfig[width=0.5\textwidth]{12-napeti}[Síly povrchové vrstvy kapaliny]
+
 ### Povrchová síla
 - síla povrchu kapaliny
 - tečná na povrch směřující do kapaliny
@@ -41,10 +43,19 @@
 - vlastnost povrchu kapaliny držet při sobě a zmenšovat povrch
 - míra síly na jednotku délky obvodu
 	\eq[m]{
-		\sigma &= \der{F}{l}\\\\
-		\sigma &= \frac{F}{2l}
+		\sigma &= \der{F}{l}
 	}
-	- po obvodu dvě blány $\rightarrow 1/2$
+- vyplněný objem (hladina, kapka\dots) možno zjednodušit
+	\eq{
+		\sigma = \frac{F}{l}
+	}
+- speciální případ -- povrchová vrstva z obou stran (bublina, blána)
+	\eq{
+		\sigma = \frac{F}{2l}
+	}
+	- po obvodu dvě blány $\rightarrow$ působení dvojnásobné síly
+
+\fullfig[width=0.5\textwidth]{12-napeti-2}[Znázornění povrchového napětí]
 
 ## Jevy na rozhraní prostředí
 - jevy na rozhraní kapaliny, pevné látky a plynu u stěn nádoby

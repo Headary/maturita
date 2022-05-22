@@ -105,7 +105,7 @@
 
 #### Flemingovo levé ruky
 - prostředníček -- směr proudu
-- ukazováček -- proti vektoru~$\vec B$
+- ukazováček -- směr vektoru~$\vec B$
 - palec -- směr~$\vec F\\_m$
 
 \fullfig[width=0.25\textwidth]{20-left-hand-rule}[Flemingovo pravidlo levé ruky]
@@ -156,11 +156,11 @@
 - nutno překonat elektromotorické napětí na cívce $U\\_i = -L\Delta I/\Delta t$
 	\eq[m]{
 		\Delta E\\_m = W = UQ &= \abs{U\\_i}I\Delta t = L\frac{\Delta I}{\Delta t}I\Delta t = \Phi\Delta I\\\\
-		\d E &= \Psi \d I
+		\d E &= \Phi \d I
 	}
 - celková energie rovna ploše pod grafem závislosti magnetického indukčního toku na proudu
 	\eq[m]{
-		E &= \int_0^{I_0} \Psi \d I = \int_0^{I_0} LI \d I\\\\
+		E &= \int_0^{I_0} \Phi \d I = \int_0^{I_0} LI \d I\\\\
 		E &= \frac{2} LI_0^2
 	}
 
