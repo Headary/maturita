@@ -4,7 +4,7 @@
 
 ## Síla
 - značka~$\vect F$, $[F]=\jd{N}=\jd{kg.m.s^{-2}}$
-- vektorová veličina, míra vzájemného působení těle
+- vektorová veličina, míra vzájemného působení těles
 - přímé měření siloměrem
 - deformační a pohybové účinky
 

@@ -8,7 +8,7 @@
 - gravitace -- nejslabší sila
 
 ### Gravitační síla
-- značka~$\vect F\\_g$, $[\vect F\\_g]=\jd{N}$
+- značka~$\vect{F\\_g}$, $[\vect{F\\_g}]=\jd{N}$
 - přitahování každých dvou těles na sebe (např.~kámen a Země)
 - leží na spojnice těžišť 
 - poprvé popsána Isaacem Newtonem (17.~stol.) $\rightarrow$ Newtonův gravitační zákon
@@ -219,11 +219,12 @@
 	}
 - odvození ze zákona zachování energie $E_1 = E_2$
 	\begin{gather\*}
-		\frac{2}mv\\_p^2 + \(-G\frac{mM}{r}\) = 0\\\\
+		\frac{2}mv\\_p^2 + \\(-G\frac{mM}{r}\\) = 0\\\\
 		v\\_p^2 -2G\frac{M}{r} = 0\\\\
 		v\\_p = \sqrt{\frac{2GM}{r}}
 	\end{gather\*}
-	- při úniku má těleso kinetickou e.~$E_{\text{p}_1}$ a gravitační potenciální\footnote{Ta je rozdílná od klasické potencial.~e.~v~tíhovém poli. V nekonečnu má hodnotu~$0$.}e.~$E_{\text{k}_1}$
+	- při úniku má těleso kinetickou e.~$E_{\text{p}_1}$ a gravitační potenciální\footnote{Ta je
+		rozdílná od klasické potencial.~e.~v~tíhovém poli. V nekonečnu má hodnotu~$0$.} e.~$E_{\text{k}_1}$
 	- v nekonečnu má těleso kinetickou i potenciální energii nulovou
 
 ### Třetí kosmická rychlost

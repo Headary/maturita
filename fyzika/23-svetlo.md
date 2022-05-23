@@ -1,7 +1,7 @@
 \setcounter{section}{22}
 # Světlo, vlnové vlastnosti světla
 - speciální typ elmag.~záření
-- $"3.9e14 Hz"$ -- $"7.9e14Hz"$
+- $"3.9e14 Hz"$ -- $"7.9e14 Hz"$
 - $"390 nm"$ -- $"760 nm"$
 
 ## Základní pojmy
@@ -11,8 +11,8 @@
 
 ### Světelný zdroj
 - zdroj elektromagnetické záření v rozmezí viditelného světla
-- přírodní - kosmické (hvězdy), chemické (oheň), biologické (luminiscence), elektrické výboje (výboj, blesk)
-- umělé - žárovky, zářivky, LED diody\dots
+- přírodní -- kosmické (hvězdy), chemické (oheň), biologické (luminiscence), elektrické výboje (výboj, blesk)
+- umělé -- žárovky, zářivky, LED diody\dots
 - bodové a plošné zářiče
 
 ### Rychlost světla
@@ -56,7 +56,7 @@
 	}
 - využití při výpočtu úhlů při lomu světla
 	\eq{
-		\frac{\sin\alpha}{\sin\beta} = \frac{v_1}{v_2} = 
+		\frac{\sin\alpha}{\sin\beta} = \frac{v_1}{v_2} 
 		\frac{\frac{n_1}}{\frac{n_2}} = \frac{n_2}{n_1}
 	}
 - různá hodnota pro každé prostředí, měřena experimentálně

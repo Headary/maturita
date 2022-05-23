@@ -200,10 +200,11 @@ v~závislosti na $kf_0; k\in\mathtt{R}, f_0=1$][graph:dute]
 ### Lupa
 - zvětšování malých předmětů (malý text, detaily, \dots)
 - pro~$a'$ typicky použita konvenční zraková vzdálenost~$d$ ($\pm"25 cm"$)
-- pro zvětšený a přímý obraz nutno~$a<f$ %>
+- pro zvětšený a přímý obraz nutno~$a<f$
 - zvětšení~$Z=-a'/a=d/f$
 	- při správném značení je~$d$ záporné, tedy~$Z>0$
 - maximální reálné zvětšení asi~$1~500$krát
+
 ### Mikroskop
 - zvětšování velice malých předmětů (buňky, malé organismy, \dots)
 - soustava více čoček

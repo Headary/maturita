@@ -21,7 +21,7 @@
 - ideální plyn -- dokonale stlačitelný; částice na sebe nepůsobí (kromě srážek)
 
 ## Tlak
-- značka~$p$, $[p]=Pa=N.m^{-2}$
+- značka~$p$, $[p]=\jd{Pa}=\jd{N.m^{-2}}$
 - normálová síla působící na jednotku plochy
 	\eq{
 		p = \frac{F}{S} \ztoho p = \der{\vect F\\_N}{\vect S}
