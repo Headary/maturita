@@ -1,3 +1,4 @@
-**/out/*
+*/out/*
+!*/out/*.pdf
+*/graphics/out/*
 *.mpx
-**/notes_external/*
