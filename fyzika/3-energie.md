@@ -91,7 +91,7 @@
 
 ## Zákony zachování
 ### Zákon zachování mechanické energie
-- jestliže těleso nepodléhá účinkům okolí, pak mechanická energie (součet mechanické a potenciální) je konstantní
+- jestliže těleso nepodléhá účinkům okolí, pak mechanická energie (součet potenciální a kinetické) je konstantní
 	\eq{
 		E\\_p + E\\_k = \const
 	}
