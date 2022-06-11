@@ -3,13 +3,13 @@
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{krska}}
 \ProcessOptions
-\LoadClass[11pt,a4paper]{krska}
+\LoadClass[11pt,a4paper]{../../krska}
 
 \RequirePackage{fontspec}
 \RequirePackage{polyglossia}
 \setmainlanguage[splithyphens=false]{czech}
 
-\RequirePackage{krskasugar}
+\RequirePackage{../../krskasugar}
 \newcommand\uv[1]{„#1“}
 \RequirePackage{fkssugar}
 

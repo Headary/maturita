@@ -1,0 +1,84 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{krskasugar}
+
+% -- load packages --
+\RequirePackage{amsmath}
+\RequirePackage{amsfonts}
+\RequirePackage{amssymb}
+\RequirePackage{graphicx}  % figures
+\RequirePackage{wrapfig}   % wraping figures
+\RequirePackage[justification=centering]{caption}
+\RequirePackage{xparse}
+\RequirePackage{xargs}
+\RequirePackage{ifthen}
+
+
+% -- lazy math --
+\RenewDocumentCommand\frac{ m g }{%
+    {%
+        \IfNoValueF {#2} {\ensuremath{\begingroup#1\endgroup\@@over#2}}%
+        \IfNoValueT {#2} {\ensuremath{\begingroup1\endgroup\@@over#1}}%
+    }%
+}
+\RenewDocumentCommand\dfrac{ m g }{%
+	\IfNoValueF {#2} {\ensuremath{\genfrac{}{}{}0{#1}{#2}}}%
+	\IfNoValueT {#2} {\ensuremath{\genfrac{}{}{}0{1}{#1}}}%
+}
+
+\newcommand\avg[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+
+% -- figure commands --
+\captionsetup[table]{name=Tab.}
+\captionsetup[figure]{name=Obr.}
+
+
+% command for fullpage figure
+% Some variants:
+% \fullfig{fig.}[caption]
+% \fullfig[fig param]{fig.}[caption][label]
+% \fullfig[fig param][placement]{fig.}[caption][label]
+\newcommandx*\fullfig[6][1=, 2=htbp, 4=, 5=, 6=]{
+	\begin{figure}[#2]
+	\centering
+	\ifthenelse{\equal{#1}{}}{
+		\includegraphics[width=0.7\linewidth]{#3}
+	}{
+		\includegraphics[#1]{#3}
+	}
+	\ifthenelse{\equal{#4}{}}{}{\ifthenelse{\equal{#6}{}}{\caption{#4}}{\caption[#6]{#4}}}
+	\ifthenelse{\equal{#5}{}}{}{\label{#5}}
+	\end{figure}
+}
+
+% command for plots in .tex format
+% \wrapfig[placement]{fig.}[caption][label]
+\newcommandx*\plotfig[4][1=htbp, 3=, 4=]{
+	\begin{figure}[#1]
+	\centering
+	\input{#2}
+	\ifthenelse{\equal{#3}{}}{}{\caption{#3}}
+	\ifthenelse{\equal{#4}{}}{}{\label{#4}}
+	\end{figure}
+}
+
+% Figures wraping around text
+% \wrapfig[outside size][fig params][placement][number of lines]{fig}[caption][label]
+\newcommandx*\wrapfig[7][1=, 2=, 3=, 4=, 6=, 7=]{
+	% set default value for outside size
+	\ifthenelse{\equal{#1}{}}{
+		\def\@outsidesize{0.30\textwidth}}{
+		\def\@outsidesize{#1}}
+	% set default value for placement
+	\ifthenelse{\equal{#3}{}}{
+		\def\@placement{O}}{
+		\def\@placement{#3}}
+	
+	\begin{wrapfigure}[#4]{\@placement}{\@outsidesize}
+	\centering
+	\ifthenelse{\equal{#2}{}}{
+		\includegraphics[width=0.95\linewidth]{#5}}{
+		\includegraphics[#2]{#5}}
+	\ifthenelse{\equal{#6}{}}{}{\caption{#6}}
+	\ifthenelse{\equal{#7}{}}{}{\label{#7}}
+	\end{wrapfigure}
+}
