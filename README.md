@@ -1,7 +1,8 @@
 # Maturitní témata [GSS Mikulov](https://gssmikulov.cz/)
 
 Repozitář vlastních materiálů k přípravě na maturitní zkoušku z českého jazyka,
-fyziky a informatiky.
+fyziky a informatiky. Obsahuje nejen vypracované maturitní otázky, ale i
+šablony a systémy pro jejich snazší a vytváření a automatické sázení.
 
 ## Materiály
  - [Český jazyk](cj/out) ([kompletní PDF](cj/out/complete.pdf))
