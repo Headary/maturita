@@ -104,9 +104,9 @@
 		y = v_0t - \frac{2}gt^2
 	}
 - maximální výška~$h$~-- těleso zpomalí na nulu (zrychlení dorovná počáteční rychlost)
-	\eq{
-		v_0 = gt_h \ztoho t_h = \frac{v_0}{g}
-		h = v_0t_h - \frac{2}gt_h^2 = \frac{v_0}{2g}
+	\eq[m]{
+		v_0 = gt_h \ztoho t_h = \frac{v_0}{g}\\\\
+		h = v_0t_h - \frac{2}gt_h^2 = \frac{v_0^2}{2g}
 	}
 - stejné zrychlení nahoru i dolů $\Rightarrow$ stejná dráha a stejná počáteční a konečná rychlost
 
@@ -137,7 +137,7 @@
 - maximální vzdálenost doletu~$d$
 	\eq[m]{
 		x &= v_0t\\\\
-		d &= v_0t\\_d = \sqrt{\frac{2h}{g}}
+		d &= v_0t\\_d = v_0\sqrt{\frac{2h}{g}}
 	}
 
 ### Šikmý vrh
